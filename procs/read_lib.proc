@@ -1,0 +1,22 @@
+proc read_lib args {
+	array set options {-max <late_lib_path> -min <early_lib_path> -help ""}
+	while {[llength $args]} {
+		switch -glob -- [lindex $args 0] {
+		-max {
+			set args [lassign $args - options(-max) ]
+			puts "read_liberty -max $options(-max)"
+		      }
+		-min {
+			set args [lassign $args - options(-min) ]
+			puts "read_liberty -min $options(-min)"
+		       }
+		-help {
+			set args [lassign $args - options(-help) ]
+			puts "Usage: read_lib -max <late_lib_path> -min <early_lib_path>"
+			puts "-max <provide late library path>"
+			puts "-min <provide early library path>"
+		      }	
+		default break
+		}
+	}
+}

@@ -1,0 +1,4 @@
+proc read_verilog {arg1} {
+puts "read_verilog $arg1"
+}
+

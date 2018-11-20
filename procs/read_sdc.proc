@@ -1,0 +1,55 @@
+proc read_sdc {arg1} {
+#set arg1 [file dirname $arg1]
+#puts $arg1
+set sdc_dirname [file dirname $arg1]
+set sdc_filename [lindex [split [file tail $arg1] .] 0 ]
+#set sdc [open $arg1 r]
+#set tmp_file [open /tmp/1 w]
+#close $tmp_file
+#package require csv
+#package require struct::matrix
+
+#::struct::matrix ot_cons
+#set chan [open $sdc_dirname/../${sdc_filename}_design_constraints.csv]
+#csv::read2matrix $chan ot_cons  , auto
+#close $chan
+#set number_of_rows [ot_cons rows]
+#set number_of_columns [ot_cons columns]
+#puts "number of rows is $number_of_rows"
+#puts "number of columns is $number_of_columns"
+
+set ot_timing_file [open $sdc_dirname/$sdc_filename.opentimer.sdc w]
+set timing_file [open $arg1 r]
+while {[gets $timing_file line] != -1} {
+        if {[regexp -all -- {\*} $line]} {
+                set bus_name [lindex [split $line "*"] 0]
+		set bussed [lindex $bus_name [expr {[llength $bus_name]-1}]]
+#		puts $ot_timing_file "\nbus name $bussed"
+		#set bussed_index [lindex [lindex [ot_cons search all $bussed] 0] 1]
+#		puts $ot_timing_file "row number $bussed_index"
+		#set valid_bussed_column_number [lindex [lindex [ot_cons search row $bussed_index yes] 0] 0]
+#		puts $ot_timing_file "column number $valid_bussed_column_number"
+		#set bus_width [ot_cons get cell  [expr {$valid_bussed_column_number+1}] $bussed_index]
+#		puts $ot_timing_file "bus width is $bus_width" 
+                set final_synth_netlist [open $sdc_dirname/$sdc_filename.final.synth.v r]
+                while {[gets $final_synth_netlist line2] != -1 } {
+                        if {[regexp -all -- $bussed $line2] && [regexp -all -- {input} $line2] && ![string match "" $line]} {
+			set s1 "[lindex [split $line "*"] 0 ] [lindex [lindex [split $line2 ";"] 0 ] 1 ] [lindex [split $line "*"] 1 ]"
+			set s2 "$bussed "
+                        puts -nonewline $ot_timing_file "\n[string map [list $s2 " "] $s1] "
+                        } elseif {[regexp -all -- $bussed $line2] && [regexp -all -- {output} $line2] && ![string match "" $line]} {
+                        set s3 "[lindex [split $line "*"] 0 ] [lindex [lindex [split $line2 ";"] 0 ] 1 ] [lindex [split $line "*"] 1 ]"
+			set s4 "$bussed "
+			puts -nonewline $ot_timing_file "\n[string map [list $s4 " "] $s3]"
+                        }
+                }
+        } else {
+	puts -nonewline $ot_timing_file  "\n$line"
+        }
+}
+close $timing_file
+#puts "read_sdc $sdc_dirname/$sdc_filename.opentimer.sdc"
+puts -nonewline $ot_timing_file "\nset_propagated_clock \[all_clocks\]"
+close $ot_timing_file
+close $final_synth_netlist
+}

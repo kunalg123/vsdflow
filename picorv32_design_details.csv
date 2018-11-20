@@ -1,0 +1,6 @@
+Design Name,picorv32
+Output Directory,outdir_picorv32
+Netlist Directory,verilog
+Early Library Path,/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+Late Library Path,/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+Constraints File,picorv32_design_constraints.csv
