@@ -1,0 +1,2461 @@
+
+stdcell 1 name core
+corners 6
+0 0 0 65044 65044 65044 65044 32522 97566 32522 97566 0 
+asplb 0.500000 aspub 2.000000
+class 0 orientations 0 1 2 3 4 5 6 7 
+orient 0
+
+pad 2 name twpin_clk
+corners 4
+24400 63200 24400 63300 24480 63300 24480 63200 
+orient 3
+pin name clk signal clk layer 1 24440 63250
+
+pad 3 name twpin_resetn
+corners 4
+24200 63200 24200 63300 24280 63300 24280 63200 
+orient 3
+pin name resetn signal resetn layer 1 24240 63250
+
+pad 4 name twpin_mem_ready
+corners 4
+24000 63200 24000 63300 24080 63300 24080 63200 
+orient 3
+pin name mem_ready signal mem_ready layer 1 24040 63250
+
+pad 5 name twpin_mem_rdata[0]
+corners 4
+23800 63200 23800 63300 23880 63300 23880 63200 
+orient 3
+pin name mem_rdata[0] signal mem_rdata[0] layer 1 23840 63250
+
+pad 6 name twpin_mem_rdata[1]
+corners 4
+23600 63200 23600 63300 23680 63300 23680 63200 
+orient 3
+pin name mem_rdata[1] signal mem_rdata[1] layer 1 23640 63250
+
+pad 7 name twpin_mem_rdata[2]
+corners 4
+23400 63200 23400 63300 23480 63300 23480 63200 
+orient 3
+pin name mem_rdata[2] signal mem_rdata[2] layer 1 23440 63250
+
+pad 8 name twpin_mem_rdata[3]
+corners 4
+23200 63200 23200 63300 23280 63300 23280 63200 
+orient 3
+pin name mem_rdata[3] signal mem_rdata[3] layer 1 23240 63250
+
+pad 9 name twpin_mem_rdata[4]
+corners 4
+23000 63200 23000 63300 23080 63300 23080 63200 
+orient 3
+pin name mem_rdata[4] signal mem_rdata[4] layer 1 23040 63250
+
+pad 10 name twpin_mem_rdata[5]
+corners 4
+22800 63200 22800 63300 22880 63300 22880 63200 
+orient 3
+pin name mem_rdata[5] signal mem_rdata[5] layer 1 22840 63250
+
+pad 11 name twpin_mem_rdata[6]
+corners 4
+22600 63200 22600 63300 22680 63300 22680 63200 
+orient 3
+pin name mem_rdata[6] signal mem_rdata[6] layer 1 22640 63250
+
+pad 12 name twpin_mem_rdata[7]
+corners 4
+22400 63200 22400 63300 22480 63300 22480 63200 
+orient 3
+pin name mem_rdata[7] signal mem_rdata[7] layer 1 22440 63250
+
+pad 13 name twpin_mem_rdata[8]
+corners 4
+22200 63200 22200 63300 22280 63300 22280 63200 
+orient 3
+pin name mem_rdata[8] signal mem_rdata[8] layer 1 22240 63250
+
+pad 14 name twpin_mem_rdata[9]
+corners 4
+22000 63200 22000 63300 22080 63300 22080 63200 
+orient 3
+pin name mem_rdata[9] signal mem_rdata[9] layer 1 22040 63250
+
+pad 15 name twpin_mem_rdata[10]
+corners 4
+21800 63200 21800 63300 21880 63300 21880 63200 
+orient 3
+pin name mem_rdata[10] signal mem_rdata[10] layer 1 21840 63250
+
+pad 16 name twpin_mem_rdata[11]
+corners 4
+21600 63200 21600 63300 21680 63300 21680 63200 
+orient 3
+pin name mem_rdata[11] signal mem_rdata[11] layer 1 21640 63250
+
+pad 17 name twpin_mem_rdata[12]
+corners 4
+21400 63200 21400 63300 21480 63300 21480 63200 
+orient 3
+pin name mem_rdata[12] signal mem_rdata[12] layer 1 21440 63250
+
+pad 18 name twpin_mem_rdata[13]
+corners 4
+21200 63200 21200 63300 21280 63300 21280 63200 
+orient 3
+pin name mem_rdata[13] signal mem_rdata[13] layer 1 21240 63250
+
+pad 19 name twpin_mem_rdata[14]
+corners 4
+21000 63200 21000 63300 21080 63300 21080 63200 
+orient 3
+pin name mem_rdata[14] signal mem_rdata[14] layer 1 21040 63250
+
+pad 20 name twpin_mem_rdata[15]
+corners 4
+20800 63200 20800 63300 20880 63300 20880 63200 
+orient 3
+pin name mem_rdata[15] signal mem_rdata[15] layer 1 20840 63250
+
+pad 21 name twpin_mem_rdata[16]
+corners 4
+20600 63200 20600 63300 20680 63300 20680 63200 
+orient 3
+pin name mem_rdata[16] signal mem_rdata[16] layer 1 20640 63250
+
+pad 22 name twpin_mem_rdata[17]
+corners 4
+20400 63200 20400 63300 20480 63300 20480 63200 
+orient 3
+pin name mem_rdata[17] signal mem_rdata[17] layer 1 20440 63250
+
+pad 23 name twpin_mem_rdata[18]
+corners 4
+20200 63200 20200 63300 20280 63300 20280 63200 
+orient 3
+pin name mem_rdata[18] signal mem_rdata[18] layer 1 20240 63250
+
+pad 24 name twpin_mem_rdata[19]
+corners 4
+20000 63200 20000 63300 20080 63300 20080 63200 
+orient 3
+pin name mem_rdata[19] signal mem_rdata[19] layer 1 20040 63250
+
+pad 25 name twpin_mem_rdata[20]
+corners 4
+19800 63200 19800 63300 19880 63300 19880 63200 
+orient 3
+pin name mem_rdata[20] signal mem_rdata[20] layer 1 19840 63250
+
+pad 26 name twpin_mem_rdata[21]
+corners 4
+19600 63200 19600 63300 19680 63300 19680 63200 
+orient 3
+pin name mem_rdata[21] signal mem_rdata[21] layer 1 19640 63250
+
+pad 27 name twpin_mem_rdata[22]
+corners 4
+19400 63200 19400 63300 19480 63300 19480 63200 
+orient 3
+pin name mem_rdata[22] signal mem_rdata[22] layer 1 19440 63250
+
+pad 28 name twpin_mem_rdata[23]
+corners 4
+19200 63200 19200 63300 19280 63300 19280 63200 
+orient 3
+pin name mem_rdata[23] signal mem_rdata[23] layer 1 19240 63250
+
+pad 29 name twpin_mem_rdata[24]
+corners 4
+19000 63200 19000 63300 19080 63300 19080 63200 
+orient 3
+pin name mem_rdata[24] signal mem_rdata[24] layer 1 19040 63250
+
+pad 30 name twpin_mem_rdata[25]
+corners 4
+18800 63200 18800 63300 18880 63300 18880 63200 
+orient 3
+pin name mem_rdata[25] signal mem_rdata[25] layer 1 18840 63250
+
+pad 31 name twpin_mem_rdata[26]
+corners 4
+18600 63200 18600 63300 18680 63300 18680 63200 
+orient 3
+pin name mem_rdata[26] signal mem_rdata[26] layer 1 18640 63250
+
+pad 32 name twpin_mem_rdata[27]
+corners 4
+18400 63200 18400 63300 18480 63300 18480 63200 
+orient 3
+pin name mem_rdata[27] signal mem_rdata[27] layer 1 18440 63250
+
+pad 33 name twpin_mem_rdata[28]
+corners 4
+18200 63200 18200 63300 18280 63300 18280 63200 
+orient 3
+pin name mem_rdata[28] signal mem_rdata[28] layer 1 18240 63250
+
+pad 34 name twpin_mem_rdata[29]
+corners 4
+18000 63200 18000 63300 18080 63300 18080 63200 
+orient 3
+pin name mem_rdata[29] signal mem_rdata[29] layer 1 18040 63250
+
+pad 35 name twpin_mem_rdata[30]
+corners 4
+17800 63200 17800 63300 17880 63300 17880 63200 
+orient 3
+pin name mem_rdata[30] signal mem_rdata[30] layer 1 17840 63250
+
+pad 36 name twpin_mem_rdata[31]
+corners 4
+17600 63200 17600 63300 17680 63300 17680 63200 
+orient 3
+pin name mem_rdata[31] signal mem_rdata[31] layer 1 17640 63250
+
+pad 37 name twpin_pcpi_wr
+corners 4
+-340 14700 -340 14780 -240 14780 -240 14700 
+orient 7
+pin name pcpi_wr signal pcpi_wr layer 1 -290 14740
+
+pad 38 name twpin_pcpi_rd[0]
+corners 4
+-340 14480 -340 14560 -240 14560 -240 14480 
+orient 7
+pin name pcpi_rd[0] signal pcpi_rd[0] layer 1 -290 14520
+
+pad 39 name twpin_pcpi_rd[1]
+corners 4
+-340 14260 -340 14340 -240 14340 -240 14260 
+orient 7
+pin name pcpi_rd[1] signal pcpi_rd[1] layer 1 -290 14300
+
+pad 40 name twpin_pcpi_rd[2]
+corners 4
+-340 14040 -340 14120 -240 14120 -240 14040 
+orient 7
+pin name pcpi_rd[2] signal pcpi_rd[2] layer 1 -290 14080
+
+pad 41 name twpin_pcpi_rd[3]
+corners 4
+-340 13820 -340 13900 -240 13900 -240 13820 
+orient 7
+pin name pcpi_rd[3] signal pcpi_rd[3] layer 1 -290 13860
+
+pad 42 name twpin_pcpi_rd[4]
+corners 4
+-340 13600 -340 13680 -240 13680 -240 13600 
+orient 7
+pin name pcpi_rd[4] signal pcpi_rd[4] layer 1 -290 13640
+
+pad 43 name twpin_pcpi_rd[5]
+corners 4
+-340 13380 -340 13460 -240 13460 -240 13380 
+orient 7
+pin name pcpi_rd[5] signal pcpi_rd[5] layer 1 -290 13420
+
+pad 44 name twpin_pcpi_rd[6]
+corners 4
+-340 13160 -340 13240 -240 13240 -240 13160 
+orient 7
+pin name pcpi_rd[6] signal pcpi_rd[6] layer 1 -290 13200
+
+pad 45 name twpin_pcpi_rd[7]
+corners 4
+-340 12940 -340 13020 -240 13020 -240 12940 
+orient 7
+pin name pcpi_rd[7] signal pcpi_rd[7] layer 1 -290 12980
+
+pad 46 name twpin_pcpi_rd[8]
+corners 4
+-340 12720 -340 12800 -240 12800 -240 12720 
+orient 7
+pin name pcpi_rd[8] signal pcpi_rd[8] layer 1 -290 12760
+
+pad 47 name twpin_pcpi_rd[9]
+corners 4
+-340 12500 -340 12580 -240 12580 -240 12500 
+orient 7
+pin name pcpi_rd[9] signal pcpi_rd[9] layer 1 -290 12540
+
+pad 48 name twpin_pcpi_rd[10]
+corners 4
+-340 12280 -340 12360 -240 12360 -240 12280 
+orient 7
+pin name pcpi_rd[10] signal pcpi_rd[10] layer 1 -290 12320
+
+pad 49 name twpin_pcpi_rd[11]
+corners 4
+-340 12060 -340 12140 -240 12140 -240 12060 
+orient 7
+pin name pcpi_rd[11] signal pcpi_rd[11] layer 1 -290 12100
+
+pad 50 name twpin_pcpi_rd[12]
+corners 4
+-340 11840 -340 11920 -240 11920 -240 11840 
+orient 7
+pin name pcpi_rd[12] signal pcpi_rd[12] layer 1 -290 11880
+
+pad 51 name twpin_pcpi_rd[13]
+corners 4
+-340 11620 -340 11700 -240 11700 -240 11620 
+orient 7
+pin name pcpi_rd[13] signal pcpi_rd[13] layer 1 -290 11660
+
+pad 52 name twpin_pcpi_rd[14]
+corners 4
+-340 11400 -340 11480 -240 11480 -240 11400 
+orient 7
+pin name pcpi_rd[14] signal pcpi_rd[14] layer 1 -290 11440
+
+pad 53 name twpin_pcpi_rd[15]
+corners 4
+-340 11180 -340 11260 -240 11260 -240 11180 
+orient 7
+pin name pcpi_rd[15] signal pcpi_rd[15] layer 1 -290 11220
+
+pad 54 name twpin_pcpi_rd[16]
+corners 4
+-340 10960 -340 11040 -240 11040 -240 10960 
+orient 7
+pin name pcpi_rd[16] signal pcpi_rd[16] layer 1 -290 11000
+
+pad 55 name twpin_pcpi_rd[17]
+corners 4
+-340 10740 -340 10820 -240 10820 -240 10740 
+orient 7
+pin name pcpi_rd[17] signal pcpi_rd[17] layer 1 -290 10780
+
+pad 56 name twpin_pcpi_rd[18]
+corners 4
+-340 10520 -340 10600 -240 10600 -240 10520 
+orient 7
+pin name pcpi_rd[18] signal pcpi_rd[18] layer 1 -290 10560
+
+pad 57 name twpin_pcpi_rd[19]
+corners 4
+-340 10300 -340 10380 -240 10380 -240 10300 
+orient 7
+pin name pcpi_rd[19] signal pcpi_rd[19] layer 1 -290 10340
+
+pad 58 name twpin_pcpi_rd[20]
+corners 4
+-340 10080 -340 10160 -240 10160 -240 10080 
+orient 7
+pin name pcpi_rd[20] signal pcpi_rd[20] layer 1 -290 10120
+
+pad 59 name twpin_pcpi_rd[21]
+corners 4
+-340 9860 -340 9940 -240 9940 -240 9860 
+orient 7
+pin name pcpi_rd[21] signal pcpi_rd[21] layer 1 -290 9900
+
+pad 60 name twpin_pcpi_rd[22]
+corners 4
+-340 9640 -340 9720 -240 9720 -240 9640 
+orient 7
+pin name pcpi_rd[22] signal pcpi_rd[22] layer 1 -290 9680
+
+pad 61 name twpin_pcpi_rd[23]
+corners 4
+-340 9420 -340 9500 -240 9500 -240 9420 
+orient 7
+pin name pcpi_rd[23] signal pcpi_rd[23] layer 1 -290 9460
+
+pad 62 name twpin_pcpi_rd[24]
+corners 4
+-340 9200 -340 9280 -240 9280 -240 9200 
+orient 7
+pin name pcpi_rd[24] signal pcpi_rd[24] layer 1 -290 9240
+
+pad 63 name twpin_pcpi_rd[25]
+corners 4
+-340 8980 -340 9060 -240 9060 -240 8980 
+orient 7
+pin name pcpi_rd[25] signal pcpi_rd[25] layer 1 -290 9020
+
+pad 64 name twpin_pcpi_rd[26]
+corners 4
+-340 8760 -340 8840 -240 8840 -240 8760 
+orient 7
+pin name pcpi_rd[26] signal pcpi_rd[26] layer 1 -290 8800
+
+pad 65 name twpin_pcpi_rd[27]
+corners 4
+-340 8540 -340 8620 -240 8620 -240 8540 
+orient 7
+pin name pcpi_rd[27] signal pcpi_rd[27] layer 1 -290 8580
+
+pad 66 name twpin_pcpi_rd[28]
+corners 4
+-340 8320 -340 8400 -240 8400 -240 8320 
+orient 7
+pin name pcpi_rd[28] signal pcpi_rd[28] layer 1 -290 8360
+
+pad 67 name twpin_pcpi_rd[29]
+corners 4
+-340 8100 -340 8180 -240 8180 -240 8100 
+orient 7
+pin name pcpi_rd[29] signal pcpi_rd[29] layer 1 -290 8140
+
+pad 68 name twpin_pcpi_rd[30]
+corners 4
+-340 7880 -340 7960 -240 7960 -240 7880 
+orient 7
+pin name pcpi_rd[30] signal pcpi_rd[30] layer 1 -290 7920
+
+pad 69 name twpin_pcpi_rd[31]
+corners 4
+-340 7660 -340 7740 -240 7740 -240 7660 
+orient 7
+pin name pcpi_rd[31] signal pcpi_rd[31] layer 1 -290 7700
+
+pad 70 name twpin_pcpi_wait
+corners 4
+-340 7440 -340 7520 -240 7520 -240 7440 
+orient 7
+pin name pcpi_wait signal pcpi_wait layer 1 -290 7480
+
+pad 71 name twpin_pcpi_ready
+corners 4
+-340 7220 -340 7300 -240 7300 -240 7220 
+orient 7
+pin name pcpi_ready signal pcpi_ready layer 1 -290 7260
+
+pad 72 name twpin_irq[0]
+corners 4
+-340 7000 -340 7080 -240 7080 -240 7000 
+orient 7
+pin name irq[0] signal irq[0] layer 1 -290 7040
+
+pad 73 name twpin_irq[1]
+corners 4
+-340 6780 -340 6860 -240 6860 -240 6780 
+orient 7
+pin name irq[1] signal irq[1] layer 1 -290 6820
+
+pad 74 name twpin_irq[2]
+corners 4
+-340 6560 -340 6640 -240 6640 -240 6560 
+orient 7
+pin name irq[2] signal irq[2] layer 1 -290 6600
+
+pad 75 name twpin_irq[3]
+corners 4
+-340 6340 -340 6420 -240 6420 -240 6340 
+orient 7
+pin name irq[3] signal irq[3] layer 1 -290 6380
+
+pad 76 name twpin_irq[4]
+corners 4
+-340 6120 -340 6200 -240 6200 -240 6120 
+orient 7
+pin name irq[4] signal irq[4] layer 1 -290 6160
+
+pad 77 name twpin_irq[5]
+corners 4
+-340 5900 -340 5980 -240 5980 -240 5900 
+orient 7
+pin name irq[5] signal irq[5] layer 1 -290 5940
+
+pad 78 name twpin_irq[6]
+corners 4
+-340 5680 -340 5760 -240 5760 -240 5680 
+orient 7
+pin name irq[6] signal irq[6] layer 1 -290 5720
+
+pad 79 name twpin_irq[7]
+corners 4
+-340 5460 -340 5540 -240 5540 -240 5460 
+orient 7
+pin name irq[7] signal irq[7] layer 1 -290 5500
+
+pad 80 name twpin_irq[8]
+corners 4
+-340 5240 -340 5320 -240 5320 -240 5240 
+orient 7
+pin name irq[8] signal irq[8] layer 1 -290 5280
+
+pad 81 name twpin_irq[9]
+corners 4
+-340 5020 -340 5100 -240 5100 -240 5020 
+orient 7
+pin name irq[9] signal irq[9] layer 1 -290 5060
+
+pad 82 name twpin_irq[10]
+corners 4
+-340 4800 -340 4880 -240 4880 -240 4800 
+orient 7
+pin name irq[10] signal irq[10] layer 1 -290 4840
+
+pad 83 name twpin_irq[11]
+corners 4
+-340 4580 -340 4660 -240 4660 -240 4580 
+orient 7
+pin name irq[11] signal irq[11] layer 1 -290 4620
+
+pad 84 name twpin_irq[12]
+corners 4
+-340 4360 -340 4440 -240 4440 -240 4360 
+orient 7
+pin name irq[12] signal irq[12] layer 1 -290 4400
+
+pad 85 name twpin_irq[13]
+corners 4
+-340 4140 -340 4220 -240 4220 -240 4140 
+orient 7
+pin name irq[13] signal irq[13] layer 1 -290 4180
+
+pad 86 name twpin_irq[14]
+corners 4
+-340 3920 -340 4000 -240 4000 -240 3920 
+orient 7
+pin name irq[14] signal irq[14] layer 1 -290 3960
+
+pad 87 name twpin_irq[15]
+corners 4
+-340 3700 -340 3780 -240 3780 -240 3700 
+orient 7
+pin name irq[15] signal irq[15] layer 1 -290 3740
+
+pad 88 name twpin_irq[16]
+corners 4
+-340 3480 -340 3560 -240 3560 -240 3480 
+orient 7
+pin name irq[16] signal irq[16] layer 1 -290 3520
+
+pad 89 name twpin_irq[17]
+corners 4
+-340 3260 -340 3340 -240 3340 -240 3260 
+orient 7
+pin name irq[17] signal irq[17] layer 1 -290 3300
+
+pad 90 name twpin_irq[18]
+corners 4
+-340 3040 -340 3120 -240 3120 -240 3040 
+orient 7
+pin name irq[18] signal irq[18] layer 1 -290 3080
+
+pad 91 name twpin_irq[19]
+corners 4
+-340 2820 -340 2900 -240 2900 -240 2820 
+orient 7
+pin name irq[19] signal irq[19] layer 1 -290 2860
+
+pad 92 name twpin_irq[20]
+corners 4
+-340 2600 -340 2680 -240 2680 -240 2600 
+orient 7
+pin name irq[20] signal irq[20] layer 1 -290 2640
+
+pad 93 name twpin_irq[21]
+corners 4
+-340 2380 -340 2460 -240 2460 -240 2380 
+orient 7
+pin name irq[21] signal irq[21] layer 1 -290 2420
+
+pad 94 name twpin_irq[22]
+corners 4
+-340 2160 -340 2240 -240 2240 -240 2160 
+orient 7
+pin name irq[22] signal irq[22] layer 1 -290 2200
+
+pad 95 name twpin_irq[23]
+corners 4
+-340 1940 -340 2020 -240 2020 -240 1940 
+orient 7
+pin name irq[23] signal irq[23] layer 1 -290 1980
+
+pad 96 name twpin_irq[24]
+corners 4
+-340 1720 -340 1800 -240 1800 -240 1720 
+orient 7
+pin name irq[24] signal irq[24] layer 1 -290 1760
+
+pad 97 name twpin_irq[25]
+corners 4
+-340 1500 -340 1580 -240 1580 -240 1500 
+orient 7
+pin name irq[25] signal irq[25] layer 1 -290 1540
+
+pad 98 name twpin_irq[26]
+corners 4
+-340 1280 -340 1360 -240 1360 -240 1280 
+orient 7
+pin name irq[26] signal irq[26] layer 1 -290 1320
+
+pad 99 name twpin_irq[27]
+corners 4
+-340 1060 -340 1140 -240 1140 -240 1060 
+orient 7
+pin name irq[27] signal irq[27] layer 1 -290 1100
+
+pad 100 name twpin_irq[28]
+corners 4
+-340 840 -340 920 -240 920 -240 840 
+orient 7
+pin name irq[28] signal irq[28] layer 1 -290 880
+
+pad 101 name twpin_irq[29]
+corners 4
+-340 620 -340 700 -240 700 -240 620 
+orient 7
+pin name irq[29] signal irq[29] layer 1 -290 660
+
+pad 102 name twpin_irq[30]
+corners 4
+-340 400 -340 480 -240 480 -240 400 
+orient 7
+pin name irq[30] signal irq[30] layer 1 -290 440
+
+pad 103 name twpin_irq[31]
+corners 4
+-340 180 -340 260 -240 260 -240 180 
+orient 7
+pin name irq[31] signal irq[31] layer 1 -290 220
+
+pad 104 name twpin_trap
+corners 4
+-340 14920 -340 15000 -240 15000 -240 14920 
+orient 7
+pin name trap signal trap layer 1 -290 14960
+
+pad 105 name twpin_mem_valid
+corners 4
+-340 52540 -340 52620 -240 52620 -240 52540 
+orient 7
+pin name mem_valid signal mem_valid layer 1 -290 52580
+
+pad 106 name twpin_mem_instr
+corners 4
+17400 63200 17400 63300 17480 63300 17480 63200 
+orient 3
+pin name mem_instr signal mem_instr layer 1 17440 63250
+
+pad 107 name twpin_mem_addr[0]
+corners 4
+17200 63200 17200 63300 17280 63300 17280 63200 
+orient 3
+pin name mem_addr[0] signal mem_addr[0] layer 1 17240 63250
+
+pad 108 name twpin_mem_addr[1]
+corners 4
+10600 63200 10600 63300 10680 63300 10680 63200 
+orient 3
+pin name mem_addr[1] signal mem_addr[1] layer 1 10640 63250
+
+pad 109 name twpin_mem_addr[2]
+corners 4
+10400 63200 10400 63300 10480 63300 10480 63200 
+orient 3
+pin name mem_addr[2] signal mem_addr[2] layer 1 10440 63250
+
+pad 110 name twpin_mem_addr[3]
+corners 4
+10200 63200 10200 63300 10280 63300 10280 63200 
+orient 3
+pin name mem_addr[3] signal mem_addr[3] layer 1 10240 63250
+
+pad 111 name twpin_mem_addr[4]
+corners 4
+10000 63200 10000 63300 10080 63300 10080 63200 
+orient 3
+pin name mem_addr[4] signal mem_addr[4] layer 1 10040 63250
+
+pad 112 name twpin_mem_addr[5]
+corners 4
+9800 63200 9800 63300 9880 63300 9880 63200 
+orient 3
+pin name mem_addr[5] signal mem_addr[5] layer 1 9840 63250
+
+pad 113 name twpin_mem_addr[6]
+corners 4
+9600 63200 9600 63300 9680 63300 9680 63200 
+orient 3
+pin name mem_addr[6] signal mem_addr[6] layer 1 9640 63250
+
+pad 114 name twpin_mem_addr[7]
+corners 4
+9400 63200 9400 63300 9480 63300 9480 63200 
+orient 3
+pin name mem_addr[7] signal mem_addr[7] layer 1 9440 63250
+
+pad 115 name twpin_mem_addr[8]
+corners 4
+9200 63200 9200 63300 9280 63300 9280 63200 
+orient 3
+pin name mem_addr[8] signal mem_addr[8] layer 1 9240 63250
+
+pad 116 name twpin_mem_addr[9]
+corners 4
+9000 63200 9000 63300 9080 63300 9080 63200 
+orient 3
+pin name mem_addr[9] signal mem_addr[9] layer 1 9040 63250
+
+pad 117 name twpin_mem_addr[10]
+corners 4
+8800 63200 8800 63300 8880 63300 8880 63200 
+orient 3
+pin name mem_addr[10] signal mem_addr[10] layer 1 8840 63250
+
+pad 118 name twpin_mem_addr[11]
+corners 4
+8600 63200 8600 63300 8680 63300 8680 63200 
+orient 3
+pin name mem_addr[11] signal mem_addr[11] layer 1 8640 63250
+
+pad 119 name twpin_mem_addr[12]
+corners 4
+8400 63200 8400 63300 8480 63300 8480 63200 
+orient 3
+pin name mem_addr[12] signal mem_addr[12] layer 1 8440 63250
+
+pad 120 name twpin_mem_addr[13]
+corners 4
+8200 63200 8200 63300 8280 63300 8280 63200 
+orient 3
+pin name mem_addr[13] signal mem_addr[13] layer 1 8240 63250
+
+pad 121 name twpin_mem_addr[14]
+corners 4
+8000 63200 8000 63300 8080 63300 8080 63200 
+orient 3
+pin name mem_addr[14] signal mem_addr[14] layer 1 8040 63250
+
+pad 122 name twpin_mem_addr[15]
+corners 4
+7800 63200 7800 63300 7880 63300 7880 63200 
+orient 3
+pin name mem_addr[15] signal mem_addr[15] layer 1 7840 63250
+
+pad 123 name twpin_mem_addr[16]
+corners 4
+7600 63200 7600 63300 7680 63300 7680 63200 
+orient 3
+pin name mem_addr[16] signal mem_addr[16] layer 1 7640 63250
+
+pad 124 name twpin_mem_addr[17]
+corners 4
+7400 63200 7400 63300 7480 63300 7480 63200 
+orient 3
+pin name mem_addr[17] signal mem_addr[17] layer 1 7440 63250
+
+pad 125 name twpin_mem_addr[18]
+corners 4
+7200 63200 7200 63300 7280 63300 7280 63200 
+orient 3
+pin name mem_addr[18] signal mem_addr[18] layer 1 7240 63250
+
+pad 126 name twpin_mem_addr[19]
+corners 4
+7000 63200 7000 63300 7080 63300 7080 63200 
+orient 3
+pin name mem_addr[19] signal mem_addr[19] layer 1 7040 63250
+
+pad 127 name twpin_mem_addr[20]
+corners 4
+6800 63200 6800 63300 6880 63300 6880 63200 
+orient 3
+pin name mem_addr[20] signal mem_addr[20] layer 1 6840 63250
+
+pad 128 name twpin_mem_addr[21]
+corners 4
+6600 63200 6600 63300 6680 63300 6680 63200 
+orient 3
+pin name mem_addr[21] signal mem_addr[21] layer 1 6640 63250
+
+pad 129 name twpin_mem_addr[22]
+corners 4
+6400 63200 6400 63300 6480 63300 6480 63200 
+orient 3
+pin name mem_addr[22] signal mem_addr[22] layer 1 6440 63250
+
+pad 130 name twpin_mem_addr[23]
+corners 4
+6200 63200 6200 63300 6280 63300 6280 63200 
+orient 3
+pin name mem_addr[23] signal mem_addr[23] layer 1 6240 63250
+
+pad 131 name twpin_mem_addr[24]
+corners 4
+6000 63200 6000 63300 6080 63300 6080 63200 
+orient 3
+pin name mem_addr[24] signal mem_addr[24] layer 1 6040 63250
+
+pad 132 name twpin_mem_addr[25]
+corners 4
+5800 63200 5800 63300 5880 63300 5880 63200 
+orient 3
+pin name mem_addr[25] signal mem_addr[25] layer 1 5840 63250
+
+pad 133 name twpin_mem_addr[26]
+corners 4
+5600 63200 5600 63300 5680 63300 5680 63200 
+orient 3
+pin name mem_addr[26] signal mem_addr[26] layer 1 5640 63250
+
+pad 134 name twpin_mem_addr[27]
+corners 4
+5400 63200 5400 63300 5480 63300 5480 63200 
+orient 3
+pin name mem_addr[27] signal mem_addr[27] layer 1 5440 63250
+
+pad 135 name twpin_mem_addr[28]
+corners 4
+5200 63200 5200 63300 5280 63300 5280 63200 
+orient 3
+pin name mem_addr[28] signal mem_addr[28] layer 1 5240 63250
+
+pad 136 name twpin_mem_addr[29]
+corners 4
+5000 63200 5000 63300 5080 63300 5080 63200 
+orient 3
+pin name mem_addr[29] signal mem_addr[29] layer 1 5040 63250
+
+pad 137 name twpin_mem_addr[30]
+corners 4
+4800 63200 4800 63300 4880 63300 4880 63200 
+orient 3
+pin name mem_addr[30] signal mem_addr[30] layer 1 4840 63250
+
+pad 138 name twpin_mem_addr[31]
+corners 4
+4600 63200 4600 63300 4680 63300 4680 63200 
+orient 3
+pin name mem_addr[31] signal mem_addr[31] layer 1 4640 63250
+
+pad 139 name twpin_mem_wdata[0]
+corners 4
+-340 52320 -340 52400 -240 52400 -240 52320 
+orient 7
+pin name mem_wdata[0] signal mem_wdata[0] layer 1 -290 52360
+
+pad 140 name twpin_mem_wdata[1]
+corners 4
+-340 52100 -340 52180 -240 52180 -240 52100 
+orient 7
+pin name mem_wdata[1] signal mem_wdata[1] layer 1 -290 52140
+
+pad 141 name twpin_mem_wdata[2]
+corners 4
+-340 51880 -340 51960 -240 51960 -240 51880 
+orient 7
+pin name mem_wdata[2] signal mem_wdata[2] layer 1 -290 51920
+
+pad 142 name twpin_mem_wdata[3]
+corners 4
+-340 51660 -340 51740 -240 51740 -240 51660 
+orient 7
+pin name mem_wdata[3] signal mem_wdata[3] layer 1 -290 51700
+
+pad 143 name twpin_mem_wdata[4]
+corners 4
+-340 51440 -340 51520 -240 51520 -240 51440 
+orient 7
+pin name mem_wdata[4] signal mem_wdata[4] layer 1 -290 51480
+
+pad 144 name twpin_mem_wdata[5]
+corners 4
+-340 51220 -340 51300 -240 51300 -240 51220 
+orient 7
+pin name mem_wdata[5] signal mem_wdata[5] layer 1 -290 51260
+
+pad 145 name twpin_mem_wdata[6]
+corners 4
+-340 51000 -340 51080 -240 51080 -240 51000 
+orient 7
+pin name mem_wdata[6] signal mem_wdata[6] layer 1 -290 51040
+
+pad 146 name twpin_mem_wdata[7]
+corners 4
+-340 50780 -340 50860 -240 50860 -240 50780 
+orient 7
+pin name mem_wdata[7] signal mem_wdata[7] layer 1 -290 50820
+
+pad 147 name twpin_mem_wdata[8]
+corners 4
+-340 50560 -340 50640 -240 50640 -240 50560 
+orient 7
+pin name mem_wdata[8] signal mem_wdata[8] layer 1 -290 50600
+
+pad 148 name twpin_mem_wdata[9]
+corners 4
+-340 50340 -340 50420 -240 50420 -240 50340 
+orient 7
+pin name mem_wdata[9] signal mem_wdata[9] layer 1 -290 50380
+
+pad 149 name twpin_mem_wdata[10]
+corners 4
+-340 50120 -340 50200 -240 50200 -240 50120 
+orient 7
+pin name mem_wdata[10] signal mem_wdata[10] layer 1 -290 50160
+
+pad 150 name twpin_mem_wdata[11]
+corners 4
+-340 49900 -340 49980 -240 49980 -240 49900 
+orient 7
+pin name mem_wdata[11] signal mem_wdata[11] layer 1 -290 49940
+
+pad 151 name twpin_mem_wdata[12]
+corners 4
+-340 49680 -340 49760 -240 49760 -240 49680 
+orient 7
+pin name mem_wdata[12] signal mem_wdata[12] layer 1 -290 49720
+
+pad 152 name twpin_mem_wdata[13]
+corners 4
+-340 49460 -340 49540 -240 49540 -240 49460 
+orient 7
+pin name mem_wdata[13] signal mem_wdata[13] layer 1 -290 49500
+
+pad 153 name twpin_mem_wdata[14]
+corners 4
+-340 49240 -340 49320 -240 49320 -240 49240 
+orient 7
+pin name mem_wdata[14] signal mem_wdata[14] layer 1 -290 49280
+
+pad 154 name twpin_mem_wdata[15]
+corners 4
+-340 49020 -340 49100 -240 49100 -240 49020 
+orient 7
+pin name mem_wdata[15] signal mem_wdata[15] layer 1 -290 49060
+
+pad 155 name twpin_mem_wdata[16]
+corners 4
+-340 48800 -340 48880 -240 48880 -240 48800 
+orient 7
+pin name mem_wdata[16] signal mem_wdata[16] layer 1 -290 48840
+
+pad 156 name twpin_mem_wdata[17]
+corners 4
+-340 48580 -340 48660 -240 48660 -240 48580 
+orient 7
+pin name mem_wdata[17] signal mem_wdata[17] layer 1 -290 48620
+
+pad 157 name twpin_mem_wdata[18]
+corners 4
+-340 48360 -340 48440 -240 48440 -240 48360 
+orient 7
+pin name mem_wdata[18] signal mem_wdata[18] layer 1 -290 48400
+
+pad 158 name twpin_mem_wdata[19]
+corners 4
+-340 48140 -340 48220 -240 48220 -240 48140 
+orient 7
+pin name mem_wdata[19] signal mem_wdata[19] layer 1 -290 48180
+
+pad 159 name twpin_mem_wdata[20]
+corners 4
+-340 47920 -340 48000 -240 48000 -240 47920 
+orient 7
+pin name mem_wdata[20] signal mem_wdata[20] layer 1 -290 47960
+
+pad 160 name twpin_mem_wdata[21]
+corners 4
+-340 47700 -340 47780 -240 47780 -240 47700 
+orient 7
+pin name mem_wdata[21] signal mem_wdata[21] layer 1 -290 47740
+
+pad 161 name twpin_mem_wdata[22]
+corners 4
+-340 47480 -340 47560 -240 47560 -240 47480 
+orient 7
+pin name mem_wdata[22] signal mem_wdata[22] layer 1 -290 47520
+
+pad 162 name twpin_mem_wdata[23]
+corners 4
+-340 47260 -340 47340 -240 47340 -240 47260 
+orient 7
+pin name mem_wdata[23] signal mem_wdata[23] layer 1 -290 47300
+
+pad 163 name twpin_mem_wdata[24]
+corners 4
+-340 47040 -340 47120 -240 47120 -240 47040 
+orient 7
+pin name mem_wdata[24] signal mem_wdata[24] layer 1 -290 47080
+
+pad 164 name twpin_mem_wdata[25]
+corners 4
+-340 46820 -340 46900 -240 46900 -240 46820 
+orient 7
+pin name mem_wdata[25] signal mem_wdata[25] layer 1 -290 46860
+
+pad 165 name twpin_mem_wdata[26]
+corners 4
+-340 46600 -340 46680 -240 46680 -240 46600 
+orient 7
+pin name mem_wdata[26] signal mem_wdata[26] layer 1 -290 46640
+
+pad 166 name twpin_mem_wdata[27]
+corners 4
+-340 46380 -340 46460 -240 46460 -240 46380 
+orient 7
+pin name mem_wdata[27] signal mem_wdata[27] layer 1 -290 46420
+
+pad 167 name twpin_mem_wdata[28]
+corners 4
+-340 46160 -340 46240 -240 46240 -240 46160 
+orient 7
+pin name mem_wdata[28] signal mem_wdata[28] layer 1 -290 46200
+
+pad 168 name twpin_mem_wdata[29]
+corners 4
+-340 45940 -340 46020 -240 46020 -240 45940 
+orient 7
+pin name mem_wdata[29] signal mem_wdata[29] layer 1 -290 45980
+
+pad 169 name twpin_mem_wdata[30]
+corners 4
+-340 45720 -340 45800 -240 45800 -240 45720 
+orient 7
+pin name mem_wdata[30] signal mem_wdata[30] layer 1 -290 45760
+
+pad 170 name twpin_mem_wdata[31]
+corners 4
+-340 45500 -340 45580 -240 45580 -240 45500 
+orient 7
+pin name mem_wdata[31] signal mem_wdata[31] layer 1 -290 45540
+
+pad 171 name twpin_mem_wstrb[0]
+corners 4
+-340 45280 -340 45360 -240 45360 -240 45280 
+orient 7
+pin name mem_wstrb[0] signal mem_wstrb[0] layer 1 -290 45320
+
+pad 172 name twpin_mem_wstrb[1]
+corners 4
+-340 45060 -340 45140 -240 45140 -240 45060 
+orient 7
+pin name mem_wstrb[1] signal mem_wstrb[1] layer 1 -290 45100
+
+pad 173 name twpin_mem_wstrb[2]
+corners 4
+-340 44840 -340 44920 -240 44920 -240 44840 
+orient 7
+pin name mem_wstrb[2] signal mem_wstrb[2] layer 1 -290 44880
+
+pad 174 name twpin_mem_wstrb[3]
+corners 4
+-340 44620 -340 44700 -240 44700 -240 44620 
+orient 7
+pin name mem_wstrb[3] signal mem_wstrb[3] layer 1 -290 44660
+
+pad 175 name twpin_mem_la_read
+corners 4
+-340 60900 -340 60980 -240 60980 -240 60900 
+orient 7
+pin name mem_la_read signal mem_la_read layer 1 -290 60940
+
+pad 176 name twpin_mem_la_write
+corners 4
+-340 53640 -340 53720 -240 53720 -240 53640 
+orient 7
+pin name mem_la_write signal mem_la_write layer 1 -290 53680
+
+pad 177 name twpin_mem_la_addr[0]
+corners 4
+4400 63200 4400 63300 4480 63300 4480 63200 
+orient 3
+pin name mem_la_addr[0] signal mem_la_addr[0] layer 1 4440 63250
+
+pad 178 name twpin_mem_la_addr[1]
+corners 4
+4200 63200 4200 63300 4280 63300 4280 63200 
+orient 3
+pin name mem_la_addr[1] signal mem_la_addr[1] layer 1 4240 63250
+
+pad 179 name twpin_mem_la_addr[2]
+corners 4
+4000 63200 4000 63300 4080 63300 4080 63200 
+orient 3
+pin name mem_la_addr[2] signal mem_la_addr[2] layer 1 4040 63250
+
+pad 180 name twpin_mem_la_addr[3]
+corners 4
+3800 63200 3800 63300 3880 63300 3880 63200 
+orient 3
+pin name mem_la_addr[3] signal mem_la_addr[3] layer 1 3840 63250
+
+pad 181 name twpin_mem_la_addr[4]
+corners 4
+3600 63200 3600 63300 3680 63300 3680 63200 
+orient 3
+pin name mem_la_addr[4] signal mem_la_addr[4] layer 1 3640 63250
+
+pad 182 name twpin_mem_la_addr[5]
+corners 4
+3400 63200 3400 63300 3480 63300 3480 63200 
+orient 3
+pin name mem_la_addr[5] signal mem_la_addr[5] layer 1 3440 63250
+
+pad 183 name twpin_mem_la_addr[6]
+corners 4
+3200 63200 3200 63300 3280 63300 3280 63200 
+orient 3
+pin name mem_la_addr[6] signal mem_la_addr[6] layer 1 3240 63250
+
+pad 184 name twpin_mem_la_addr[7]
+corners 4
+3000 63200 3000 63300 3080 63300 3080 63200 
+orient 3
+pin name mem_la_addr[7] signal mem_la_addr[7] layer 1 3040 63250
+
+pad 185 name twpin_mem_la_addr[8]
+corners 4
+2800 63200 2800 63300 2880 63300 2880 63200 
+orient 3
+pin name mem_la_addr[8] signal mem_la_addr[8] layer 1 2840 63250
+
+pad 186 name twpin_mem_la_addr[9]
+corners 4
+2600 63200 2600 63300 2680 63300 2680 63200 
+orient 3
+pin name mem_la_addr[9] signal mem_la_addr[9] layer 1 2640 63250
+
+pad 187 name twpin_mem_la_addr[10]
+corners 4
+2400 63200 2400 63300 2480 63300 2480 63200 
+orient 3
+pin name mem_la_addr[10] signal mem_la_addr[10] layer 1 2440 63250
+
+pad 188 name twpin_mem_la_addr[11]
+corners 4
+2200 63200 2200 63300 2280 63300 2280 63200 
+orient 3
+pin name mem_la_addr[11] signal mem_la_addr[11] layer 1 2240 63250
+
+pad 189 name twpin_mem_la_addr[12]
+corners 4
+2000 63200 2000 63300 2080 63300 2080 63200 
+orient 3
+pin name mem_la_addr[12] signal mem_la_addr[12] layer 1 2040 63250
+
+pad 190 name twpin_mem_la_addr[13]
+corners 4
+1800 63200 1800 63300 1880 63300 1880 63200 
+orient 3
+pin name mem_la_addr[13] signal mem_la_addr[13] layer 1 1840 63250
+
+pad 191 name twpin_mem_la_addr[14]
+corners 4
+1600 63200 1600 63300 1680 63300 1680 63200 
+orient 3
+pin name mem_la_addr[14] signal mem_la_addr[14] layer 1 1640 63250
+
+pad 192 name twpin_mem_la_addr[15]
+corners 4
+1400 63200 1400 63300 1480 63300 1480 63200 
+orient 3
+pin name mem_la_addr[15] signal mem_la_addr[15] layer 1 1440 63250
+
+pad 193 name twpin_mem_la_addr[16]
+corners 4
+1200 63200 1200 63300 1280 63300 1280 63200 
+orient 3
+pin name mem_la_addr[16] signal mem_la_addr[16] layer 1 1240 63250
+
+pad 194 name twpin_mem_la_addr[17]
+corners 4
+1000 63200 1000 63300 1080 63300 1080 63200 
+orient 3
+pin name mem_la_addr[17] signal mem_la_addr[17] layer 1 1040 63250
+
+pad 195 name twpin_mem_la_addr[18]
+corners 4
+800 63200 800 63300 880 63300 880 63200 
+orient 3
+pin name mem_la_addr[18] signal mem_la_addr[18] layer 1 840 63250
+
+pad 196 name twpin_mem_la_addr[19]
+corners 4
+600 63200 600 63300 680 63300 680 63200 
+orient 3
+pin name mem_la_addr[19] signal mem_la_addr[19] layer 1 640 63250
+
+pad 197 name twpin_mem_la_addr[20]
+corners 4
+400 63200 400 63300 480 63300 480 63200 
+orient 3
+pin name mem_la_addr[20] signal mem_la_addr[20] layer 1 440 63250
+
+pad 198 name twpin_mem_la_addr[21]
+corners 4
+200 63200 200 63300 280 63300 280 63200 
+orient 3
+pin name mem_la_addr[21] signal mem_la_addr[21] layer 1 240 63250
+
+pad 199 name twpin_mem_la_addr[22]
+corners 4
+0 63200 0 63300 80 63300 80 63200 
+orient 3
+pin name mem_la_addr[22] signal mem_la_addr[22] layer 1 40 63250
+
+pad 200 name twpin_mem_la_addr[23]
+corners 4
+-340 62880 -340 62960 -240 62960 -240 62880 
+orient 7
+pin name mem_la_addr[23] signal mem_la_addr[23] layer 1 -290 62920
+
+pad 201 name twpin_mem_la_addr[24]
+corners 4
+-340 62660 -340 62740 -240 62740 -240 62660 
+orient 7
+pin name mem_la_addr[24] signal mem_la_addr[24] layer 1 -290 62700
+
+pad 202 name twpin_mem_la_addr[25]
+corners 4
+-340 62440 -340 62520 -240 62520 -240 62440 
+orient 7
+pin name mem_la_addr[25] signal mem_la_addr[25] layer 1 -290 62480
+
+pad 203 name twpin_mem_la_addr[26]
+corners 4
+-340 62220 -340 62300 -240 62300 -240 62220 
+orient 7
+pin name mem_la_addr[26] signal mem_la_addr[26] layer 1 -290 62260
+
+pad 204 name twpin_mem_la_addr[27]
+corners 4
+-340 62000 -340 62080 -240 62080 -240 62000 
+orient 7
+pin name mem_la_addr[27] signal mem_la_addr[27] layer 1 -290 62040
+
+pad 205 name twpin_mem_la_addr[28]
+corners 4
+-340 61780 -340 61860 -240 61860 -240 61780 
+orient 7
+pin name mem_la_addr[28] signal mem_la_addr[28] layer 1 -290 61820
+
+pad 206 name twpin_mem_la_addr[29]
+corners 4
+-340 61560 -340 61640 -240 61640 -240 61560 
+orient 7
+pin name mem_la_addr[29] signal mem_la_addr[29] layer 1 -290 61600
+
+pad 207 name twpin_mem_la_addr[30]
+corners 4
+-340 61340 -340 61420 -240 61420 -240 61340 
+orient 7
+pin name mem_la_addr[30] signal mem_la_addr[30] layer 1 -290 61380
+
+pad 208 name twpin_mem_la_addr[31]
+corners 4
+-340 61120 -340 61200 -240 61200 -240 61120 
+orient 7
+pin name mem_la_addr[31] signal mem_la_addr[31] layer 1 -290 61160
+
+pad 209 name twpin_mem_la_wdata[0]
+corners 4
+-340 60680 -340 60760 -240 60760 -240 60680 
+orient 7
+pin name mem_la_wdata[0] signal mem_la_wdata[0] layer 1 -290 60720
+
+pad 210 name twpin_mem_la_wdata[1]
+corners 4
+-340 60460 -340 60540 -240 60540 -240 60460 
+orient 7
+pin name mem_la_wdata[1] signal mem_la_wdata[1] layer 1 -290 60500
+
+pad 211 name twpin_mem_la_wdata[2]
+corners 4
+-340 60240 -340 60320 -240 60320 -240 60240 
+orient 7
+pin name mem_la_wdata[2] signal mem_la_wdata[2] layer 1 -290 60280
+
+pad 212 name twpin_mem_la_wdata[3]
+corners 4
+-340 60020 -340 60100 -240 60100 -240 60020 
+orient 7
+pin name mem_la_wdata[3] signal mem_la_wdata[3] layer 1 -290 60060
+
+pad 213 name twpin_mem_la_wdata[4]
+corners 4
+-340 59800 -340 59880 -240 59880 -240 59800 
+orient 7
+pin name mem_la_wdata[4] signal mem_la_wdata[4] layer 1 -290 59840
+
+pad 214 name twpin_mem_la_wdata[5]
+corners 4
+-340 59580 -340 59660 -240 59660 -240 59580 
+orient 7
+pin name mem_la_wdata[5] signal mem_la_wdata[5] layer 1 -290 59620
+
+pad 215 name twpin_mem_la_wdata[6]
+corners 4
+-340 59360 -340 59440 -240 59440 -240 59360 
+orient 7
+pin name mem_la_wdata[6] signal mem_la_wdata[6] layer 1 -290 59400
+
+pad 216 name twpin_mem_la_wdata[7]
+corners 4
+-340 59140 -340 59220 -240 59220 -240 59140 
+orient 7
+pin name mem_la_wdata[7] signal mem_la_wdata[7] layer 1 -290 59180
+
+pad 217 name twpin_mem_la_wdata[8]
+corners 4
+-340 58920 -340 59000 -240 59000 -240 58920 
+orient 7
+pin name mem_la_wdata[8] signal mem_la_wdata[8] layer 1 -290 58960
+
+pad 218 name twpin_mem_la_wdata[9]
+corners 4
+-340 58700 -340 58780 -240 58780 -240 58700 
+orient 7
+pin name mem_la_wdata[9] signal mem_la_wdata[9] layer 1 -290 58740
+
+pad 219 name twpin_mem_la_wdata[10]
+corners 4
+-340 58480 -340 58560 -240 58560 -240 58480 
+orient 7
+pin name mem_la_wdata[10] signal mem_la_wdata[10] layer 1 -290 58520
+
+pad 220 name twpin_mem_la_wdata[11]
+corners 4
+-340 58260 -340 58340 -240 58340 -240 58260 
+orient 7
+pin name mem_la_wdata[11] signal mem_la_wdata[11] layer 1 -290 58300
+
+pad 221 name twpin_mem_la_wdata[12]
+corners 4
+-340 58040 -340 58120 -240 58120 -240 58040 
+orient 7
+pin name mem_la_wdata[12] signal mem_la_wdata[12] layer 1 -290 58080
+
+pad 222 name twpin_mem_la_wdata[13]
+corners 4
+-340 57820 -340 57900 -240 57900 -240 57820 
+orient 7
+pin name mem_la_wdata[13] signal mem_la_wdata[13] layer 1 -290 57860
+
+pad 223 name twpin_mem_la_wdata[14]
+corners 4
+-340 57600 -340 57680 -240 57680 -240 57600 
+orient 7
+pin name mem_la_wdata[14] signal mem_la_wdata[14] layer 1 -290 57640
+
+pad 224 name twpin_mem_la_wdata[15]
+corners 4
+-340 57380 -340 57460 -240 57460 -240 57380 
+orient 7
+pin name mem_la_wdata[15] signal mem_la_wdata[15] layer 1 -290 57420
+
+pad 225 name twpin_mem_la_wdata[16]
+corners 4
+-340 57160 -340 57240 -240 57240 -240 57160 
+orient 7
+pin name mem_la_wdata[16] signal mem_la_wdata[16] layer 1 -290 57200
+
+pad 226 name twpin_mem_la_wdata[17]
+corners 4
+-340 56940 -340 57020 -240 57020 -240 56940 
+orient 7
+pin name mem_la_wdata[17] signal mem_la_wdata[17] layer 1 -290 56980
+
+pad 227 name twpin_mem_la_wdata[18]
+corners 4
+-340 56720 -340 56800 -240 56800 -240 56720 
+orient 7
+pin name mem_la_wdata[18] signal mem_la_wdata[18] layer 1 -290 56760
+
+pad 228 name twpin_mem_la_wdata[19]
+corners 4
+-340 56500 -340 56580 -240 56580 -240 56500 
+orient 7
+pin name mem_la_wdata[19] signal mem_la_wdata[19] layer 1 -290 56540
+
+pad 229 name twpin_mem_la_wdata[20]
+corners 4
+-340 56280 -340 56360 -240 56360 -240 56280 
+orient 7
+pin name mem_la_wdata[20] signal mem_la_wdata[20] layer 1 -290 56320
+
+pad 230 name twpin_mem_la_wdata[21]
+corners 4
+-340 56060 -340 56140 -240 56140 -240 56060 
+orient 7
+pin name mem_la_wdata[21] signal mem_la_wdata[21] layer 1 -290 56100
+
+pad 231 name twpin_mem_la_wdata[22]
+corners 4
+-340 55840 -340 55920 -240 55920 -240 55840 
+orient 7
+pin name mem_la_wdata[22] signal mem_la_wdata[22] layer 1 -290 55880
+
+pad 232 name twpin_mem_la_wdata[23]
+corners 4
+-340 55620 -340 55700 -240 55700 -240 55620 
+orient 7
+pin name mem_la_wdata[23] signal mem_la_wdata[23] layer 1 -290 55660
+
+pad 233 name twpin_mem_la_wdata[24]
+corners 4
+-340 55400 -340 55480 -240 55480 -240 55400 
+orient 7
+pin name mem_la_wdata[24] signal mem_la_wdata[24] layer 1 -290 55440
+
+pad 234 name twpin_mem_la_wdata[25]
+corners 4
+-340 55180 -340 55260 -240 55260 -240 55180 
+orient 7
+pin name mem_la_wdata[25] signal mem_la_wdata[25] layer 1 -290 55220
+
+pad 235 name twpin_mem_la_wdata[26]
+corners 4
+-340 54960 -340 55040 -240 55040 -240 54960 
+orient 7
+pin name mem_la_wdata[26] signal mem_la_wdata[26] layer 1 -290 55000
+
+pad 236 name twpin_mem_la_wdata[27]
+corners 4
+-340 54740 -340 54820 -240 54820 -240 54740 
+orient 7
+pin name mem_la_wdata[27] signal mem_la_wdata[27] layer 1 -290 54780
+
+pad 237 name twpin_mem_la_wdata[28]
+corners 4
+-340 54520 -340 54600 -240 54600 -240 54520 
+orient 7
+pin name mem_la_wdata[28] signal mem_la_wdata[28] layer 1 -290 54560
+
+pad 238 name twpin_mem_la_wdata[29]
+corners 4
+-340 54300 -340 54380 -240 54380 -240 54300 
+orient 7
+pin name mem_la_wdata[29] signal mem_la_wdata[29] layer 1 -290 54340
+
+pad 239 name twpin_mem_la_wdata[30]
+corners 4
+-340 54080 -340 54160 -240 54160 -240 54080 
+orient 7
+pin name mem_la_wdata[30] signal mem_la_wdata[30] layer 1 -290 54120
+
+pad 240 name twpin_mem_la_wdata[31]
+corners 4
+-340 53860 -340 53940 -240 53940 -240 53860 
+orient 7
+pin name mem_la_wdata[31] signal mem_la_wdata[31] layer 1 -290 53900
+
+pad 241 name twpin_mem_la_wstrb[0]
+corners 4
+-340 53420 -340 53500 -240 53500 -240 53420 
+orient 7
+pin name mem_la_wstrb[0] signal mem_la_wstrb[0] layer 1 -290 53460
+
+pad 242 name twpin_mem_la_wstrb[1]
+corners 4
+-340 53200 -340 53280 -240 53280 -240 53200 
+orient 7
+pin name mem_la_wstrb[1] signal mem_la_wstrb[1] layer 1 -290 53240
+
+pad 243 name twpin_mem_la_wstrb[2]
+corners 4
+-340 52980 -340 53060 -240 53060 -240 52980 
+orient 7
+pin name mem_la_wstrb[2] signal mem_la_wstrb[2] layer 1 -290 53020
+
+pad 244 name twpin_mem_la_wstrb[3]
+corners 4
+-340 52760 -340 52840 -240 52840 -240 52760 
+orient 7
+pin name mem_la_wstrb[3] signal mem_la_wstrb[3] layer 1 -290 52800
+
+pad 245 name twpin_pcpi_valid
+corners 4
+-340 23280 -340 23360 -240 23360 -240 23280 
+orient 7
+pin name pcpi_valid signal pcpi_valid layer 1 -290 23320
+
+pad 246 name twpin_pcpi_insn[0]
+corners 4
+-340 44400 -340 44480 -240 44480 -240 44400 
+orient 7
+pin name pcpi_insn[0] signal pcpi_insn[0] layer 1 -290 44440
+
+pad 247 name twpin_pcpi_insn[1]
+corners 4
+-340 44180 -340 44260 -240 44260 -240 44180 
+orient 7
+pin name pcpi_insn[1] signal pcpi_insn[1] layer 1 -290 44220
+
+pad 248 name twpin_pcpi_insn[2]
+corners 4
+-340 43960 -340 44040 -240 44040 -240 43960 
+orient 7
+pin name pcpi_insn[2] signal pcpi_insn[2] layer 1 -290 44000
+
+pad 249 name twpin_pcpi_insn[3]
+corners 4
+-340 43740 -340 43820 -240 43820 -240 43740 
+orient 7
+pin name pcpi_insn[3] signal pcpi_insn[3] layer 1 -290 43780
+
+pad 250 name twpin_pcpi_insn[4]
+corners 4
+-340 43520 -340 43600 -240 43600 -240 43520 
+orient 7
+pin name pcpi_insn[4] signal pcpi_insn[4] layer 1 -290 43560
+
+pad 251 name twpin_pcpi_insn[5]
+corners 4
+-340 43300 -340 43380 -240 43380 -240 43300 
+orient 7
+pin name pcpi_insn[5] signal pcpi_insn[5] layer 1 -290 43340
+
+pad 252 name twpin_pcpi_insn[6]
+corners 4
+-340 43080 -340 43160 -240 43160 -240 43080 
+orient 7
+pin name pcpi_insn[6] signal pcpi_insn[6] layer 1 -290 43120
+
+pad 253 name twpin_pcpi_insn[7]
+corners 4
+-340 42860 -340 42940 -240 42940 -240 42860 
+orient 7
+pin name pcpi_insn[7] signal pcpi_insn[7] layer 1 -290 42900
+
+pad 254 name twpin_pcpi_insn[8]
+corners 4
+-340 42640 -340 42720 -240 42720 -240 42640 
+orient 7
+pin name pcpi_insn[8] signal pcpi_insn[8] layer 1 -290 42680
+
+pad 255 name twpin_pcpi_insn[9]
+corners 4
+-340 42420 -340 42500 -240 42500 -240 42420 
+orient 7
+pin name pcpi_insn[9] signal pcpi_insn[9] layer 1 -290 42460
+
+pad 256 name twpin_pcpi_insn[10]
+corners 4
+-340 42200 -340 42280 -240 42280 -240 42200 
+orient 7
+pin name pcpi_insn[10] signal pcpi_insn[10] layer 1 -290 42240
+
+pad 257 name twpin_pcpi_insn[11]
+corners 4
+-340 41980 -340 42060 -240 42060 -240 41980 
+orient 7
+pin name pcpi_insn[11] signal pcpi_insn[11] layer 1 -290 42020
+
+pad 258 name twpin_pcpi_insn[12]
+corners 4
+-340 41760 -340 41840 -240 41840 -240 41760 
+orient 7
+pin name pcpi_insn[12] signal pcpi_insn[12] layer 1 -290 41800
+
+pad 259 name twpin_pcpi_insn[13]
+corners 4
+-340 41540 -340 41620 -240 41620 -240 41540 
+orient 7
+pin name pcpi_insn[13] signal pcpi_insn[13] layer 1 -290 41580
+
+pad 260 name twpin_pcpi_insn[14]
+corners 4
+-340 41320 -340 41400 -240 41400 -240 41320 
+orient 7
+pin name pcpi_insn[14] signal pcpi_insn[14] layer 1 -290 41360
+
+pad 261 name twpin_pcpi_insn[15]
+corners 4
+-340 41100 -340 41180 -240 41180 -240 41100 
+orient 7
+pin name pcpi_insn[15] signal pcpi_insn[15] layer 1 -290 41140
+
+pad 262 name twpin_pcpi_insn[16]
+corners 4
+-340 40880 -340 40960 -240 40960 -240 40880 
+orient 7
+pin name pcpi_insn[16] signal pcpi_insn[16] layer 1 -290 40920
+
+pad 263 name twpin_pcpi_insn[17]
+corners 4
+-340 40660 -340 40740 -240 40740 -240 40660 
+orient 7
+pin name pcpi_insn[17] signal pcpi_insn[17] layer 1 -290 40700
+
+pad 264 name twpin_pcpi_insn[18]
+corners 4
+-340 40440 -340 40520 -240 40520 -240 40440 
+orient 7
+pin name pcpi_insn[18] signal pcpi_insn[18] layer 1 -290 40480
+
+pad 265 name twpin_pcpi_insn[19]
+corners 4
+-340 40220 -340 40300 -240 40300 -240 40220 
+orient 7
+pin name pcpi_insn[19] signal pcpi_insn[19] layer 1 -290 40260
+
+pad 266 name twpin_pcpi_insn[20]
+corners 4
+-340 40000 -340 40080 -240 40080 -240 40000 
+orient 7
+pin name pcpi_insn[20] signal pcpi_insn[20] layer 1 -290 40040
+
+pad 267 name twpin_pcpi_insn[21]
+corners 4
+-340 39780 -340 39860 -240 39860 -240 39780 
+orient 7
+pin name pcpi_insn[21] signal pcpi_insn[21] layer 1 -290 39820
+
+pad 268 name twpin_pcpi_insn[22]
+corners 4
+-340 39560 -340 39640 -240 39640 -240 39560 
+orient 7
+pin name pcpi_insn[22] signal pcpi_insn[22] layer 1 -290 39600
+
+pad 269 name twpin_pcpi_insn[23]
+corners 4
+-340 39340 -340 39420 -240 39420 -240 39340 
+orient 7
+pin name pcpi_insn[23] signal pcpi_insn[23] layer 1 -290 39380
+
+pad 270 name twpin_pcpi_insn[24]
+corners 4
+-340 39120 -340 39200 -240 39200 -240 39120 
+orient 7
+pin name pcpi_insn[24] signal pcpi_insn[24] layer 1 -290 39160
+
+pad 271 name twpin_pcpi_insn[25]
+corners 4
+-340 38900 -340 38980 -240 38980 -240 38900 
+orient 7
+pin name pcpi_insn[25] signal pcpi_insn[25] layer 1 -290 38940
+
+pad 272 name twpin_pcpi_insn[26]
+corners 4
+-340 38680 -340 38760 -240 38760 -240 38680 
+orient 7
+pin name pcpi_insn[26] signal pcpi_insn[26] layer 1 -290 38720
+
+pad 273 name twpin_pcpi_insn[27]
+corners 4
+-340 38460 -340 38540 -240 38540 -240 38460 
+orient 7
+pin name pcpi_insn[27] signal pcpi_insn[27] layer 1 -290 38500
+
+pad 274 name twpin_pcpi_insn[28]
+corners 4
+-340 38240 -340 38320 -240 38320 -240 38240 
+orient 7
+pin name pcpi_insn[28] signal pcpi_insn[28] layer 1 -290 38280
+
+pad 275 name twpin_pcpi_insn[29]
+corners 4
+-340 38020 -340 38100 -240 38100 -240 38020 
+orient 7
+pin name pcpi_insn[29] signal pcpi_insn[29] layer 1 -290 38060
+
+pad 276 name twpin_pcpi_insn[30]
+corners 4
+-340 37800 -340 37880 -240 37880 -240 37800 
+orient 7
+pin name pcpi_insn[30] signal pcpi_insn[30] layer 1 -290 37840
+
+pad 277 name twpin_pcpi_insn[31]
+corners 4
+-340 37580 -340 37660 -240 37660 -240 37580 
+orient 7
+pin name pcpi_insn[31] signal pcpi_insn[31] layer 1 -290 37620
+
+pad 278 name twpin_pcpi_rs1[0]
+corners 4
+-340 37360 -340 37440 -240 37440 -240 37360 
+orient 7
+pin name pcpi_rs1[0] signal pcpi_rs1[0] layer 1 -290 37400
+
+pad 279 name twpin_pcpi_rs1[1]
+corners 4
+-340 37140 -340 37220 -240 37220 -240 37140 
+orient 7
+pin name pcpi_rs1[1] signal pcpi_rs1[1] layer 1 -290 37180
+
+pad 280 name twpin_pcpi_rs1[2]
+corners 4
+-340 36920 -340 37000 -240 37000 -240 36920 
+orient 7
+pin name pcpi_rs1[2] signal pcpi_rs1[2] layer 1 -290 36960
+
+pad 281 name twpin_pcpi_rs1[3]
+corners 4
+-340 36700 -340 36780 -240 36780 -240 36700 
+orient 7
+pin name pcpi_rs1[3] signal pcpi_rs1[3] layer 1 -290 36740
+
+pad 282 name twpin_pcpi_rs1[4]
+corners 4
+-340 36480 -340 36560 -240 36560 -240 36480 
+orient 7
+pin name pcpi_rs1[4] signal pcpi_rs1[4] layer 1 -290 36520
+
+pad 283 name twpin_pcpi_rs1[5]
+corners 4
+-340 36260 -340 36340 -240 36340 -240 36260 
+orient 7
+pin name pcpi_rs1[5] signal pcpi_rs1[5] layer 1 -290 36300
+
+pad 284 name twpin_pcpi_rs1[6]
+corners 4
+-340 36040 -340 36120 -240 36120 -240 36040 
+orient 7
+pin name pcpi_rs1[6] signal pcpi_rs1[6] layer 1 -290 36080
+
+pad 285 name twpin_pcpi_rs1[7]
+corners 4
+-340 35820 -340 35900 -240 35900 -240 35820 
+orient 7
+pin name pcpi_rs1[7] signal pcpi_rs1[7] layer 1 -290 35860
+
+pad 286 name twpin_pcpi_rs1[8]
+corners 4
+-340 35600 -340 35680 -240 35680 -240 35600 
+orient 7
+pin name pcpi_rs1[8] signal pcpi_rs1[8] layer 1 -290 35640
+
+pad 287 name twpin_pcpi_rs1[9]
+corners 4
+-340 35380 -340 35460 -240 35460 -240 35380 
+orient 7
+pin name pcpi_rs1[9] signal pcpi_rs1[9] layer 1 -290 35420
+
+pad 288 name twpin_pcpi_rs1[10]
+corners 4
+-340 35160 -340 35240 -240 35240 -240 35160 
+orient 7
+pin name pcpi_rs1[10] signal pcpi_rs1[10] layer 1 -290 35200
+
+pad 289 name twpin_pcpi_rs1[11]
+corners 4
+-340 34940 -340 35020 -240 35020 -240 34940 
+orient 7
+pin name pcpi_rs1[11] signal pcpi_rs1[11] layer 1 -290 34980
+
+pad 290 name twpin_pcpi_rs1[12]
+corners 4
+-340 34720 -340 34800 -240 34800 -240 34720 
+orient 7
+pin name pcpi_rs1[12] signal pcpi_rs1[12] layer 1 -290 34760
+
+pad 291 name twpin_pcpi_rs1[13]
+corners 4
+-340 34500 -340 34580 -240 34580 -240 34500 
+orient 7
+pin name pcpi_rs1[13] signal pcpi_rs1[13] layer 1 -290 34540
+
+pad 292 name twpin_pcpi_rs1[14]
+corners 4
+-340 34280 -340 34360 -240 34360 -240 34280 
+orient 7
+pin name pcpi_rs1[14] signal pcpi_rs1[14] layer 1 -290 34320
+
+pad 293 name twpin_pcpi_rs1[15]
+corners 4
+-340 34060 -340 34140 -240 34140 -240 34060 
+orient 7
+pin name pcpi_rs1[15] signal pcpi_rs1[15] layer 1 -290 34100
+
+pad 294 name twpin_pcpi_rs1[16]
+corners 4
+-340 33840 -340 33920 -240 33920 -240 33840 
+orient 7
+pin name pcpi_rs1[16] signal pcpi_rs1[16] layer 1 -290 33880
+
+pad 295 name twpin_pcpi_rs1[17]
+corners 4
+-340 33620 -340 33700 -240 33700 -240 33620 
+orient 7
+pin name pcpi_rs1[17] signal pcpi_rs1[17] layer 1 -290 33660
+
+pad 296 name twpin_pcpi_rs1[18]
+corners 4
+-340 33400 -340 33480 -240 33480 -240 33400 
+orient 7
+pin name pcpi_rs1[18] signal pcpi_rs1[18] layer 1 -290 33440
+
+pad 297 name twpin_pcpi_rs1[19]
+corners 4
+-340 33180 -340 33260 -240 33260 -240 33180 
+orient 7
+pin name pcpi_rs1[19] signal pcpi_rs1[19] layer 1 -290 33220
+
+pad 298 name twpin_pcpi_rs1[20]
+corners 4
+-340 32960 -340 33040 -240 33040 -240 32960 
+orient 7
+pin name pcpi_rs1[20] signal pcpi_rs1[20] layer 1 -290 33000
+
+pad 299 name twpin_pcpi_rs1[21]
+corners 4
+-340 32740 -340 32820 -240 32820 -240 32740 
+orient 7
+pin name pcpi_rs1[21] signal pcpi_rs1[21] layer 1 -290 32780
+
+pad 300 name twpin_pcpi_rs1[22]
+corners 4
+-340 32520 -340 32600 -240 32600 -240 32520 
+orient 7
+pin name pcpi_rs1[22] signal pcpi_rs1[22] layer 1 -290 32560
+
+pad 301 name twpin_pcpi_rs1[23]
+corners 4
+-340 32300 -340 32380 -240 32380 -240 32300 
+orient 7
+pin name pcpi_rs1[23] signal pcpi_rs1[23] layer 1 -290 32340
+
+pad 302 name twpin_pcpi_rs1[24]
+corners 4
+-340 32080 -340 32160 -240 32160 -240 32080 
+orient 7
+pin name pcpi_rs1[24] signal pcpi_rs1[24] layer 1 -290 32120
+
+pad 303 name twpin_pcpi_rs1[25]
+corners 4
+-340 31860 -340 31940 -240 31940 -240 31860 
+orient 7
+pin name pcpi_rs1[25] signal pcpi_rs1[25] layer 1 -290 31900
+
+pad 304 name twpin_pcpi_rs1[26]
+corners 4
+-340 31640 -340 31720 -240 31720 -240 31640 
+orient 7
+pin name pcpi_rs1[26] signal pcpi_rs1[26] layer 1 -290 31680
+
+pad 305 name twpin_pcpi_rs1[27]
+corners 4
+-340 31420 -340 31500 -240 31500 -240 31420 
+orient 7
+pin name pcpi_rs1[27] signal pcpi_rs1[27] layer 1 -290 31460
+
+pad 306 name twpin_pcpi_rs1[28]
+corners 4
+-340 31200 -340 31280 -240 31280 -240 31200 
+orient 7
+pin name pcpi_rs1[28] signal pcpi_rs1[28] layer 1 -290 31240
+
+pad 307 name twpin_pcpi_rs1[29]
+corners 4
+-340 30980 -340 31060 -240 31060 -240 30980 
+orient 7
+pin name pcpi_rs1[29] signal pcpi_rs1[29] layer 1 -290 31020
+
+pad 308 name twpin_pcpi_rs1[30]
+corners 4
+-340 30760 -340 30840 -240 30840 -240 30760 
+orient 7
+pin name pcpi_rs1[30] signal pcpi_rs1[30] layer 1 -290 30800
+
+pad 309 name twpin_pcpi_rs1[31]
+corners 4
+-340 30540 -340 30620 -240 30620 -240 30540 
+orient 7
+pin name pcpi_rs1[31] signal pcpi_rs1[31] layer 1 -290 30580
+
+pad 310 name twpin_pcpi_rs2[0]
+corners 4
+-340 30320 -340 30400 -240 30400 -240 30320 
+orient 7
+pin name pcpi_rs2[0] signal pcpi_rs2[0] layer 1 -290 30360
+
+pad 311 name twpin_pcpi_rs2[1]
+corners 4
+-340 30100 -340 30180 -240 30180 -240 30100 
+orient 7
+pin name pcpi_rs2[1] signal pcpi_rs2[1] layer 1 -290 30140
+
+pad 312 name twpin_pcpi_rs2[2]
+corners 4
+-340 29880 -340 29960 -240 29960 -240 29880 
+orient 7
+pin name pcpi_rs2[2] signal pcpi_rs2[2] layer 1 -290 29920
+
+pad 313 name twpin_pcpi_rs2[3]
+corners 4
+-340 29660 -340 29740 -240 29740 -240 29660 
+orient 7
+pin name pcpi_rs2[3] signal pcpi_rs2[3] layer 1 -290 29700
+
+pad 314 name twpin_pcpi_rs2[4]
+corners 4
+-340 29440 -340 29520 -240 29520 -240 29440 
+orient 7
+pin name pcpi_rs2[4] signal pcpi_rs2[4] layer 1 -290 29480
+
+pad 315 name twpin_pcpi_rs2[5]
+corners 4
+-340 29220 -340 29300 -240 29300 -240 29220 
+orient 7
+pin name pcpi_rs2[5] signal pcpi_rs2[5] layer 1 -290 29260
+
+pad 316 name twpin_pcpi_rs2[6]
+corners 4
+-340 29000 -340 29080 -240 29080 -240 29000 
+orient 7
+pin name pcpi_rs2[6] signal pcpi_rs2[6] layer 1 -290 29040
+
+pad 317 name twpin_pcpi_rs2[7]
+corners 4
+-340 28780 -340 28860 -240 28860 -240 28780 
+orient 7
+pin name pcpi_rs2[7] signal pcpi_rs2[7] layer 1 -290 28820
+
+pad 318 name twpin_pcpi_rs2[8]
+corners 4
+-340 28560 -340 28640 -240 28640 -240 28560 
+orient 7
+pin name pcpi_rs2[8] signal pcpi_rs2[8] layer 1 -290 28600
+
+pad 319 name twpin_pcpi_rs2[9]
+corners 4
+-340 28340 -340 28420 -240 28420 -240 28340 
+orient 7
+pin name pcpi_rs2[9] signal pcpi_rs2[9] layer 1 -290 28380
+
+pad 320 name twpin_pcpi_rs2[10]
+corners 4
+-340 28120 -340 28200 -240 28200 -240 28120 
+orient 7
+pin name pcpi_rs2[10] signal pcpi_rs2[10] layer 1 -290 28160
+
+pad 321 name twpin_pcpi_rs2[11]
+corners 4
+-340 27900 -340 27980 -240 27980 -240 27900 
+orient 7
+pin name pcpi_rs2[11] signal pcpi_rs2[11] layer 1 -290 27940
+
+pad 322 name twpin_pcpi_rs2[12]
+corners 4
+-340 27680 -340 27760 -240 27760 -240 27680 
+orient 7
+pin name pcpi_rs2[12] signal pcpi_rs2[12] layer 1 -290 27720
+
+pad 323 name twpin_pcpi_rs2[13]
+corners 4
+-340 27460 -340 27540 -240 27540 -240 27460 
+orient 7
+pin name pcpi_rs2[13] signal pcpi_rs2[13] layer 1 -290 27500
+
+pad 324 name twpin_pcpi_rs2[14]
+corners 4
+-340 27240 -340 27320 -240 27320 -240 27240 
+orient 7
+pin name pcpi_rs2[14] signal pcpi_rs2[14] layer 1 -290 27280
+
+pad 325 name twpin_pcpi_rs2[15]
+corners 4
+-340 27020 -340 27100 -240 27100 -240 27020 
+orient 7
+pin name pcpi_rs2[15] signal pcpi_rs2[15] layer 1 -290 27060
+
+pad 326 name twpin_pcpi_rs2[16]
+corners 4
+-340 26800 -340 26880 -240 26880 -240 26800 
+orient 7
+pin name pcpi_rs2[16] signal pcpi_rs2[16] layer 1 -290 26840
+
+pad 327 name twpin_pcpi_rs2[17]
+corners 4
+-340 26580 -340 26660 -240 26660 -240 26580 
+orient 7
+pin name pcpi_rs2[17] signal pcpi_rs2[17] layer 1 -290 26620
+
+pad 328 name twpin_pcpi_rs2[18]
+corners 4
+-340 26360 -340 26440 -240 26440 -240 26360 
+orient 7
+pin name pcpi_rs2[18] signal pcpi_rs2[18] layer 1 -290 26400
+
+pad 329 name twpin_pcpi_rs2[19]
+corners 4
+-340 26140 -340 26220 -240 26220 -240 26140 
+orient 7
+pin name pcpi_rs2[19] signal pcpi_rs2[19] layer 1 -290 26180
+
+pad 330 name twpin_pcpi_rs2[20]
+corners 4
+-340 25920 -340 26000 -240 26000 -240 25920 
+orient 7
+pin name pcpi_rs2[20] signal pcpi_rs2[20] layer 1 -290 25960
+
+pad 331 name twpin_pcpi_rs2[21]
+corners 4
+-340 25700 -340 25780 -240 25780 -240 25700 
+orient 7
+pin name pcpi_rs2[21] signal pcpi_rs2[21] layer 1 -290 25740
+
+pad 332 name twpin_pcpi_rs2[22]
+corners 4
+-340 25480 -340 25560 -240 25560 -240 25480 
+orient 7
+pin name pcpi_rs2[22] signal pcpi_rs2[22] layer 1 -290 25520
+
+pad 333 name twpin_pcpi_rs2[23]
+corners 4
+-340 25260 -340 25340 -240 25340 -240 25260 
+orient 7
+pin name pcpi_rs2[23] signal pcpi_rs2[23] layer 1 -290 25300
+
+pad 334 name twpin_pcpi_rs2[24]
+corners 4
+-340 25040 -340 25120 -240 25120 -240 25040 
+orient 7
+pin name pcpi_rs2[24] signal pcpi_rs2[24] layer 1 -290 25080
+
+pad 335 name twpin_pcpi_rs2[25]
+corners 4
+-340 24820 -340 24900 -240 24900 -240 24820 
+orient 7
+pin name pcpi_rs2[25] signal pcpi_rs2[25] layer 1 -290 24860
+
+pad 336 name twpin_pcpi_rs2[26]
+corners 4
+-340 24600 -340 24680 -240 24680 -240 24600 
+orient 7
+pin name pcpi_rs2[26] signal pcpi_rs2[26] layer 1 -290 24640
+
+pad 337 name twpin_pcpi_rs2[27]
+corners 4
+-340 24380 -340 24460 -240 24460 -240 24380 
+orient 7
+pin name pcpi_rs2[27] signal pcpi_rs2[27] layer 1 -290 24420
+
+pad 338 name twpin_pcpi_rs2[28]
+corners 4
+-340 24160 -340 24240 -240 24240 -240 24160 
+orient 7
+pin name pcpi_rs2[28] signal pcpi_rs2[28] layer 1 -290 24200
+
+pad 339 name twpin_pcpi_rs2[29]
+corners 4
+-340 23940 -340 24020 -240 24020 -240 23940 
+orient 7
+pin name pcpi_rs2[29] signal pcpi_rs2[29] layer 1 -290 23980
+
+pad 340 name twpin_pcpi_rs2[30]
+corners 4
+-340 23720 -340 23800 -240 23800 -240 23720 
+orient 7
+pin name pcpi_rs2[30] signal pcpi_rs2[30] layer 1 -290 23760
+
+pad 341 name twpin_pcpi_rs2[31]
+corners 4
+-340 23500 -340 23580 -240 23580 -240 23500 
+orient 7
+pin name pcpi_rs2[31] signal pcpi_rs2[31] layer 1 -290 23540
+
+pad 342 name twpin_eoi[0]
+corners 4
+10800 63200 10800 63300 10880 63300 10880 63200 
+orient 3
+pin name eoi[0] signal eoi[0] layer 1 10840 63250
+
+pad 343 name twpin_eoi[1]
+corners 4
+11000 63200 11000 63300 11080 63300 11080 63200 
+orient 3
+pin name eoi[1] signal eoi[1] layer 1 11040 63250
+
+pad 344 name twpin_eoi[2]
+corners 4
+11200 63200 11200 63300 11280 63300 11280 63200 
+orient 3
+pin name eoi[2] signal eoi[2] layer 1 11240 63250
+
+pad 345 name twpin_eoi[3]
+corners 4
+11400 63200 11400 63300 11480 63300 11480 63200 
+orient 3
+pin name eoi[3] signal eoi[3] layer 1 11440 63250
+
+pad 346 name twpin_eoi[4]
+corners 4
+11600 63200 11600 63300 11680 63300 11680 63200 
+orient 3
+pin name eoi[4] signal eoi[4] layer 1 11640 63250
+
+pad 347 name twpin_eoi[5]
+corners 4
+11800 63200 11800 63300 11880 63300 11880 63200 
+orient 3
+pin name eoi[5] signal eoi[5] layer 1 11840 63250
+
+pad 348 name twpin_eoi[6]
+corners 4
+12000 63200 12000 63300 12080 63300 12080 63200 
+orient 3
+pin name eoi[6] signal eoi[6] layer 1 12040 63250
+
+pad 349 name twpin_eoi[7]
+corners 4
+12200 63200 12200 63300 12280 63300 12280 63200 
+orient 3
+pin name eoi[7] signal eoi[7] layer 1 12240 63250
+
+pad 350 name twpin_eoi[8]
+corners 4
+12400 63200 12400 63300 12480 63300 12480 63200 
+orient 3
+pin name eoi[8] signal eoi[8] layer 1 12440 63250
+
+pad 351 name twpin_eoi[9]
+corners 4
+12600 63200 12600 63300 12680 63300 12680 63200 
+orient 3
+pin name eoi[9] signal eoi[9] layer 1 12640 63250
+
+pad 352 name twpin_eoi[10]
+corners 4
+12800 63200 12800 63300 12880 63300 12880 63200 
+orient 3
+pin name eoi[10] signal eoi[10] layer 1 12840 63250
+
+pad 353 name twpin_eoi[11]
+corners 4
+13000 63200 13000 63300 13080 63300 13080 63200 
+orient 3
+pin name eoi[11] signal eoi[11] layer 1 13040 63250
+
+pad 354 name twpin_eoi[12]
+corners 4
+13200 63200 13200 63300 13280 63300 13280 63200 
+orient 3
+pin name eoi[12] signal eoi[12] layer 1 13240 63250
+
+pad 355 name twpin_eoi[13]
+corners 4
+13400 63200 13400 63300 13480 63300 13480 63200 
+orient 3
+pin name eoi[13] signal eoi[13] layer 1 13440 63250
+
+pad 356 name twpin_eoi[14]
+corners 4
+13600 63200 13600 63300 13680 63300 13680 63200 
+orient 3
+pin name eoi[14] signal eoi[14] layer 1 13640 63250
+
+pad 357 name twpin_eoi[15]
+corners 4
+13800 63200 13800 63300 13880 63300 13880 63200 
+orient 3
+pin name eoi[15] signal eoi[15] layer 1 13840 63250
+
+pad 358 name twpin_eoi[16]
+corners 4
+14000 63200 14000 63300 14080 63300 14080 63200 
+orient 3
+pin name eoi[16] signal eoi[16] layer 1 14040 63250
+
+pad 359 name twpin_eoi[17]
+corners 4
+14200 63200 14200 63300 14280 63300 14280 63200 
+orient 3
+pin name eoi[17] signal eoi[17] layer 1 14240 63250
+
+pad 360 name twpin_eoi[18]
+corners 4
+14400 63200 14400 63300 14480 63300 14480 63200 
+orient 3
+pin name eoi[18] signal eoi[18] layer 1 14440 63250
+
+pad 361 name twpin_eoi[19]
+corners 4
+14600 63200 14600 63300 14680 63300 14680 63200 
+orient 3
+pin name eoi[19] signal eoi[19] layer 1 14640 63250
+
+pad 362 name twpin_eoi[20]
+corners 4
+14800 63200 14800 63300 14880 63300 14880 63200 
+orient 3
+pin name eoi[20] signal eoi[20] layer 1 14840 63250
+
+pad 363 name twpin_eoi[21]
+corners 4
+15000 63200 15000 63300 15080 63300 15080 63200 
+orient 3
+pin name eoi[21] signal eoi[21] layer 1 15040 63250
+
+pad 364 name twpin_eoi[22]
+corners 4
+15200 63200 15200 63300 15280 63300 15280 63200 
+orient 3
+pin name eoi[22] signal eoi[22] layer 1 15240 63250
+
+pad 365 name twpin_eoi[23]
+corners 4
+15400 63200 15400 63300 15480 63300 15480 63200 
+orient 3
+pin name eoi[23] signal eoi[23] layer 1 15440 63250
+
+pad 366 name twpin_eoi[24]
+corners 4
+15600 63200 15600 63300 15680 63300 15680 63200 
+orient 3
+pin name eoi[24] signal eoi[24] layer 1 15640 63250
+
+pad 367 name twpin_eoi[25]
+corners 4
+15800 63200 15800 63300 15880 63300 15880 63200 
+orient 3
+pin name eoi[25] signal eoi[25] layer 1 15840 63250
+
+pad 368 name twpin_eoi[26]
+corners 4
+16000 63200 16000 63300 16080 63300 16080 63200 
+orient 3
+pin name eoi[26] signal eoi[26] layer 1 16040 63250
+
+pad 369 name twpin_eoi[27]
+corners 4
+16200 63200 16200 63300 16280 63300 16280 63200 
+orient 3
+pin name eoi[27] signal eoi[27] layer 1 16240 63250
+
+pad 370 name twpin_eoi[28]
+corners 4
+16400 63200 16400 63300 16480 63300 16480 63200 
+orient 3
+pin name eoi[28] signal eoi[28] layer 1 16440 63250
+
+pad 371 name twpin_eoi[29]
+corners 4
+16600 63200 16600 63300 16680 63300 16680 63200 
+orient 3
+pin name eoi[29] signal eoi[29] layer 1 16640 63250
+
+pad 372 name twpin_eoi[30]
+corners 4
+16800 63200 16800 63300 16880 63300 16880 63200 
+orient 3
+pin name eoi[30] signal eoi[30] layer 1 16840 63250
+
+pad 373 name twpin_eoi[31]
+corners 4
+17000 63200 17000 63300 17080 63300 17080 63200 
+orient 3
+pin name eoi[31] signal eoi[31] layer 1 17040 63250
+
+pad 374 name twpin_trace_valid
+corners 4
+-340 15140 -340 15220 -240 15220 -240 15140 
+orient 7
+pin name trace_valid signal trace_valid layer 1 -290 15180
+
+pad 375 name twpin_trace_data[0]
+corners 4
+-340 23060 -340 23140 -240 23140 -240 23060 
+orient 7
+pin name trace_data[0] signal trace_data[0] layer 1 -290 23100
+
+pad 376 name twpin_trace_data[1]
+corners 4
+-340 22840 -340 22920 -240 22920 -240 22840 
+orient 7
+pin name trace_data[1] signal trace_data[1] layer 1 -290 22880
+
+pad 377 name twpin_trace_data[2]
+corners 4
+-340 22620 -340 22700 -240 22700 -240 22620 
+orient 7
+pin name trace_data[2] signal trace_data[2] layer 1 -290 22660
+
+pad 378 name twpin_trace_data[3]
+corners 4
+-340 22400 -340 22480 -240 22480 -240 22400 
+orient 7
+pin name trace_data[3] signal trace_data[3] layer 1 -290 22440
+
+pad 379 name twpin_trace_data[4]
+corners 4
+-340 22180 -340 22260 -240 22260 -240 22180 
+orient 7
+pin name trace_data[4] signal trace_data[4] layer 1 -290 22220
+
+pad 380 name twpin_trace_data[5]
+corners 4
+-340 21960 -340 22040 -240 22040 -240 21960 
+orient 7
+pin name trace_data[5] signal trace_data[5] layer 1 -290 22000
+
+pad 381 name twpin_trace_data[6]
+corners 4
+-340 21740 -340 21820 -240 21820 -240 21740 
+orient 7
+pin name trace_data[6] signal trace_data[6] layer 1 -290 21780
+
+pad 382 name twpin_trace_data[7]
+corners 4
+-340 21520 -340 21600 -240 21600 -240 21520 
+orient 7
+pin name trace_data[7] signal trace_data[7] layer 1 -290 21560
+
+pad 383 name twpin_trace_data[8]
+corners 4
+-340 21300 -340 21380 -240 21380 -240 21300 
+orient 7
+pin name trace_data[8] signal trace_data[8] layer 1 -290 21340
+
+pad 384 name twpin_trace_data[9]
+corners 4
+-340 21080 -340 21160 -240 21160 -240 21080 
+orient 7
+pin name trace_data[9] signal trace_data[9] layer 1 -290 21120
+
+pad 385 name twpin_trace_data[10]
+corners 4
+-340 20860 -340 20940 -240 20940 -240 20860 
+orient 7
+pin name trace_data[10] signal trace_data[10] layer 1 -290 20900
+
+pad 386 name twpin_trace_data[11]
+corners 4
+-340 20640 -340 20720 -240 20720 -240 20640 
+orient 7
+pin name trace_data[11] signal trace_data[11] layer 1 -290 20680
+
+pad 387 name twpin_trace_data[12]
+corners 4
+-340 20420 -340 20500 -240 20500 -240 20420 
+orient 7
+pin name trace_data[12] signal trace_data[12] layer 1 -290 20460
+
+pad 388 name twpin_trace_data[13]
+corners 4
+-340 20200 -340 20280 -240 20280 -240 20200 
+orient 7
+pin name trace_data[13] signal trace_data[13] layer 1 -290 20240
+
+pad 389 name twpin_trace_data[14]
+corners 4
+-340 19980 -340 20060 -240 20060 -240 19980 
+orient 7
+pin name trace_data[14] signal trace_data[14] layer 1 -290 20020
+
+pad 390 name twpin_trace_data[15]
+corners 4
+-340 19760 -340 19840 -240 19840 -240 19760 
+orient 7
+pin name trace_data[15] signal trace_data[15] layer 1 -290 19800
+
+pad 391 name twpin_trace_data[16]
+corners 4
+-340 19540 -340 19620 -240 19620 -240 19540 
+orient 7
+pin name trace_data[16] signal trace_data[16] layer 1 -290 19580
+
+pad 392 name twpin_trace_data[17]
+corners 4
+-340 19320 -340 19400 -240 19400 -240 19320 
+orient 7
+pin name trace_data[17] signal trace_data[17] layer 1 -290 19360
+
+pad 393 name twpin_trace_data[18]
+corners 4
+-340 19100 -340 19180 -240 19180 -240 19100 
+orient 7
+pin name trace_data[18] signal trace_data[18] layer 1 -290 19140
+
+pad 394 name twpin_trace_data[19]
+corners 4
+-340 18880 -340 18960 -240 18960 -240 18880 
+orient 7
+pin name trace_data[19] signal trace_data[19] layer 1 -290 18920
+
+pad 395 name twpin_trace_data[20]
+corners 4
+-340 18660 -340 18740 -240 18740 -240 18660 
+orient 7
+pin name trace_data[20] signal trace_data[20] layer 1 -290 18700
+
+pad 396 name twpin_trace_data[21]
+corners 4
+-340 18440 -340 18520 -240 18520 -240 18440 
+orient 7
+pin name trace_data[21] signal trace_data[21] layer 1 -290 18480
+
+pad 397 name twpin_trace_data[22]
+corners 4
+-340 18220 -340 18300 -240 18300 -240 18220 
+orient 7
+pin name trace_data[22] signal trace_data[22] layer 1 -290 18260
+
+pad 398 name twpin_trace_data[23]
+corners 4
+-340 18000 -340 18080 -240 18080 -240 18000 
+orient 7
+pin name trace_data[23] signal trace_data[23] layer 1 -290 18040
+
+pad 399 name twpin_trace_data[24]
+corners 4
+-340 17780 -340 17860 -240 17860 -240 17780 
+orient 7
+pin name trace_data[24] signal trace_data[24] layer 1 -290 17820
+
+pad 400 name twpin_trace_data[25]
+corners 4
+-340 17560 -340 17640 -240 17640 -240 17560 
+orient 7
+pin name trace_data[25] signal trace_data[25] layer 1 -290 17600
+
+pad 401 name twpin_trace_data[26]
+corners 4
+-340 17340 -340 17420 -240 17420 -240 17340 
+orient 7
+pin name trace_data[26] signal trace_data[26] layer 1 -290 17380
+
+pad 402 name twpin_trace_data[27]
+corners 4
+-340 17120 -340 17200 -240 17200 -240 17120 
+orient 7
+pin name trace_data[27] signal trace_data[27] layer 1 -290 17160
+
+pad 403 name twpin_trace_data[28]
+corners 4
+-340 16900 -340 16980 -240 16980 -240 16900 
+orient 7
+pin name trace_data[28] signal trace_data[28] layer 1 -290 16940
+
+pad 404 name twpin_trace_data[29]
+corners 4
+-340 16680 -340 16760 -240 16760 -240 16680 
+orient 7
+pin name trace_data[29] signal trace_data[29] layer 1 -290 16720
+
+pad 405 name twpin_trace_data[30]
+corners 4
+-340 16460 -340 16540 -240 16540 -240 16460 
+orient 7
+pin name trace_data[30] signal trace_data[30] layer 1 -290 16500
+
+pad 406 name twpin_trace_data[31]
+corners 4
+-340 16240 -340 16320 -240 16320 -240 16240 
+orient 7
+pin name trace_data[31] signal trace_data[31] layer 1 -290 16280
+
+pad 407 name twpin_trace_data[32]
+corners 4
+-340 16020 -340 16100 -240 16100 -240 16020 
+orient 7
+pin name trace_data[32] signal trace_data[32] layer 1 -290 16060
+
+pad 408 name twpin_trace_data[33]
+corners 4
+-340 15800 -340 15880 -240 15880 -240 15800 
+orient 7
+pin name trace_data[33] signal trace_data[33] layer 1 -290 15840
+
+pad 409 name twpin_trace_data[34]
+corners 4
+-340 15580 -340 15660 -240 15660 -240 15580 
+orient 7
+pin name trace_data[34] signal trace_data[34] layer 1 -290 15620
+
+pad 410 name twpin_trace_data[35]
+corners 4
+-340 15360 -340 15440 -240 15440 -240 15360 
+orient 7
+pin name trace_data[35] signal trace_data[35] layer 1 -290 15400

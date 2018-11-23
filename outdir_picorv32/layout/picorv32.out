@@ -1,0 +1,240 @@
+
+TimberWolfSC version:v6.0 date:Mon May 25 21:19:07 EDT 1992
+Row-Based Placement and Global Routing Program
+Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
+         Yale University
+
+
+
+
+TimberWolf will perform a global route step
+feedThruWidth: 80
+track.pitch: 200
+route2act was not entered in the .par file
+route2act defaulted to track.pitch
+route2act: 200
+
+The random number generator seed is: 12345
+
+
+rowSep: 0.000000
+
+[get_stat_hints]:Found hints in <picorv32.stat> file
+[get_stat_hints]:Total cells:15085 Number of nets:14780
+
+[add_swap_group]:Implicit swap group <_7556__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <clk_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <decoded_rs2[1]_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <decoded_rs1[1]_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <_7569__hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <decoded_rs2[0]_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <decoded_rs1[0]_hier0_bF$pin> created
+[add_swap_group]:Implicit swap group <resetn_bF$pin> created
+[add_swap_group]:Implicit swap group <_4426__bF$pin> created
+[add_swap_group]:Implicit swap group <mem_do_prefetch_bF$pin> created
+[add_swap_group]:Implicit swap group <mem_do_rinst_bF$pin> created
+[add_swap_group]:Implicit swap group <_4439__bF$pin> created
+[add_swap_group]:Implicit swap group <_4431__bF$pin> created
+[add_swap_group]:Implicit swap group <_4447__bF$pin> created
+[add_swap_group]:Implicit swap group <instr_jal_bF$pin> created
+[add_swap_group]:Implicit swap group <_4499__bF$pin> created
+[add_swap_group]:Implicit swap group <instr_sub_bF$pin> created
+[add_swap_group]:Implicit swap group <instr_rdinstr_bF$pin> created
+[add_swap_group]:Implicit swap group <instr_rdcycle_bF$pin> created
+[add_swap_group]:Implicit swap group <instr_rdcycleh_bF$pin> created
+[add_swap_group]:Implicit swap group <_4531__bF$pin> created
+[add_swap_group]:Implicit swap group <_4538__bF$pin> created
+[add_swap_group]:Implicit swap group <_4539__bF$pin> created
+[add_swap_group]:Implicit swap group <_4540__bF$pin> created
+[add_swap_group]:Implicit swap group <_4579__bF$pin> created
+[add_swap_group]:Implicit swap group <_4580__bF$pin> created
+[add_swap_group]:Implicit swap group <_4575__bF$pin> created
+[add_swap_group]:Implicit swap group <_4587__bF$pin> created
+[add_swap_group]:Implicit swap group <_4597__bF$pin> created
+[add_swap_group]:Implicit swap group <decoder_trigger_bF$pin> created
+[add_swap_group]:Implicit swap group <_4605__bF$pin> created
+[add_swap_group]:Implicit swap group <_4621__bF$pin> created
+[add_swap_group]:Implicit swap group <_4637__bF$pin> created
+[add_swap_group]:Implicit swap group <_4632__bF$pin> created
+[add_swap_group]:Implicit swap group <_4639__bF$pin> created
+[add_swap_group]:Implicit swap group <_4641__bF$pin> created
+[add_swap_group]:Implicit swap group <latched_stalu_bF$pin> created
+[add_swap_group]:Implicit swap group <_4654__bF$pin> created
+[add_swap_group]:Implicit swap group <_4664__bF$pin> created
+[add_swap_group]:Implicit swap group <_4677__bF$pin> created
+[add_swap_group]:Implicit swap group <_4685__bF$pin> created
+[add_swap_group]:Implicit swap group <_4696__bF$pin> created
+[add_swap_group]:Implicit swap group <_4703__bF$pin> created
+[add_swap_group]:Implicit swap group <_4713__bF$pin> created
+[add_swap_group]:Implicit swap group <_4722__bF$pin> created
+[add_swap_group]:Implicit swap group <_4714__bF$pin> created
+[add_swap_group]:Implicit swap group <_4731__bF$pin> created
+[add_swap_group]:Implicit swap group <_4740__bF$pin> created
+[add_swap_group]:Implicit swap group <_4747__bF$pin> created
+[add_swap_group]:Implicit swap group <_4755__bF$pin> created
+[add_swap_group]:Implicit swap group <_4763__bF$pin> created
+[add_swap_group]:Implicit swap group <_4783__bF$pin> created
+[add_swap_group]:Implicit swap group <_4793__bF$pin> created
+[add_swap_group]:Implicit swap group <_4806__bF$pin> created
+[add_swap_group]:Implicit swap group <_4816__bF$pin> created
+[add_swap_group]:Implicit swap group <_4824__bF$pin> created
+[add_swap_group]:Implicit swap group <_4833__bF$pin> created
+[add_swap_group]:Implicit swap group <_4845__bF$pin> created
+[add_swap_group]:Implicit swap group <_4854__bF$pin> created
+[add_swap_group]:Implicit swap group <_4863__bF$pin> created
+[add_swap_group]:Implicit swap group <_4871__bF$pin> created
+[add_swap_group]:Implicit swap group <_4884__bF$pin> created
+[add_swap_group]:Implicit swap group <_4893__bF$pin> created
+[add_swap_group]:Implicit swap group <_4901__bF$pin> created
+[add_swap_group]:Implicit swap group <_4910__bF$pin> created
+[add_swap_group]:Implicit swap group <_4913__bF$pin> created
+[add_swap_group]:Implicit swap group <_4917__bF$pin> created
+[add_swap_group]:Implicit swap group <_4919__bF$pin> created
+[add_swap_group]:Implicit swap group <_4925__bF$pin> created
+[add_swap_group]:Implicit swap group <_4933__bF$pin> created
+[add_swap_group]:Implicit swap group <_4940__bF$pin> created
+[add_swap_group]:Implicit swap group <_4948__bF$pin> created
+[add_swap_group]:Implicit swap group <_4955__bF$pin> created
+[add_swap_group]:Implicit swap group <_4985__bF$pin> created
+[add_swap_group]:Implicit swap group <_5131__bF$pin> created
+[add_swap_group]:Implicit swap group <_5140__bF$pin> created
+[add_swap_group]:Implicit swap group <_5271__bF$pin> created
+[add_swap_group]:Implicit swap group <_5281__bF$pin> created
+[add_swap_group]:Implicit swap group <_5290__bF$pin> created
+[add_swap_group]:Implicit swap group <_5314__bF$pin> created
+[add_swap_group]:Implicit swap group <_5349__bF$pin> created
+[add_swap_group]:Implicit swap group <_5362__bF$pin> created
+[add_swap_group]:Implicit swap group <_5358__bF$pin> created
+[add_swap_group]:Implicit swap group <_5348__bF$pin> created
+[add_swap_group]:Implicit swap group <_5706__bF$pin> created
+[add_swap_group]:Implicit swap group <_5707__bF$pin> created
+[add_swap_group]:Implicit swap group <_5715__bF$pin> created
+[add_swap_group]:Implicit swap group <_5746__bF$pin> created
+[add_swap_group]:Implicit swap group <_5780__bF$pin> created
+[add_swap_group]:Implicit swap group <_5813__bF$pin> created
+[add_swap_group]:Implicit swap group <_5849__bF$pin> created
+[add_swap_group]:Implicit swap group <_5856__bF$pin> created
+[add_swap_group]:Implicit swap group <_5859__bF$pin> created
+[add_swap_group]:Implicit swap group <_5890__bF$pin> created
+[add_swap_group]:Implicit swap group <_7556__bF$pin> created
+[add_swap_group]:Implicit swap group <_7560__bF$pin> created
+[add_swap_group]:Implicit swap group <_7561__bF$pin> created
+[add_swap_group]:Implicit swap group <_7569__bF$pin> created
+[add_swap_group]:Implicit swap group <_7552__bF$pin> created
+[add_swap_group]:Implicit swap group <_7586__bF$pin> created
+[add_swap_group]:Implicit swap group <_7551__bF$pin> created
+[add_swap_group]:Implicit swap group <_7623__bF$pin> created
+[add_swap_group]:Implicit swap group <_7629__bF$pin> created
+[add_swap_group]:Implicit swap group <_7631__bF$pin> created
+[add_swap_group]:Implicit swap group <_7624__bF$pin> created
+[add_swap_group]:Implicit swap group <_7632__bF$pin> created
+[add_swap_group]:Implicit swap group <_7698__bF$pin> created
+[add_swap_group]:Implicit swap group <_7700__bF$pin> created
+[add_swap_group]:Implicit swap group <_7697__bF$pin> created
+[add_swap_group]:Implicit swap group <_10099__bF$pin> created
+[add_swap_group]:Implicit swap group <_10103__bF$pin> created
+[add_swap_group]:Implicit swap group <_10109__bF$pin> created
+[add_swap_group]:Implicit swap group <_10118__bF$pin> created
+[add_swap_group]:Implicit swap group <_10123__bF$pin> created
+[add_swap_group]:Implicit swap group <decoder_pseudo_trigger_bF$pin> created
+[add_swap_group]:Implicit swap group <_1547__bF$pin> created
+[add_swap_group]:Implicit swap group <_1566__bF$pin> created
+[add_swap_group]:Implicit swap group <_1601__bF$pin> created
+[add_swap_group]:Implicit swap group <_1630__bF$pin> created
+[add_swap_group]:Implicit swap group <_1817__bF$pin> created
+[add_swap_group]:Implicit swap group <_1853__bF$pin> created
+[add_swap_group]:Implicit swap group <_1967__bF$pin> created
+[add_swap_group]:Implicit swap group <_2035__bF$pin> created
+[add_swap_group]:Implicit swap group <_2037__bF$pin> created
+[add_swap_group]:Implicit swap group <_2071__bF$pin> created
+[add_swap_group]:Implicit swap group <_2104__bF$pin> created
+[add_swap_group]:Implicit swap group <_2138__bF$pin> created
+[add_swap_group]:Implicit swap group <_2171__bF$pin> created
+[add_swap_group]:Implicit swap group <_2173__bF$pin> created
+[add_swap_group]:Implicit swap group <_2207__bF$pin> created
+[add_swap_group]:Implicit swap group <_2240__bF$pin> created
+[add_swap_group]:Implicit swap group <_2274__bF$pin> created
+[add_swap_group]:Implicit swap group <_2310__bF$pin> created
+[add_swap_group]:Implicit swap group <_2313__bF$pin> created
+[add_swap_group]:Implicit swap group <_2323__bF$pin> created
+[add_swap_group]:Implicit swap group <_2345__bF$pin> created
+[add_swap_group]:Implicit swap group <_2378__bF$pin> created
+[add_swap_group]:Implicit swap group <_3005__bF$pin> created
+[add_swap_group]:Implicit swap group <_3007__bF$pin> created
+[add_swap_group]:Implicit swap group <is_lui_auipc_jal_jalr_addi_add_sub_bF$pin> created
+[add_swap_group]:Implicit swap group <_3011__bF$pin> created
+[add_swap_group]:Implicit swap group <_3223__bF$pin> created
+[add_swap_group]:Implicit swap group <_3711__bF$pin> created
+[add_swap_group]:Implicit swap group <_3746__bF$pin> created
+[add_swap_group]:Implicit swap group <_3755__bF$pin> created
+[add_swap_group]:Implicit swap group <_3776__bF$pin> created
+[add_swap_group]:Implicit swap group <_3810__bF$pin> created
+[add_swap_group]:Implicit swap group <_3844__bF$pin> created
+[add_swap_group]:Implicit swap group <_3846__bF$pin> created
+[add_swap_group]:Implicit swap group <_3880__bF$pin> created
+[add_swap_group]:Implicit swap group <_3914__bF$pin> created
+[add_swap_group]:Implicit swap group <_3947__bF$pin> created
+[add_swap_group]:Implicit swap group <_3981__bF$pin> created
+[add_swap_group]:Implicit swap group <_4014__bF$pin> created
+[add_swap_group]:Implicit swap group <_4047__bF$pin> created
+[add_swap_group]:Implicit swap group <_4080__bF$pin> created
+[add_swap_group]:Implicit swap group <clk_bF$pin> created
+[add_extra_cells]:Added 608 spacer cells to the gate array
+total cell length: 5288560
+total block length: 5322114
+block x-span:84478  block y-span:63000
+
+
+TIMING FACTOR (COMPUTED) : 4.000000
+Using default value of bin.penalty.control:1.000000
+Original Average Cell Width:360.000000
+Adjusted Average Cell Width:254.000000
+numBinsG automatically set to:350
+binWidthG = 242
+average_cell_width is:254
+standard deviation of cell length is:248.524
+TimberWolfSC starting from the beginning
+
+
+
+THIS IS THE ROUTE COST OF THE ORIGINAL PLACEMENT: 553528485
+
+The number of nets with 1 pins is 67
+The number of nets with 2 pins is 9309
+The number of nets with 3 pins is 1907
+The number of nets with 4 pins is 1285
+The number of nets with 5 pins is 284
+The number of nets with 6 pins is 337
+The number of nets with 7 pins is 375
+The number of nets with 8 pins is 367
+The number of nets with 9 pins is 291
+The number of nets with 10 pins is 158
+The number of nets with 11 pins is 49
+The number of nets with 12 pins is 71
+The number of nets with 13 pins is 158
+The number of nets with 14 pins is 55
+The number of nets with 15 pins is 25
+The number of nets with 16 pins is 21
+The number of nets with 17 pins is 19
+The number of nets with 40 pins is 1
+The number of nets with 64 pins is 1
+The number of nets with 100 pins or more is 0
+Average number of pins per net = 3.254465
+The maximum number of pins on a single net is:64
+
+Percentage of Nets Connecting to at least 2 cells:1.00
+Percentage of Nets Connecting to at least 3 cells:0.37
+Percentage of Nets Connecting to at least 4 cells:0.24
+Percentage of Nets Connecting to at least 5 cells:0.15
+Percentage of Nets Connecting to at least 6 cells:0.13
+
+bdxlen:85058  bdylen:63600
+l:-529  t:63100  r:84529  b:-500
+
+
+
+THIS IS THE ROUTE COST OF THE CURRENT PLACEMENT: 543275703
+
+
+
+THIS IS THE PENALTY OF THE CURRENT PLACEMENT: 250150

@@ -1,0 +1,1636 @@
+net irq[31]
+pin irq[31] x -240 y 220 cell 2 layer 1 PinOrEquiv 1
+pin pin1 x 0 y 220 cell 1 layer 0 PinOrEquiv 1
+
+net irq[30]
+pin irq[30] x -240 y 440 cell 2 layer 1 PinOrEquiv 1
+pin pin2 x 0 y 440 cell 1 layer 0 PinOrEquiv 1
+
+net irq[29]
+pin irq[29] x -240 y 660 cell 2 layer 1 PinOrEquiv 1
+pin pin3 x 0 y 660 cell 1 layer 0 PinOrEquiv 1
+
+net irq[28]
+pin irq[28] x -240 y 880 cell 2 layer 1 PinOrEquiv 1
+pin pin4 x 0 y 880 cell 1 layer 0 PinOrEquiv 1
+
+net irq[27]
+pin irq[27] x -240 y 1100 cell 2 layer 1 PinOrEquiv 1
+pin pin5 x 0 y 1100 cell 1 layer 0 PinOrEquiv 1
+
+net irq[26]
+pin irq[26] x -240 y 1320 cell 2 layer 1 PinOrEquiv 1
+pin pin6 x 0 y 1320 cell 1 layer 0 PinOrEquiv 1
+
+net irq[25]
+pin irq[25] x -240 y 1540 cell 2 layer 1 PinOrEquiv 1
+pin pin7 x 0 y 1540 cell 1 layer 0 PinOrEquiv 1
+
+net irq[24]
+pin irq[24] x -240 y 1760 cell 2 layer 1 PinOrEquiv 1
+pin pin8 x 0 y 1760 cell 1 layer 0 PinOrEquiv 1
+
+net irq[23]
+pin irq[23] x -240 y 1980 cell 2 layer 1 PinOrEquiv 1
+pin pin9 x 0 y 1980 cell 1 layer 0 PinOrEquiv 1
+
+net irq[22]
+pin irq[22] x -240 y 2200 cell 2 layer 1 PinOrEquiv 1
+pin pin10 x 0 y 2200 cell 1 layer 0 PinOrEquiv 1
+
+net irq[21]
+pin irq[21] x -240 y 2420 cell 2 layer 1 PinOrEquiv 1
+pin pin11 x 0 y 2420 cell 1 layer 0 PinOrEquiv 1
+
+net irq[20]
+pin irq[20] x -240 y 2640 cell 2 layer 1 PinOrEquiv 1
+pin pin12 x 0 y 2640 cell 1 layer 0 PinOrEquiv 1
+
+net irq[19]
+pin irq[19] x -240 y 2860 cell 2 layer 1 PinOrEquiv 1
+pin pin13 x 0 y 2860 cell 1 layer 0 PinOrEquiv 1
+
+net irq[18]
+pin irq[18] x -240 y 3080 cell 2 layer 1 PinOrEquiv 1
+pin pin14 x 0 y 3080 cell 1 layer 0 PinOrEquiv 1
+
+net irq[17]
+pin irq[17] x -240 y 3300 cell 2 layer 1 PinOrEquiv 1
+pin pin15 x 0 y 3300 cell 1 layer 0 PinOrEquiv 1
+
+net irq[16]
+pin irq[16] x -240 y 3520 cell 2 layer 1 PinOrEquiv 1
+pin pin16 x 0 y 3520 cell 1 layer 0 PinOrEquiv 1
+
+net irq[15]
+pin irq[15] x -240 y 3740 cell 2 layer 1 PinOrEquiv 1
+pin pin17 x 0 y 3740 cell 1 layer 0 PinOrEquiv 1
+
+net irq[14]
+pin irq[14] x -240 y 3960 cell 2 layer 1 PinOrEquiv 1
+pin pin18 x 0 y 3960 cell 1 layer 0 PinOrEquiv 1
+
+net irq[13]
+pin irq[13] x -240 y 4180 cell 2 layer 1 PinOrEquiv 1
+pin pin19 x 0 y 4180 cell 1 layer 0 PinOrEquiv 1
+
+net irq[12]
+pin irq[12] x -240 y 4400 cell 2 layer 1 PinOrEquiv 1
+pin pin20 x 0 y 4400 cell 1 layer 0 PinOrEquiv 1
+
+net irq[11]
+pin irq[11] x -240 y 4620 cell 2 layer 1 PinOrEquiv 1
+pin pin21 x 0 y 4620 cell 1 layer 0 PinOrEquiv 1
+
+net irq[10]
+pin irq[10] x -240 y 4840 cell 2 layer 1 PinOrEquiv 1
+pin pin22 x 0 y 4840 cell 1 layer 0 PinOrEquiv 1
+
+net irq[9]
+pin irq[9] x -240 y 5060 cell 2 layer 1 PinOrEquiv 1
+pin pin23 x 0 y 5060 cell 1 layer 0 PinOrEquiv 1
+
+net irq[8]
+pin irq[8] x -240 y 5280 cell 2 layer 1 PinOrEquiv 1
+pin pin24 x 0 y 5280 cell 1 layer 0 PinOrEquiv 1
+
+net irq[7]
+pin irq[7] x -240 y 5500 cell 2 layer 1 PinOrEquiv 1
+pin pin25 x 0 y 5500 cell 1 layer 0 PinOrEquiv 1
+
+net irq[6]
+pin irq[6] x -240 y 5720 cell 2 layer 1 PinOrEquiv 1
+pin pin26 x 0 y 5720 cell 1 layer 0 PinOrEquiv 1
+
+net irq[5]
+pin irq[5] x -240 y 5940 cell 2 layer 1 PinOrEquiv 1
+pin pin27 x 0 y 5940 cell 1 layer 0 PinOrEquiv 1
+
+net irq[4]
+pin irq[4] x -240 y 6160 cell 2 layer 1 PinOrEquiv 1
+pin pin28 x 0 y 6160 cell 1 layer 0 PinOrEquiv 1
+
+net irq[3]
+pin irq[3] x -240 y 6380 cell 2 layer 1 PinOrEquiv 1
+pin pin29 x 0 y 6380 cell 1 layer 0 PinOrEquiv 1
+
+net irq[2]
+pin irq[2] x -240 y 6600 cell 2 layer 1 PinOrEquiv 1
+pin pin30 x 0 y 6600 cell 1 layer 0 PinOrEquiv 1
+
+net irq[1]
+pin irq[1] x -240 y 6820 cell 2 layer 1 PinOrEquiv 1
+pin pin31 x 0 y 6820 cell 1 layer 0 PinOrEquiv 1
+
+net irq[0]
+pin irq[0] x -240 y 7040 cell 2 layer 1 PinOrEquiv 1
+pin pin32 x 0 y 7040 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_ready
+pin pcpi_ready x -240 y 7260 cell 2 layer 1 PinOrEquiv 1
+pin pin33 x 0 y 7260 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_wait
+pin pcpi_wait x -240 y 7480 cell 2 layer 1 PinOrEquiv 1
+pin pin34 x 0 y 7480 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[31]
+pin pcpi_rd[31] x -240 y 7700 cell 2 layer 1 PinOrEquiv 1
+pin pin35 x 0 y 7700 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[30]
+pin pcpi_rd[30] x -240 y 7920 cell 2 layer 1 PinOrEquiv 1
+pin pin36 x 0 y 7920 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[29]
+pin pcpi_rd[29] x -240 y 8140 cell 2 layer 1 PinOrEquiv 1
+pin pin37 x 0 y 8140 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[28]
+pin pcpi_rd[28] x -240 y 8360 cell 2 layer 1 PinOrEquiv 1
+pin pin38 x 0 y 8360 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[27]
+pin pcpi_rd[27] x -240 y 8580 cell 2 layer 1 PinOrEquiv 1
+pin pin39 x 0 y 8580 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[26]
+pin pcpi_rd[26] x -240 y 8800 cell 2 layer 1 PinOrEquiv 1
+pin pin40 x 0 y 8800 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[25]
+pin pcpi_rd[25] x -240 y 9020 cell 2 layer 1 PinOrEquiv 1
+pin pin41 x 0 y 9020 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[24]
+pin pcpi_rd[24] x -240 y 9240 cell 2 layer 1 PinOrEquiv 1
+pin pin42 x 0 y 9240 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[23]
+pin pcpi_rd[23] x -240 y 9460 cell 2 layer 1 PinOrEquiv 1
+pin pin43 x 0 y 9460 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[22]
+pin pcpi_rd[22] x -240 y 9680 cell 2 layer 1 PinOrEquiv 1
+pin pin44 x 0 y 9680 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[21]
+pin pcpi_rd[21] x -240 y 9900 cell 2 layer 1 PinOrEquiv 1
+pin pin45 x 0 y 9900 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[20]
+pin pcpi_rd[20] x -240 y 10120 cell 2 layer 1 PinOrEquiv 1
+pin pin46 x 0 y 10120 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[19]
+pin pcpi_rd[19] x -240 y 10340 cell 2 layer 1 PinOrEquiv 1
+pin pin47 x 0 y 10340 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[18]
+pin pcpi_rd[18] x -240 y 10560 cell 2 layer 1 PinOrEquiv 1
+pin pin48 x 0 y 10560 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[17]
+pin pcpi_rd[17] x -240 y 10780 cell 2 layer 1 PinOrEquiv 1
+pin pin49 x 0 y 10780 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[16]
+pin pcpi_rd[16] x -240 y 11000 cell 2 layer 1 PinOrEquiv 1
+pin pin50 x 0 y 11000 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[15]
+pin pcpi_rd[15] x -240 y 11220 cell 2 layer 1 PinOrEquiv 1
+pin pin51 x 0 y 11220 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[14]
+pin pcpi_rd[14] x -240 y 11440 cell 2 layer 1 PinOrEquiv 1
+pin pin52 x 0 y 11440 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[13]
+pin pcpi_rd[13] x -240 y 11660 cell 2 layer 1 PinOrEquiv 1
+pin pin53 x 0 y 11660 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[12]
+pin pcpi_rd[12] x -240 y 11880 cell 2 layer 1 PinOrEquiv 1
+pin pin54 x 0 y 11880 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[11]
+pin pcpi_rd[11] x -240 y 12100 cell 2 layer 1 PinOrEquiv 1
+pin pin55 x 0 y 12100 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[10]
+pin pcpi_rd[10] x -240 y 12320 cell 2 layer 1 PinOrEquiv 1
+pin pin56 x 0 y 12320 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[9]
+pin pcpi_rd[9] x -240 y 12540 cell 2 layer 1 PinOrEquiv 1
+pin pin57 x 0 y 12540 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[8]
+pin pcpi_rd[8] x -240 y 12760 cell 2 layer 1 PinOrEquiv 1
+pin pin58 x 0 y 12760 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[7]
+pin pcpi_rd[7] x -240 y 12980 cell 2 layer 1 PinOrEquiv 1
+pin pin59 x 0 y 12980 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[6]
+pin pcpi_rd[6] x -240 y 13200 cell 2 layer 1 PinOrEquiv 1
+pin pin60 x 0 y 13200 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[5]
+pin pcpi_rd[5] x -240 y 13420 cell 2 layer 1 PinOrEquiv 1
+pin pin61 x 0 y 13420 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[4]
+pin pcpi_rd[4] x -240 y 13640 cell 2 layer 1 PinOrEquiv 1
+pin pin62 x 0 y 13640 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[3]
+pin pcpi_rd[3] x -240 y 13860 cell 2 layer 1 PinOrEquiv 1
+pin pin63 x 0 y 13860 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[2]
+pin pcpi_rd[2] x -240 y 14080 cell 2 layer 1 PinOrEquiv 1
+pin pin64 x 0 y 14080 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[1]
+pin pcpi_rd[1] x -240 y 14300 cell 2 layer 1 PinOrEquiv 1
+pin pin65 x 0 y 14300 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rd[0]
+pin pcpi_rd[0] x -240 y 14520 cell 2 layer 1 PinOrEquiv 1
+pin pin66 x 0 y 14520 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_wr
+pin pcpi_wr x -240 y 14740 cell 2 layer 1 PinOrEquiv 1
+pin pin67 x 0 y 14740 cell 1 layer 0 PinOrEquiv 1
+
+net trap
+pin trap x -240 y 14960 cell 2 layer 1 PinOrEquiv 1
+pin pin68 x 0 y 14960 cell 1 layer 0 PinOrEquiv 1
+
+net trace_valid
+pin trace_valid x -240 y 15180 cell 2 layer 1 PinOrEquiv 1
+pin pin69 x 0 y 15180 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[35]
+pin trace_data[35] x -240 y 15400 cell 2 layer 1 PinOrEquiv 1
+pin pin70 x 0 y 15400 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[34]
+pin trace_data[34] x -240 y 15620 cell 2 layer 1 PinOrEquiv 1
+pin pin71 x 0 y 15620 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[33]
+pin trace_data[33] x -240 y 15840 cell 2 layer 1 PinOrEquiv 1
+pin pin72 x 0 y 15840 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[32]
+pin trace_data[32] x -240 y 16060 cell 2 layer 1 PinOrEquiv 1
+pin pin73 x 0 y 16060 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[31]
+pin trace_data[31] x -240 y 16280 cell 2 layer 1 PinOrEquiv 1
+pin pin74 x 0 y 16280 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[30]
+pin trace_data[30] x -240 y 16500 cell 2 layer 1 PinOrEquiv 1
+pin pin75 x 0 y 16500 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[29]
+pin trace_data[29] x -240 y 16720 cell 2 layer 1 PinOrEquiv 1
+pin pin76 x 0 y 16720 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[28]
+pin trace_data[28] x -240 y 16940 cell 2 layer 1 PinOrEquiv 1
+pin pin77 x 0 y 16940 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[27]
+pin trace_data[27] x -240 y 17160 cell 2 layer 1 PinOrEquiv 1
+pin pin78 x 0 y 17160 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[26]
+pin trace_data[26] x -240 y 17380 cell 2 layer 1 PinOrEquiv 1
+pin pin79 x 0 y 17380 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[25]
+pin trace_data[25] x -240 y 17600 cell 2 layer 1 PinOrEquiv 1
+pin pin80 x 0 y 17600 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[24]
+pin trace_data[24] x -240 y 17820 cell 2 layer 1 PinOrEquiv 1
+pin pin81 x 0 y 17820 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[23]
+pin trace_data[23] x -240 y 18040 cell 2 layer 1 PinOrEquiv 1
+pin pin82 x 0 y 18040 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[22]
+pin trace_data[22] x -240 y 18260 cell 2 layer 1 PinOrEquiv 1
+pin pin83 x 0 y 18260 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[21]
+pin trace_data[21] x -240 y 18480 cell 2 layer 1 PinOrEquiv 1
+pin pin84 x 0 y 18480 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[20]
+pin trace_data[20] x -240 y 18700 cell 2 layer 1 PinOrEquiv 1
+pin pin85 x 0 y 18700 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[19]
+pin trace_data[19] x -240 y 18920 cell 2 layer 1 PinOrEquiv 1
+pin pin86 x 0 y 18920 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[18]
+pin trace_data[18] x -240 y 19140 cell 2 layer 1 PinOrEquiv 1
+pin pin87 x 0 y 19140 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[17]
+pin trace_data[17] x -240 y 19360 cell 2 layer 1 PinOrEquiv 1
+pin pin88 x 0 y 19360 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[16]
+pin trace_data[16] x -240 y 19580 cell 2 layer 1 PinOrEquiv 1
+pin pin89 x 0 y 19580 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[15]
+pin trace_data[15] x -240 y 19800 cell 2 layer 1 PinOrEquiv 1
+pin pin90 x 0 y 19800 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[14]
+pin trace_data[14] x -240 y 20020 cell 2 layer 1 PinOrEquiv 1
+pin pin91 x 0 y 20020 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[13]
+pin trace_data[13] x -240 y 20240 cell 2 layer 1 PinOrEquiv 1
+pin pin92 x 0 y 20240 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[12]
+pin trace_data[12] x -240 y 20460 cell 2 layer 1 PinOrEquiv 1
+pin pin93 x 0 y 20460 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[11]
+pin trace_data[11] x -240 y 20680 cell 2 layer 1 PinOrEquiv 1
+pin pin94 x 0 y 20680 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[10]
+pin trace_data[10] x -240 y 20900 cell 2 layer 1 PinOrEquiv 1
+pin pin95 x 0 y 20900 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[9]
+pin trace_data[9] x -240 y 21120 cell 2 layer 1 PinOrEquiv 1
+pin pin96 x 0 y 21120 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[8]
+pin trace_data[8] x -240 y 21340 cell 2 layer 1 PinOrEquiv 1
+pin pin97 x 0 y 21340 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[7]
+pin trace_data[7] x -240 y 21560 cell 2 layer 1 PinOrEquiv 1
+pin pin98 x 0 y 21560 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[6]
+pin trace_data[6] x -240 y 21780 cell 2 layer 1 PinOrEquiv 1
+pin pin99 x 0 y 21780 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[5]
+pin trace_data[5] x -240 y 22000 cell 2 layer 1 PinOrEquiv 1
+pin pin100 x 0 y 22000 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[4]
+pin trace_data[4] x -240 y 22220 cell 2 layer 1 PinOrEquiv 1
+pin pin101 x 0 y 22220 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[3]
+pin trace_data[3] x -240 y 22440 cell 2 layer 1 PinOrEquiv 1
+pin pin102 x 0 y 22440 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[2]
+pin trace_data[2] x -240 y 22660 cell 2 layer 1 PinOrEquiv 1
+pin pin103 x 0 y 22660 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[1]
+pin trace_data[1] x -240 y 22880 cell 2 layer 1 PinOrEquiv 1
+pin pin104 x 0 y 22880 cell 1 layer 0 PinOrEquiv 1
+
+net trace_data[0]
+pin trace_data[0] x -240 y 23100 cell 2 layer 1 PinOrEquiv 1
+pin pin105 x 0 y 23100 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_valid
+pin pcpi_valid x -240 y 23320 cell 2 layer 1 PinOrEquiv 1
+pin pin106 x 0 y 23320 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[31]
+pin pcpi_rs2[31] x -240 y 23540 cell 2 layer 1 PinOrEquiv 1
+pin pin107 x 0 y 23540 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[30]
+pin pcpi_rs2[30] x -240 y 23760 cell 2 layer 1 PinOrEquiv 1
+pin pin108 x 0 y 23760 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[29]
+pin pcpi_rs2[29] x -240 y 23980 cell 2 layer 1 PinOrEquiv 1
+pin pin109 x 0 y 23980 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[28]
+pin pcpi_rs2[28] x -240 y 24200 cell 2 layer 1 PinOrEquiv 1
+pin pin110 x 0 y 24200 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[27]
+pin pcpi_rs2[27] x -240 y 24420 cell 2 layer 1 PinOrEquiv 1
+pin pin111 x 0 y 24420 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[26]
+pin pcpi_rs2[26] x -240 y 24640 cell 2 layer 1 PinOrEquiv 1
+pin pin112 x 0 y 24640 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[25]
+pin pcpi_rs2[25] x -240 y 24860 cell 2 layer 1 PinOrEquiv 1
+pin pin113 x 0 y 24860 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[24]
+pin pcpi_rs2[24] x -240 y 25080 cell 2 layer 1 PinOrEquiv 1
+pin pin114 x 0 y 25080 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[23]
+pin pcpi_rs2[23] x -240 y 25300 cell 2 layer 1 PinOrEquiv 1
+pin pin115 x 0 y 25300 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[22]
+pin pcpi_rs2[22] x -240 y 25520 cell 2 layer 1 PinOrEquiv 1
+pin pin116 x 0 y 25520 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[21]
+pin pcpi_rs2[21] x -240 y 25740 cell 2 layer 1 PinOrEquiv 1
+pin pin117 x 0 y 25740 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[20]
+pin pcpi_rs2[20] x -240 y 25960 cell 2 layer 1 PinOrEquiv 1
+pin pin118 x 0 y 25960 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[19]
+pin pcpi_rs2[19] x -240 y 26180 cell 2 layer 1 PinOrEquiv 1
+pin pin119 x 0 y 26180 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[18]
+pin pcpi_rs2[18] x -240 y 26400 cell 2 layer 1 PinOrEquiv 1
+pin pin120 x 0 y 26400 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[17]
+pin pcpi_rs2[17] x -240 y 26620 cell 2 layer 1 PinOrEquiv 1
+pin pin121 x 0 y 26620 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[16]
+pin pcpi_rs2[16] x -240 y 26840 cell 2 layer 1 PinOrEquiv 1
+pin pin122 x 0 y 26840 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[15]
+pin pcpi_rs2[15] x -240 y 27060 cell 2 layer 1 PinOrEquiv 1
+pin pin123 x 0 y 27060 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[14]
+pin pcpi_rs2[14] x -240 y 27280 cell 2 layer 1 PinOrEquiv 1
+pin pin124 x 0 y 27280 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[13]
+pin pcpi_rs2[13] x -240 y 27500 cell 2 layer 1 PinOrEquiv 1
+pin pin125 x 0 y 27500 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[12]
+pin pcpi_rs2[12] x -240 y 27720 cell 2 layer 1 PinOrEquiv 1
+pin pin126 x 0 y 27720 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[11]
+pin pcpi_rs2[11] x -240 y 27940 cell 2 layer 1 PinOrEquiv 1
+pin pin127 x 0 y 27940 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[10]
+pin pcpi_rs2[10] x -240 y 28160 cell 2 layer 1 PinOrEquiv 1
+pin pin128 x 0 y 28160 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[9]
+pin pcpi_rs2[9] x -240 y 28380 cell 2 layer 1 PinOrEquiv 1
+pin pin129 x 0 y 28380 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[8]
+pin pcpi_rs2[8] x -240 y 28600 cell 2 layer 1 PinOrEquiv 1
+pin pin130 x 0 y 28600 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[7]
+pin pcpi_rs2[7] x -240 y 28820 cell 2 layer 1 PinOrEquiv 1
+pin pin131 x 0 y 28820 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[6]
+pin pcpi_rs2[6] x -240 y 29040 cell 2 layer 1 PinOrEquiv 1
+pin pin132 x 0 y 29040 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[5]
+pin pcpi_rs2[5] x -240 y 29260 cell 2 layer 1 PinOrEquiv 1
+pin pin133 x 0 y 29260 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[4]
+pin pcpi_rs2[4] x -240 y 29480 cell 2 layer 1 PinOrEquiv 1
+pin pin134 x 0 y 29480 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[3]
+pin pcpi_rs2[3] x -240 y 29700 cell 2 layer 1 PinOrEquiv 1
+pin pin135 x 0 y 29700 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[2]
+pin pcpi_rs2[2] x -240 y 29920 cell 2 layer 1 PinOrEquiv 1
+pin pin136 x 0 y 29920 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[1]
+pin pcpi_rs2[1] x -240 y 30140 cell 2 layer 1 PinOrEquiv 1
+pin pin137 x 0 y 30140 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs2[0]
+pin pcpi_rs2[0] x -240 y 30360 cell 2 layer 1 PinOrEquiv 1
+pin pin138 x 0 y 30360 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[31]
+pin pcpi_rs1[31] x -240 y 30580 cell 2 layer 1 PinOrEquiv 1
+pin pin139 x 0 y 30580 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[30]
+pin pcpi_rs1[30] x -240 y 30800 cell 2 layer 1 PinOrEquiv 1
+pin pin140 x 0 y 30800 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[29]
+pin pcpi_rs1[29] x -240 y 31020 cell 2 layer 1 PinOrEquiv 1
+pin pin141 x 0 y 31020 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[28]
+pin pcpi_rs1[28] x -240 y 31240 cell 2 layer 1 PinOrEquiv 1
+pin pin142 x 0 y 31240 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[27]
+pin pcpi_rs1[27] x -240 y 31460 cell 2 layer 1 PinOrEquiv 1
+pin pin143 x 0 y 31460 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[26]
+pin pcpi_rs1[26] x -240 y 31680 cell 2 layer 1 PinOrEquiv 1
+pin pin144 x 0 y 31680 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[25]
+pin pcpi_rs1[25] x -240 y 31900 cell 2 layer 1 PinOrEquiv 1
+pin pin145 x 0 y 31900 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[24]
+pin pcpi_rs1[24] x -240 y 32120 cell 2 layer 1 PinOrEquiv 1
+pin pin146 x 0 y 32120 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[23]
+pin pcpi_rs1[23] x -240 y 32340 cell 2 layer 1 PinOrEquiv 1
+pin pin147 x 0 y 32340 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[22]
+pin pcpi_rs1[22] x -240 y 32560 cell 2 layer 1 PinOrEquiv 1
+pin pin148 x 0 y 32560 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[21]
+pin pcpi_rs1[21] x -240 y 32780 cell 2 layer 1 PinOrEquiv 1
+pin pin149 x 0 y 32780 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[20]
+pin pcpi_rs1[20] x -240 y 33000 cell 2 layer 1 PinOrEquiv 1
+pin pin150 x 0 y 33000 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[19]
+pin pcpi_rs1[19] x -240 y 33220 cell 2 layer 1 PinOrEquiv 1
+pin pin151 x 0 y 33220 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[18]
+pin pcpi_rs1[18] x -240 y 33440 cell 2 layer 1 PinOrEquiv 1
+pin pin152 x 0 y 33440 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[17]
+pin pcpi_rs1[17] x -240 y 33660 cell 2 layer 1 PinOrEquiv 1
+pin pin153 x 0 y 33660 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[16]
+pin pcpi_rs1[16] x -240 y 33880 cell 2 layer 1 PinOrEquiv 1
+pin pin154 x 0 y 33880 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[15]
+pin pcpi_rs1[15] x -240 y 34100 cell 2 layer 1 PinOrEquiv 1
+pin pin155 x 0 y 34100 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[14]
+pin pcpi_rs1[14] x -240 y 34320 cell 2 layer 1 PinOrEquiv 1
+pin pin156 x 0 y 34320 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[13]
+pin pcpi_rs1[13] x -240 y 34540 cell 2 layer 1 PinOrEquiv 1
+pin pin157 x 0 y 34540 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[12]
+pin pcpi_rs1[12] x -240 y 34760 cell 2 layer 1 PinOrEquiv 1
+pin pin158 x 0 y 34760 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[11]
+pin pcpi_rs1[11] x -240 y 34980 cell 2 layer 1 PinOrEquiv 1
+pin pin159 x 0 y 34980 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[10]
+pin pcpi_rs1[10] x -240 y 35200 cell 2 layer 1 PinOrEquiv 1
+pin pin160 x 0 y 35200 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[9]
+pin pcpi_rs1[9] x -240 y 35420 cell 2 layer 1 PinOrEquiv 1
+pin pin161 x 0 y 35420 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[8]
+pin pcpi_rs1[8] x -240 y 35640 cell 2 layer 1 PinOrEquiv 1
+pin pin162 x 0 y 35640 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[7]
+pin pcpi_rs1[7] x -240 y 35860 cell 2 layer 1 PinOrEquiv 1
+pin pin163 x 0 y 35860 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[6]
+pin pcpi_rs1[6] x -240 y 36080 cell 2 layer 1 PinOrEquiv 1
+pin pin164 x 0 y 36080 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[5]
+pin pcpi_rs1[5] x -240 y 36300 cell 2 layer 1 PinOrEquiv 1
+pin pin165 x 0 y 36300 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[4]
+pin pcpi_rs1[4] x -240 y 36520 cell 2 layer 1 PinOrEquiv 1
+pin pin166 x 0 y 36520 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[3]
+pin pcpi_rs1[3] x -240 y 36740 cell 2 layer 1 PinOrEquiv 1
+pin pin167 x 0 y 36740 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[2]
+pin pcpi_rs1[2] x -240 y 36960 cell 2 layer 1 PinOrEquiv 1
+pin pin168 x 0 y 36960 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[1]
+pin pcpi_rs1[1] x -240 y 37180 cell 2 layer 1 PinOrEquiv 1
+pin pin169 x 0 y 37180 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_rs1[0]
+pin pcpi_rs1[0] x -240 y 37400 cell 2 layer 1 PinOrEquiv 1
+pin pin170 x 0 y 37400 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[31]
+pin pcpi_insn[31] x -240 y 37620 cell 2 layer 1 PinOrEquiv 1
+pin pin171 x 0 y 37620 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[30]
+pin pcpi_insn[30] x -240 y 37840 cell 2 layer 1 PinOrEquiv 1
+pin pin172 x 0 y 37840 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[29]
+pin pcpi_insn[29] x -240 y 38060 cell 2 layer 1 PinOrEquiv 1
+pin pin173 x 0 y 38060 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[28]
+pin pcpi_insn[28] x -240 y 38280 cell 2 layer 1 PinOrEquiv 1
+pin pin174 x 0 y 38280 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[27]
+pin pcpi_insn[27] x -240 y 38500 cell 2 layer 1 PinOrEquiv 1
+pin pin175 x 0 y 38500 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[26]
+pin pcpi_insn[26] x -240 y 38720 cell 2 layer 1 PinOrEquiv 1
+pin pin176 x 0 y 38720 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[25]
+pin pcpi_insn[25] x -240 y 38940 cell 2 layer 1 PinOrEquiv 1
+pin pin177 x 0 y 38940 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[24]
+pin pcpi_insn[24] x -240 y 39160 cell 2 layer 1 PinOrEquiv 1
+pin pin178 x 0 y 39160 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[23]
+pin pcpi_insn[23] x -240 y 39380 cell 2 layer 1 PinOrEquiv 1
+pin pin179 x 0 y 39380 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[22]
+pin pcpi_insn[22] x -240 y 39600 cell 2 layer 1 PinOrEquiv 1
+pin pin180 x 0 y 39600 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[21]
+pin pcpi_insn[21] x -240 y 39820 cell 2 layer 1 PinOrEquiv 1
+pin pin181 x 0 y 39820 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[20]
+pin pcpi_insn[20] x -240 y 40040 cell 2 layer 1 PinOrEquiv 1
+pin pin182 x 0 y 40040 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[19]
+pin pcpi_insn[19] x -240 y 40260 cell 2 layer 1 PinOrEquiv 1
+pin pin183 x 0 y 40260 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[18]
+pin pcpi_insn[18] x -240 y 40480 cell 2 layer 1 PinOrEquiv 1
+pin pin184 x 0 y 40480 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[17]
+pin pcpi_insn[17] x -240 y 40700 cell 2 layer 1 PinOrEquiv 1
+pin pin185 x 0 y 40700 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[16]
+pin pcpi_insn[16] x -240 y 40920 cell 2 layer 1 PinOrEquiv 1
+pin pin186 x 0 y 40920 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[15]
+pin pcpi_insn[15] x -240 y 41140 cell 2 layer 1 PinOrEquiv 1
+pin pin187 x 0 y 41140 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[14]
+pin pcpi_insn[14] x -240 y 41360 cell 2 layer 1 PinOrEquiv 1
+pin pin188 x 0 y 41360 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[13]
+pin pcpi_insn[13] x -240 y 41580 cell 2 layer 1 PinOrEquiv 1
+pin pin189 x 0 y 41580 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[12]
+pin pcpi_insn[12] x -240 y 41800 cell 2 layer 1 PinOrEquiv 1
+pin pin190 x 0 y 41800 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[11]
+pin pcpi_insn[11] x -240 y 42020 cell 2 layer 1 PinOrEquiv 1
+pin pin191 x 0 y 42020 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[10]
+pin pcpi_insn[10] x -240 y 42240 cell 2 layer 1 PinOrEquiv 1
+pin pin192 x 0 y 42240 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[9]
+pin pcpi_insn[9] x -240 y 42460 cell 2 layer 1 PinOrEquiv 1
+pin pin193 x 0 y 42460 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[8]
+pin pcpi_insn[8] x -240 y 42680 cell 2 layer 1 PinOrEquiv 1
+pin pin194 x 0 y 42680 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[7]
+pin pcpi_insn[7] x -240 y 42900 cell 2 layer 1 PinOrEquiv 1
+pin pin195 x 0 y 42900 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[6]
+pin pcpi_insn[6] x -240 y 43120 cell 2 layer 1 PinOrEquiv 1
+pin pin196 x 0 y 43120 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[5]
+pin pcpi_insn[5] x -240 y 43340 cell 2 layer 1 PinOrEquiv 1
+pin pin197 x 0 y 43340 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[4]
+pin pcpi_insn[4] x -240 y 43560 cell 2 layer 1 PinOrEquiv 1
+pin pin198 x 0 y 43560 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[3]
+pin pcpi_insn[3] x -240 y 43780 cell 2 layer 1 PinOrEquiv 1
+pin pin199 x 0 y 43780 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[2]
+pin pcpi_insn[2] x -240 y 44000 cell 2 layer 1 PinOrEquiv 1
+pin pin200 x 0 y 44000 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[1]
+pin pcpi_insn[1] x -240 y 44220 cell 2 layer 1 PinOrEquiv 1
+pin pin201 x 0 y 44220 cell 1 layer 0 PinOrEquiv 1
+
+net pcpi_insn[0]
+pin pcpi_insn[0] x -240 y 44440 cell 2 layer 1 PinOrEquiv 1
+pin pin202 x 0 y 44440 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wstrb[3]
+pin mem_wstrb[3] x -240 y 44660 cell 2 layer 1 PinOrEquiv 1
+pin pin203 x 0 y 44660 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wstrb[2]
+pin mem_wstrb[2] x -240 y 44880 cell 2 layer 1 PinOrEquiv 1
+pin pin204 x 0 y 44880 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wstrb[1]
+pin mem_wstrb[1] x -240 y 45100 cell 2 layer 1 PinOrEquiv 1
+pin pin205 x 0 y 45100 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wstrb[0]
+pin mem_wstrb[0] x -240 y 45320 cell 2 layer 1 PinOrEquiv 1
+pin pin206 x 0 y 45320 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[31]
+pin mem_wdata[31] x -240 y 45540 cell 2 layer 1 PinOrEquiv 1
+pin pin207 x 0 y 45540 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[30]
+pin mem_wdata[30] x -240 y 45760 cell 2 layer 1 PinOrEquiv 1
+pin pin208 x 0 y 45760 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[29]
+pin mem_wdata[29] x -240 y 45980 cell 2 layer 1 PinOrEquiv 1
+pin pin209 x 0 y 45980 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[28]
+pin mem_wdata[28] x -240 y 46200 cell 2 layer 1 PinOrEquiv 1
+pin pin210 x 0 y 46200 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[27]
+pin mem_wdata[27] x -240 y 46420 cell 2 layer 1 PinOrEquiv 1
+pin pin211 x 0 y 46420 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[26]
+pin mem_wdata[26] x -240 y 46640 cell 2 layer 1 PinOrEquiv 1
+pin pin212 x 0 y 46640 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[25]
+pin mem_wdata[25] x -240 y 46860 cell 2 layer 1 PinOrEquiv 1
+pin pin213 x 0 y 46860 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[24]
+pin mem_wdata[24] x -240 y 47080 cell 2 layer 1 PinOrEquiv 1
+pin pin214 x 0 y 47080 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[23]
+pin mem_wdata[23] x -240 y 47300 cell 2 layer 1 PinOrEquiv 1
+pin pin215 x 0 y 47300 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[22]
+pin mem_wdata[22] x -240 y 47520 cell 2 layer 1 PinOrEquiv 1
+pin pin216 x 0 y 47520 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[21]
+pin mem_wdata[21] x -240 y 47740 cell 2 layer 1 PinOrEquiv 1
+pin pin217 x 0 y 47740 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[20]
+pin mem_wdata[20] x -240 y 47960 cell 2 layer 1 PinOrEquiv 1
+pin pin218 x 0 y 47960 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[19]
+pin mem_wdata[19] x -240 y 48180 cell 2 layer 1 PinOrEquiv 1
+pin pin219 x 0 y 48180 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[18]
+pin mem_wdata[18] x -240 y 48400 cell 2 layer 1 PinOrEquiv 1
+pin pin220 x 0 y 48400 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[17]
+pin mem_wdata[17] x -240 y 48620 cell 2 layer 1 PinOrEquiv 1
+pin pin221 x 0 y 48620 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[16]
+pin mem_wdata[16] x -240 y 48840 cell 2 layer 1 PinOrEquiv 1
+pin pin222 x 0 y 48840 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[15]
+pin mem_wdata[15] x -240 y 49060 cell 2 layer 1 PinOrEquiv 1
+pin pin223 x 0 y 49060 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[14]
+pin mem_wdata[14] x -240 y 49280 cell 2 layer 1 PinOrEquiv 1
+pin pin224 x 0 y 49280 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[13]
+pin mem_wdata[13] x -240 y 49500 cell 2 layer 1 PinOrEquiv 1
+pin pin225 x 0 y 49500 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[12]
+pin mem_wdata[12] x -240 y 49720 cell 2 layer 1 PinOrEquiv 1
+pin pin226 x 0 y 49720 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[11]
+pin mem_wdata[11] x -240 y 49940 cell 2 layer 1 PinOrEquiv 1
+pin pin227 x 0 y 49940 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[10]
+pin mem_wdata[10] x -240 y 50160 cell 2 layer 1 PinOrEquiv 1
+pin pin228 x 0 y 50160 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[9]
+pin mem_wdata[9] x -240 y 50380 cell 2 layer 1 PinOrEquiv 1
+pin pin229 x 0 y 50380 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[8]
+pin mem_wdata[8] x -240 y 50600 cell 2 layer 1 PinOrEquiv 1
+pin pin230 x 0 y 50600 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[7]
+pin mem_wdata[7] x -240 y 50820 cell 2 layer 1 PinOrEquiv 1
+pin pin231 x 0 y 50820 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[6]
+pin mem_wdata[6] x -240 y 51040 cell 2 layer 1 PinOrEquiv 1
+pin pin232 x 0 y 51040 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[5]
+pin mem_wdata[5] x -240 y 51260 cell 2 layer 1 PinOrEquiv 1
+pin pin233 x 0 y 51260 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[4]
+pin mem_wdata[4] x -240 y 51480 cell 2 layer 1 PinOrEquiv 1
+pin pin234 x 0 y 51480 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[3]
+pin mem_wdata[3] x -240 y 51700 cell 2 layer 1 PinOrEquiv 1
+pin pin235 x 0 y 51700 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[2]
+pin mem_wdata[2] x -240 y 51920 cell 2 layer 1 PinOrEquiv 1
+pin pin236 x 0 y 51920 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[1]
+pin mem_wdata[1] x -240 y 52140 cell 2 layer 1 PinOrEquiv 1
+pin pin237 x 0 y 52140 cell 1 layer 0 PinOrEquiv 1
+
+net mem_wdata[0]
+pin mem_wdata[0] x -240 y 52360 cell 2 layer 1 PinOrEquiv 1
+pin pin238 x 0 y 52360 cell 1 layer 0 PinOrEquiv 1
+
+net mem_valid
+pin mem_valid x -240 y 52580 cell 2 layer 1 PinOrEquiv 1
+pin pin239 x 0 y 52580 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wstrb[3]
+pin mem_la_wstrb[3] x -240 y 52800 cell 2 layer 1 PinOrEquiv 1
+pin pin240 x 0 y 52800 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wstrb[2]
+pin mem_la_wstrb[2] x -240 y 53020 cell 2 layer 1 PinOrEquiv 1
+pin pin241 x 0 y 53020 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wstrb[1]
+pin mem_la_wstrb[1] x -240 y 53240 cell 2 layer 1 PinOrEquiv 1
+pin pin242 x 0 y 53240 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wstrb[0]
+pin mem_la_wstrb[0] x -240 y 53460 cell 2 layer 1 PinOrEquiv 1
+pin pin243 x 0 y 53460 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_write
+pin mem_la_write x -240 y 53680 cell 2 layer 1 PinOrEquiv 1
+pin pin244 x 0 y 53680 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[31]
+pin mem_la_wdata[31] x -240 y 53900 cell 2 layer 1 PinOrEquiv 1
+pin pin245 x 0 y 53900 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[30]
+pin mem_la_wdata[30] x -240 y 54120 cell 2 layer 1 PinOrEquiv 1
+pin pin246 x 0 y 54120 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[29]
+pin mem_la_wdata[29] x -240 y 54340 cell 2 layer 1 PinOrEquiv 1
+pin pin247 x 0 y 54340 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[28]
+pin mem_la_wdata[28] x -240 y 54560 cell 2 layer 1 PinOrEquiv 1
+pin pin248 x 0 y 54560 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[27]
+pin mem_la_wdata[27] x -240 y 54780 cell 2 layer 1 PinOrEquiv 1
+pin pin249 x 0 y 54780 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[26]
+pin mem_la_wdata[26] x -240 y 55000 cell 2 layer 1 PinOrEquiv 1
+pin pin250 x 0 y 55000 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[25]
+pin mem_la_wdata[25] x -240 y 55220 cell 2 layer 1 PinOrEquiv 1
+pin pin251 x 0 y 55220 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[24]
+pin mem_la_wdata[24] x -240 y 55440 cell 2 layer 1 PinOrEquiv 1
+pin pin252 x 0 y 55440 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[23]
+pin mem_la_wdata[23] x -240 y 55660 cell 2 layer 1 PinOrEquiv 1
+pin pin253 x 0 y 55660 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[22]
+pin mem_la_wdata[22] x -240 y 55880 cell 2 layer 1 PinOrEquiv 1
+pin pin254 x 0 y 55880 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[21]
+pin mem_la_wdata[21] x -240 y 56100 cell 2 layer 1 PinOrEquiv 1
+pin pin255 x 0 y 56100 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[20]
+pin mem_la_wdata[20] x -240 y 56320 cell 2 layer 1 PinOrEquiv 1
+pin pin256 x 0 y 56320 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[19]
+pin mem_la_wdata[19] x -240 y 56540 cell 2 layer 1 PinOrEquiv 1
+pin pin257 x 0 y 56540 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[18]
+pin mem_la_wdata[18] x -240 y 56760 cell 2 layer 1 PinOrEquiv 1
+pin pin258 x 0 y 56760 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[17]
+pin mem_la_wdata[17] x -240 y 56980 cell 2 layer 1 PinOrEquiv 1
+pin pin259 x 0 y 56980 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[16]
+pin mem_la_wdata[16] x -240 y 57200 cell 2 layer 1 PinOrEquiv 1
+pin pin260 x 0 y 57200 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[15]
+pin mem_la_wdata[15] x -240 y 57420 cell 2 layer 1 PinOrEquiv 1
+pin pin261 x 0 y 57420 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[14]
+pin mem_la_wdata[14] x -240 y 57640 cell 2 layer 1 PinOrEquiv 1
+pin pin262 x 0 y 57640 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[13]
+pin mem_la_wdata[13] x -240 y 57860 cell 2 layer 1 PinOrEquiv 1
+pin pin263 x 0 y 57860 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[12]
+pin mem_la_wdata[12] x -240 y 58080 cell 2 layer 1 PinOrEquiv 1
+pin pin264 x 0 y 58080 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[11]
+pin mem_la_wdata[11] x -240 y 58300 cell 2 layer 1 PinOrEquiv 1
+pin pin265 x 0 y 58300 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[10]
+pin mem_la_wdata[10] x -240 y 58520 cell 2 layer 1 PinOrEquiv 1
+pin pin266 x 0 y 58520 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[9]
+pin mem_la_wdata[9] x -240 y 58740 cell 2 layer 1 PinOrEquiv 1
+pin pin267 x 0 y 58740 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[8]
+pin mem_la_wdata[8] x -240 y 58960 cell 2 layer 1 PinOrEquiv 1
+pin pin268 x 0 y 58960 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[7]
+pin mem_la_wdata[7] x -240 y 59180 cell 2 layer 1 PinOrEquiv 1
+pin pin269 x 0 y 59180 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[6]
+pin mem_la_wdata[6] x -240 y 59400 cell 2 layer 1 PinOrEquiv 1
+pin pin270 x 0 y 59400 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[5]
+pin mem_la_wdata[5] x -240 y 59620 cell 2 layer 1 PinOrEquiv 1
+pin pin271 x 0 y 59620 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[4]
+pin mem_la_wdata[4] x -240 y 59840 cell 2 layer 1 PinOrEquiv 1
+pin pin272 x 0 y 59840 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[3]
+pin mem_la_wdata[3] x -240 y 60060 cell 2 layer 1 PinOrEquiv 1
+pin pin273 x 0 y 60060 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[2]
+pin mem_la_wdata[2] x -240 y 60280 cell 2 layer 1 PinOrEquiv 1
+pin pin274 x 0 y 60280 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[1]
+pin mem_la_wdata[1] x -240 y 60500 cell 2 layer 1 PinOrEquiv 1
+pin pin275 x 0 y 60500 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_wdata[0]
+pin mem_la_wdata[0] x -240 y 60720 cell 2 layer 1 PinOrEquiv 1
+pin pin276 x 0 y 60720 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_read
+pin mem_la_read x -240 y 60940 cell 2 layer 1 PinOrEquiv 1
+pin pin277 x 0 y 60940 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[31]
+pin mem_la_addr[31] x -240 y 61160 cell 2 layer 1 PinOrEquiv 1
+pin pin278 x 0 y 61160 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[30]
+pin mem_la_addr[30] x -240 y 61380 cell 2 layer 1 PinOrEquiv 1
+pin pin279 x 0 y 61380 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[29]
+pin mem_la_addr[29] x -240 y 61600 cell 2 layer 1 PinOrEquiv 1
+pin pin280 x 0 y 61600 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[28]
+pin mem_la_addr[28] x -240 y 61820 cell 2 layer 1 PinOrEquiv 1
+pin pin281 x 0 y 61820 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[27]
+pin mem_la_addr[27] x -240 y 62040 cell 2 layer 1 PinOrEquiv 1
+pin pin282 x 0 y 62040 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[26]
+pin mem_la_addr[26] x -240 y 62260 cell 2 layer 1 PinOrEquiv 1
+pin pin283 x 0 y 62260 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[25]
+pin mem_la_addr[25] x -240 y 62480 cell 2 layer 1 PinOrEquiv 1
+pin pin284 x 0 y 62480 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[24]
+pin mem_la_addr[24] x -240 y 62700 cell 2 layer 1 PinOrEquiv 1
+pin pin285 x 0 y 62700 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[23]
+pin mem_la_addr[23] x -240 y 62920 cell 2 layer 1 PinOrEquiv 1
+pin pin286 x 0 y 62920 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[22]
+pin mem_la_addr[22] x 40 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin287 x 0 y 63140 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[21]
+pin mem_la_addr[21] x 240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin288 x 0 y 63360 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[20]
+pin mem_la_addr[20] x 440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin289 x 0 y 63580 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[19]
+pin mem_la_addr[19] x 640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin290 x 0 y 63800 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[18]
+pin mem_la_addr[18] x 840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin291 x 0 y 64020 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[17]
+pin mem_la_addr[17] x 1040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin292 x 0 y 64240 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[16]
+pin mem_la_addr[16] x 1240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin293 x 0 y 64460 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[15]
+pin mem_la_addr[15] x 1440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin294 x 0 y 64680 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[14]
+pin mem_la_addr[14] x 1640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin295 x 0 y 64900 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[13]
+pin mem_la_addr[13] x 1840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin296 x 0 y 65120 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[12]
+pin mem_la_addr[12] x 2040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin297 x 0 y 65340 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[11]
+pin mem_la_addr[11] x 2240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin298 x 0 y 65560 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[10]
+pin mem_la_addr[10] x 2440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin299 x 0 y 65780 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[9]
+pin mem_la_addr[9] x 2640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin300 x 0 y 66000 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[8]
+pin mem_la_addr[8] x 2840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin301 x 0 y 66220 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[7]
+pin mem_la_addr[7] x 3040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin302 x 0 y 66440 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[6]
+pin mem_la_addr[6] x 3240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin303 x 0 y 66660 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[5]
+pin mem_la_addr[5] x 3440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin304 x 0 y 66880 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[4]
+pin mem_la_addr[4] x 3640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin305 x 0 y 67100 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[3]
+pin mem_la_addr[3] x 3840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin306 x 0 y 67320 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[2]
+pin mem_la_addr[2] x 4040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin307 x 0 y 67540 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[1]
+pin mem_la_addr[1] x 4240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin308 x 0 y 67760 cell 1 layer 0 PinOrEquiv 1
+
+net mem_la_addr[0]
+pin mem_la_addr[0] x 4440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin309 x 0 y 67980 cell 1 layer 0 PinOrEquiv 1
+
+net mem_instr
+pin mem_instr x 17440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin310 x 0 y 68200 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[31]
+pin mem_addr[31] x 4640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin311 x 0 y 68420 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[30]
+pin mem_addr[30] x 4840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin312 x 0 y 68640 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[29]
+pin mem_addr[29] x 5040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin313 x 0 y 68860 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[28]
+pin mem_addr[28] x 5240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin314 x 0 y 69080 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[27]
+pin mem_addr[27] x 5440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin315 x 0 y 69300 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[26]
+pin mem_addr[26] x 5640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin316 x 0 y 69520 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[25]
+pin mem_addr[25] x 5840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin317 x 0 y 69740 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[24]
+pin mem_addr[24] x 6040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin318 x 0 y 69960 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[23]
+pin mem_addr[23] x 6240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin319 x 0 y 70180 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[22]
+pin mem_addr[22] x 6440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin320 x 0 y 70400 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[21]
+pin mem_addr[21] x 6640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin321 x 0 y 70620 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[20]
+pin mem_addr[20] x 6840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin322 x 0 y 70840 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[19]
+pin mem_addr[19] x 7040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin323 x 0 y 71060 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[18]
+pin mem_addr[18] x 7240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin324 x 0 y 71280 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[17]
+pin mem_addr[17] x 7440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin325 x 0 y 71500 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[16]
+pin mem_addr[16] x 7640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin326 x 0 y 71720 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[15]
+pin mem_addr[15] x 7840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin327 x 0 y 71940 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[14]
+pin mem_addr[14] x 8040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin328 x 0 y 72160 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[13]
+pin mem_addr[13] x 8240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin329 x 0 y 72380 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[12]
+pin mem_addr[12] x 8440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin330 x 0 y 72600 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[11]
+pin mem_addr[11] x 8640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin331 x 0 y 72820 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[10]
+pin mem_addr[10] x 8840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin332 x 0 y 73040 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[9]
+pin mem_addr[9] x 9040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin333 x 0 y 73260 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[8]
+pin mem_addr[8] x 9240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin334 x 0 y 73480 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[7]
+pin mem_addr[7] x 9440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin335 x 0 y 73700 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[6]
+pin mem_addr[6] x 9640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin336 x 0 y 73920 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[5]
+pin mem_addr[5] x 9840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin337 x 0 y 74140 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[4]
+pin mem_addr[4] x 10040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin338 x 0 y 74360 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[3]
+pin mem_addr[3] x 10240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin339 x 0 y 74580 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[2]
+pin mem_addr[2] x 10440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin340 x 0 y 74800 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[1]
+pin mem_addr[1] x 10640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin341 x 0 y 75020 cell 1 layer 0 PinOrEquiv 1
+
+net mem_addr[0]
+pin mem_addr[0] x 17240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin342 x 0 y 75240 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[31]
+pin eoi[31] x 17040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin343 x 0 y 75460 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[30]
+pin eoi[30] x 16840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin344 x 0 y 75680 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[29]
+pin eoi[29] x 16640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin345 x 0 y 75900 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[28]
+pin eoi[28] x 16440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin346 x 0 y 76120 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[27]
+pin eoi[27] x 16240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin347 x 0 y 76340 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[26]
+pin eoi[26] x 16040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin348 x 0 y 76560 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[25]
+pin eoi[25] x 15840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin349 x 0 y 76780 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[24]
+pin eoi[24] x 15640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin350 x 0 y 77000 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[23]
+pin eoi[23] x 15440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin351 x 0 y 77220 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[22]
+pin eoi[22] x 15240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin352 x 0 y 77440 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[21]
+pin eoi[21] x 15040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin353 x 0 y 77660 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[20]
+pin eoi[20] x 14840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin354 x 0 y 77880 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[19]
+pin eoi[19] x 14640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin355 x 0 y 78100 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[18]
+pin eoi[18] x 14440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin356 x 0 y 78320 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[17]
+pin eoi[17] x 14240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin357 x 0 y 78540 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[16]
+pin eoi[16] x 14040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin358 x 0 y 78760 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[15]
+pin eoi[15] x 13840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin359 x 0 y 78980 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[14]
+pin eoi[14] x 13640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin360 x 0 y 79200 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[13]
+pin eoi[13] x 13440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin361 x 0 y 79420 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[12]
+pin eoi[12] x 13240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin362 x 0 y 79640 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[11]
+pin eoi[11] x 13040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin363 x 0 y 79860 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[10]
+pin eoi[10] x 12840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin364 x 0 y 80080 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[9]
+pin eoi[9] x 12640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin365 x 0 y 80300 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[8]
+pin eoi[8] x 12440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin366 x 0 y 80520 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[7]
+pin eoi[7] x 12240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin367 x 0 y 80740 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[6]
+pin eoi[6] x 12040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin368 x 0 y 80960 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[5]
+pin eoi[5] x 11840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin369 x 0 y 81180 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[4]
+pin eoi[4] x 11640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin370 x 0 y 81400 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[3]
+pin eoi[3] x 11440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin371 x 0 y 81620 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[2]
+pin eoi[2] x 11240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin372 x 0 y 81840 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[1]
+pin eoi[1] x 11040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin373 x 0 y 82060 cell 1 layer 0 PinOrEquiv 1
+
+net eoi[0]
+pin eoi[0] x 10840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin374 x 0 y 82280 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[11]
+pin mem_rdata[11] x 21640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin375 x 0 y 82500 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[10]
+pin mem_rdata[10] x 21840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin376 x 0 y 82720 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[9]
+pin mem_rdata[9] x 22040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin377 x 0 y 82940 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[8]
+pin mem_rdata[8] x 22240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin378 x 0 y 83160 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[7]
+pin mem_rdata[7] x 22440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin379 x 0 y 83380 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[1]
+pin mem_rdata[1] x 23640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin380 x 0 y 83600 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[0]
+pin mem_rdata[0] x 23840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin381 x 0 y 83820 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[18]
+pin mem_rdata[18] x 20240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin382 x 0 y 84040 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[17]
+pin mem_rdata[17] x 20440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin383 x 0 y 84260 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[16]
+pin mem_rdata[16] x 20640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin384 x 0 y 84480 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[15]
+pin mem_rdata[15] x 20840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin385 x 0 y 84700 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[20]
+pin mem_rdata[20] x 19840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin386 x 0 y 84920 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[24]
+pin mem_rdata[24] x 19040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin387 x 0 y 85140 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[31]
+pin mem_rdata[31] x 17640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin388 x 0 y 85360 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[29]
+pin mem_rdata[29] x 18040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin389 x 0 y 85580 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[28]
+pin mem_rdata[28] x 18240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin390 x 0 y 85800 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[25]
+pin mem_rdata[25] x 18840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin391 x 0 y 86020 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[23]
+pin mem_rdata[23] x 19240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin392 x 0 y 86240 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[22]
+pin mem_rdata[22] x 19440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin393 x 0 y 86460 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[21]
+pin mem_rdata[21] x 19640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin394 x 0 y 86680 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[26]
+pin mem_rdata[26] x 18640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin395 x 0 y 86900 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[27]
+pin mem_rdata[27] x 18440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin396 x 0 y 87120 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[30]
+pin mem_rdata[30] x 17840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin397 x 0 y 87340 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[19]
+pin mem_rdata[19] x 20040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin398 x 0 y 87560 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[14]
+pin mem_rdata[14] x 21040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin399 x 0 y 87780 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[13]
+pin mem_rdata[13] x 21240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin400 x 0 y 88000 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[12]
+pin mem_rdata[12] x 21440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin401 x 0 y 88220 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[2]
+pin mem_rdata[2] x 23440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin402 x 0 y 88440 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[6]
+pin mem_rdata[6] x 22640 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin403 x 0 y 88660 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[5]
+pin mem_rdata[5] x 22840 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin404 x 0 y 88880 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[4]
+pin mem_rdata[4] x 23040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin405 x 0 y 89100 cell 1 layer 0 PinOrEquiv 1
+
+net mem_rdata[3]
+pin mem_rdata[3] x 23240 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin406 x 0 y 89320 cell 1 layer 0 PinOrEquiv 1
+
+net mem_ready
+pin mem_ready x 24040 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin407 x 0 y 89540 cell 1 layer 0 PinOrEquiv 1
+
+net resetn
+pin resetn x 24240 y 63250 cell 3 layer 1 PinOrEquiv 1
+pin pin408 x 0 y 89760 cell 1 layer 0 PinOrEquiv 1
+
+net clk
+pin clk x 24440 y 63200 cell 3 layer 1 PinOrEquiv 1
+pin pin409 x 0 y 89980 cell 1 layer 0 PinOrEquiv 1
+

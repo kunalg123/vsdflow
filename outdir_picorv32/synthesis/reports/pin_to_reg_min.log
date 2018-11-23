@@ -1,0 +1,146 @@
+Vesta static timing analysis, pin-to-register and register-to-pin minimum timing
+
+Top 20 minimum delay paths:
+Path input pin mem_rdata[7] to DFFPOSX1_967/D delay 101.443 ps
+      0.0 ps          mem_rdata[7]:                ->  NAND2X1_852/A
+     48.5 ps                _1691_:  NAND2X1_852/Y -> OAI21X1_2549/C
+    105.1 ps  mem_rdata_latched_7_: OAI21X1_2549/Y -> DFFPOSX1_967/D
+
+   hold at destination = -3.68417
+
+Path input pin mem_rdata[16] to DFFPOSX1_976/D delay 101.443 ps
+      0.0 ps          mem_rdata[16]:                ->  NAND2X1_831/A
+     48.5 ps                 _1539_:  NAND2X1_831/Y -> OAI21X1_2483/C
+    105.1 ps  mem_rdata_latched_16_: OAI21X1_2483/Y -> DFFPOSX1_976/D
+
+   hold at destination = -3.68417
+
+Path input pin mem_rdata[22] to DFFPOSX1_982/D delay 101.443 ps
+      0.0 ps          mem_rdata[22]:                ->  NAND2X1_813/A
+     48.5 ps                 _1511_:  NAND2X1_813/Y -> OAI21X1_2454/C
+    105.1 ps  mem_rdata_latched_22_: OAI21X1_2454/Y -> DFFPOSX1_982/D
+
+   hold at destination = -3.68417
+
+Path input pin mem_rdata[21] to DFFPOSX1_981/D delay 101.443 ps
+      0.0 ps          mem_rdata[21]:                ->  NAND2X1_811/A
+     48.5 ps                 _1508_:  NAND2X1_811/Y -> OAI21X1_2452/C
+    105.1 ps  mem_rdata_latched_21_: OAI21X1_2452/Y -> DFFPOSX1_981/D
+
+   hold at destination = -3.68417
+
+Path input pin mem_rdata[5] to DFFPOSX1_965/D delay 132.725 ps
+      0.0 ps          mem_rdata[5]:              ->   NAND2X1_21/A
+     48.5 ps                _4547_: NAND2X1_21/Y ->   OAI21X1_19/C
+    134.1 ps  mem_rdata_latched_5_: OAI21X1_19/Y -> DFFPOSX1_965/D
+
+   hold at destination = -1.36172
+
+Path input pin mem_rdata[3] to DFFPOSX1_963/D delay 139.895 ps
+      0.0 ps          mem_rdata[3]:              ->   NAND2X1_19/A
+     48.5 ps                _4543_: NAND2X1_19/Y ->   OAI21X1_17/C
+    140.7 ps  mem_rdata_latched_3_: OAI21X1_17/Y -> DFFPOSX1_963/D
+
+   hold at destination = -0.814783
+
+Path input pin mem_rdata[20] to DFFPOSX1_980/D delay 142.468 ps
+      0.0 ps          mem_rdata[20]:                ->   INVX1_1029/A
+     69.5 ps                 _1532_:   INVX1_1029/Y -> OAI21X1_2479/A
+    145.2 ps  mem_rdata_latched_20_: OAI21X1_2479/Y -> DFFPOSX1_980/D
+
+   hold at destination = -2.73025
+
+Path input pin mem_rdata[19] to DFFPOSX1_979/D delay 142.468 ps
+      0.0 ps          mem_rdata[19]:                ->   INVX1_1016/A
+     69.5 ps                 _1495_:   INVX1_1016/Y -> OAI21X1_2444/A
+    145.2 ps  mem_rdata_latched_19_: OAI21X1_2444/Y -> DFFPOSX1_979/D
+
+   hold at destination = -2.73025
+
+Path input pin mem_rdata[0] to DFFPOSX1_960/D delay 144.687 ps
+      0.0 ps          mem_rdata[0]:                ->   INVX1_1034/A
+     71.4 ps                _1549_:   INVX1_1034/Y -> OAI21X1_2489/A
+    147.4 ps  mem_rdata_latched_0_: OAI21X1_2489/Y -> DFFPOSX1_960/D
+
+   hold at destination = -2.69765
+
+Path input pin mem_rdata[9] to DFFPOSX1_969/D delay 145.54 ps
+      0.0 ps          mem_rdata[9]:                ->   INVX1_1061/A
+     72.1 ps                _1696_:   INVX1_1061/Y -> OAI21X1_2553/A
+    148.2 ps  mem_rdata_latched_9_: OAI21X1_2553/Y -> DFFPOSX1_969/D
+
+   hold at destination = -2.68512
+
+Path input pin mem_rdata[8] to DFFPOSX1_968/D delay 145.54 ps
+      0.0 ps          mem_rdata[8]:                ->   INVX1_1060/A
+     72.1 ps                _1693_:   INVX1_1060/Y -> OAI21X1_2551/A
+    148.2 ps  mem_rdata_latched_8_: OAI21X1_2551/Y -> DFFPOSX1_968/D
+
+   hold at destination = -2.68512
+
+Path input pin mem_rdata[10] to DFFPOSX1_970/D delay 145.54 ps
+      0.0 ps          mem_rdata[10]:                ->   INVX1_1062/A
+     72.1 ps                 _1699_:   INVX1_1062/Y -> OAI21X1_2555/A
+    148.2 ps  mem_rdata_latched_10_: OAI21X1_2555/Y -> DFFPOSX1_970/D
+
+   hold at destination = -2.68512
+
+Path input pin mem_rdata[1] to DFFPOSX1_961/D delay 146.532 ps
+      0.0 ps          mem_rdata[1]:                ->   INVX1_1035/A
+     72.1 ps                _1551_:   INVX1_1035/Y -> OAI21X1_2490/A
+    149.2 ps  mem_rdata_latched_1_: OAI21X1_2490/Y -> DFFPOSX1_961/D
+
+   hold at destination = -2.64426
+
+Path input pin mem_ready to DFFPOSX1_888/D delay 148.499 ps
+      0.0 ps  mem_ready:                -> OAI21X1_2711/B
+     60.9 ps     _2032_: OAI21X1_2711/Y ->  NAND2X1_890/B
+    104.3 ps     _2033_:  NAND2X1_890/Y -> OAI21X1_2712/C
+    152.4 ps       _77_: OAI21X1_2712/Y -> DFFPOSX1_888/D
+
+   hold at destination = -3.94913
+
+Path input pin mem_rdata[4] to DFFPOSX1_964/D delay 150.474 ps
+      0.0 ps          mem_rdata[4]:              ->     INVX1_36/A
+     43.7 ps                _4544_:   INVX1_36/Y ->   OAI21X1_18/A
+    150.7 ps  mem_rdata_latched_4_: OAI21X1_18/Y -> DFFPOSX1_964/D
+
+   hold at destination = -0.239534
+
+Path input pin mem_rdata[2] to DFFPOSX1_962/D delay 165.77 ps
+      0.0 ps          mem_rdata[2]:              ->     INVX1_39/A
+     72.1 ps                _4549_:   INVX1_39/Y ->   OAI21X1_20/A
+    167.2 ps  mem_rdata_latched_2_: OAI21X1_20/Y -> DFFPOSX1_962/D
+
+   hold at destination = -1.38842
+
+Path input pin mem_rdata[12] to DFFPOSX1_972/D delay 166.568 ps
+      0.0 ps          mem_rdata[12]:              ->     INVX1_59/A
+     72.1 ps                 _4613_:   INVX1_59/Y ->   OAI21X1_30/A
+    167.9 ps  mem_rdata_latched_12_: OAI21X1_30/Y -> DFFPOSX1_972/D
+
+   hold at destination = -1.32924
+
+Path input pin mem_rdata[17] to DFFPOSX1_977/D delay 169.51 ps
+      0.0 ps          mem_rdata[17]:                ->   INVX1_1032/A
+     92.2 ps                 _1541_:   INVX1_1032/Y -> OAI21X1_2485/A
+    171.8 ps  mem_rdata_latched_17_: OAI21X1_2485/Y -> DFFPOSX1_977/D
+
+   hold at destination = -2.33296
+
+Path input pin mem_rdata[6] to DFFPOSX1_966/D delay 170.321 ps
+      0.0 ps          mem_rdata[6]:            ->     MUX2X1_1/B
+     86.3 ps                _4548_: MUX2X1_1/Y ->     INVX1_38/A
+    171.9 ps  mem_rdata_latched_6_: INVX1_38/Y -> DFFPOSX1_966/D
+
+   hold at destination = -1.59659
+
+Path input pin mem_rdata[29] to DFFPOSX1_989/D delay 175.649 ps
+      0.0 ps          mem_rdata[29]:                ->   INVX1_1025/A
+     97.3 ps                 _1522_:   INVX1_1025/Y -> OAI21X1_2462/A
+    177.9 ps  mem_rdata_latched_29_: OAI21X1_2462/Y -> DFFPOSX1_989/D
+
+   hold at destination = -2.24276
+
+-----------------------------------------
+
