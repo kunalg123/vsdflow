@@ -3,9 +3,18 @@ Steps to install and run:
 2) cd vsdflow
 3) chmod 777 opensource_eda_tool_install.sh
 4) ./opensource_eda_tool_install.sh 
-**NOTE for freshers : This has been tested on a fresh ubuntu installtion**
-**NOTE for experienced UNIX users : It has lot of sudo apt-get and sudo remove commands, so you might want to review before running**
+**NOTE for freshers : This has been tested on a fresh ubuntu installtion
+**NOTE for experienced UNIX users : It has lot of sudo apt-get and sudo remove commands, so you might want to review before running
 5) ./vsdflow picorv32_design_details.csv
+
+List of Tools installed:
+1) Yosys - RTL Synthesis
+2) blifFanout - High fanout net (HFN) synthesis
+3) graywolf - Placement
+4) qrouter - Detailed routing
+5) magic - VLSI Layout tool
+6) netgen - LVS
+7) OpenTimer and OpenSTA - Static timing analysis tool
 
 'vsdflow' is also the best utility ever written for learning EDA based TCL scripting...Very hard to find a tool, with its detailed explanation in form of videos. 'vsdflow' is explained (in detail) in below 2 TCL scripting courses, so you might want to have a look:
 
