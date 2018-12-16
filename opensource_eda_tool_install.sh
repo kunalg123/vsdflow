@@ -55,7 +55,7 @@ sudo make
 sudo ln -s $PWD/app/sta /usr/bin/sta
 cd ../
 sudo apt-get install tcllib --assume-yes
-sudo apt remove cmake
+sudo apt remove cmake --assume-yes
 wget "https://github.com/Kitware/CMake/releases/download/v3.13.0/cmake-3.13.0.tar.gz"
 tar -xvzf cmake-3.13.0.tar.gz 
 cd cmake-3.13.0/
