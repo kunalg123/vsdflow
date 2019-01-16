@@ -37,8 +37,8 @@ sudo ./configure
 sudo make
 sudo make install
 cd ../
-git clone git://opencircuitdesign.com/qflow-1.2 
-cd qflow-1.2/
+git clone git://opencircuitdesign.com/qflow-1.3 
+cd qflow-1.3/
 sudo ./configure 
 sudo make
 sudo make install
