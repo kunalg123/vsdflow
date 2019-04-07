@@ -20,8 +20,8 @@ sudo cmake ..
 sudo make
 sudo make install
 cd ../../
-git clone git://opencircuitdesign.com/qrouter-1.3 
-cd qrouter-1.3/
+git clone git://opencircuitdesign.com/qrouter-1.4 
+cd qrouter-1.4/
 sudo ./configure 
 sudo make
 sudo make install 
