@@ -20,8 +20,10 @@ sudo cmake ..
 sudo make
 sudo make install
 cd ../../
-git clone git://opencircuitdesign.com/qrouter-1.4 
-cd qrouter-1.4/
+tar -xvzf qrouter-1.4.31.tgz
+cd qrouter-1.4.31
+#git clone git://opencircuitdesign.com/qrouter-1.4 
+#cd qrouter-1.4/
 sudo ./configure 
 sudo make
 sudo make install 
@@ -31,14 +33,28 @@ sudo apt-get install libx11-dev --assume-yes
 sudo apt-get install tcsh --assume-yes
 sudo apt-get install tclsh --assume-yes
 sudo apt-get install magic --assume-yes
-git clone git://opencircuitdesign.com/netgen-1.5 
-cd netgen-1.5/
+
+tar -xvzf magic-8.1.220.tgz
+cd magic-8.1.220
+#git clone git://opencircuitdesign.com/netgen-1.5 
+#cd netgen-1.5/
+sudo ./configure
+sudo make
+sudo make install
+cd ../
+
+tar -xvzf netgen-1.5.100.tgz
+cd netgen-1.5.100
+#git clone git://opencircuitdesign.com/netgen-1.5 
+#cd netgen-1.5/
 sudo ./configure 
 sudo make
 sudo make install
 cd ../
-git clone git://opencircuitdesign.com/qflow-1.3 
-cd qflow-1.3/
+tar -xvzf qflow-1.2.89.tgz
+cd qflow-1.2.89
+#git clone git://opencircuitdesign.com/qflow-1.3 
+#cd qflow-1.3/
 sudo ./configure 
 sudo make
 sudo make install
