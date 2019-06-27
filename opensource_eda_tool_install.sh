@@ -1,4 +1,8 @@
 mkdir -p work/tools
+mv qrouter-1.4.31.tgz work/tools/.
+mv magic-8.1.220.tgz work/tools/.
+mv netgen-1.5.100.tgz work/tools/.
+mv qflow-1.2.89.tgz work/tools/.
 cd work/tools
 sudo apt-get install build-essential bison flex \
 	libreadline-dev gawk tcl-dev tk-dev libffi-dev git \
