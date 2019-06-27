@@ -32,7 +32,7 @@ sudo apt-get install m4 --assume-yes
 sudo apt-get install libx11-dev --assume-yes
 sudo apt-get install tcsh --assume-yes
 sudo apt-get install tclsh --assume-yes
-sudo apt-get install magic --assume-yes
+#sudo apt-get install magic --assume-yes
 
 tar -xvzf magic-8.1.220.tgz
 cd magic-8.1.220
