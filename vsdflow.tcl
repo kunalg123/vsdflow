@@ -405,7 +405,7 @@ if {$run_synthesis == 1} {
 
 puts "\nInfo: Please find the synthesized netlist for $DesignName at below path. You can use this netlist for STA or PNR"
 puts "\n$OutputDirectory/synthesis/${DesignName}_synth.rtlbb.v"
-file copy -force $OutputDirectory/synthesis/${DesignName}.rtlbb.v $OutputDirectory/$DesignName.final.synth.v 
+file copy -force $OutputDirectory/synthesis/${DesignName}.rtlnopwr.v $OutputDirectory/$DesignName.final.synth.v 
 source $proc_dir/read_sdc.proc
 read_sdc $OutputDirectory/$DesignName.sdc
 
