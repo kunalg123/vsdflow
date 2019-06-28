@@ -1,0 +1,6 @@
+Design Name,spi_slave
+Output Directory,outdir_spi_slave
+Netlist Directory,verilog
+Early Library Path,/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+Late Library Path,/usr/local/share/qflow/tech/osu018/osu018_stdcells.lib
+Constraints File,spi_slave_design_constraints.csv

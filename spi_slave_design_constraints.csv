@@ -1,0 +1,15 @@
+CLOCKS,frequency,duty_cycle,early_rise_delay,early_fall_delay,late_rise_delay,late_fall_delay,early_rise_slew,early_fall_slew,late_rise_slew,late_fall_slew,
+SCK,2,50,1,1,1,1,1,1,1,1,
+,,,,,,,,,,,
+INPUTS,early_rise_delay,early_fall_delay,late_rise_delay,late_fall_delay,early_rise_slew,early_fall_slew,late_rise_slew,late_fall_slew,clocks,bussed,bus width
+SDI,0.5,0.5,1,1,0.5,0.5,1,1,SCK,no,
+CSB,0.5,0.5,1,1,0.5,0.5,1,1,SCK,no,
+idata,0.5,0.5,1,1,0.5,0.5,1,1,SCK,yes,8
+,,,,,,,,,,,
+OUTPUTS,early_rise_delay,early_fall_delay,late_rise_delay,late_fall_delay,clocks,load,bussed,bus width,,,
+SDO,0.5,0.5,1,1,SCK,1,no,,,,
+sdoenb,0.5,0.5,1,1,SCK,1,no,,,,
+odata,0.5,0.5,1,1,SCK,1,yes,8,,,
+oaddr,0.5,0.5,1,1,SCK,1,yes,8,,,
+rdstb,0.5,0.5,1,1,SCK,1,no,,,,
+wrstb,0.5,0.5,1,1,SCK,1,no,,,,
