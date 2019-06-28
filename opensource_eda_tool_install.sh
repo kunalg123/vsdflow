@@ -67,11 +67,17 @@ sudo apt-get install automake --assume-yes
 sudo apt-get install libtool --assume-yes
 sudo apt-get install swig --assume-yes
 cd ../
-git clone https://github.com/abk-openroad/OpenSTA.git
-cd OpenSTA/
-sudo ./bootstrap 
-sudo ./configure 
-sudo make
+#git clone https://github.com/abk-openroad/OpenSTA.git
+#cd OpenSTA/
+#sudo ./bootstrap 
+#sudo ./configure 
+#sudo make
+git clone https://xp-dev.com/git/opensta
+cd opensta
+mkdir build
+cd build
+cmake ..
+make
 sudo ln -s $PWD/app/sta /usr/bin/sta
 cd ../
 sudo apt-get install tcllib --assume-yes
