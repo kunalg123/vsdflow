@@ -52,9 +52,9 @@ puts $conf_file "link_design $DesignName"
 puts $conf_file "read_sdc $OutputDirectory/$DesignName.opentimer.sdc"
 #puts $conf_file "cppr -enable"
 if {$enable_prelayout_timing == 1} {
-	puts $conf_file "read_parasitics $OutputDirectory/synthesis/$DesignName.${prefix}.spef"
+	puts $conf_file "read_spef $OutputDirectory/synthesis/$DesignName.${prefix}.spef"
 	} else {
-	puts $conf_file "read_parasitics $OutputDirectory/synthesis/$DesignName.spef"
+	puts $conf_file "read_spef $OutputDirectory/synthesis/$DesignName.spef"
 	}
 puts $conf_file "report_checks -group_count 10000 -unique_paths_to_endpoint -format full_clock_expanded"
 puts $conf_file "exit"
