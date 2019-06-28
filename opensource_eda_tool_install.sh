@@ -78,6 +78,7 @@ mkdir build
 cd build
 cmake ..
 make
+cd ../
 sudo ln -s $PWD/app/sta /usr/bin/sta
 cd ../
 sudo apt-get install tcllib --assume-yes
