@@ -451,9 +451,9 @@ if {$run_place_and_route == 1} {
 
 	puts "\nInfo: Post-layout STA started"
         cd $OutputDirectory
-        catch {exec qflow backanno $DesignName >& $OutputDirectory/$DesignName.vesta.log}
-        file copy -force $OutputDirectory/log/post_sta.log $OutputDirectory/$DesignName.postlayout.vesta.log
-	file copy -force $OutputDirectory/synthesis/${DesignName}.rtlbb.v $OutputDirectory/$DesignName.final.synth.v
+        #catch {exec qflow backanno $DesignName >& $OutputDirectory/$DesignName.vesta.log}
+        #file copy -force $OutputDirectory/log/post_sta.log $OutputDirectory/$DesignName.postlayout.vesta.log
+	file copy -force $OutputDirectory/synthesis/${DesignName}.rtlnopwr.v $OutputDirectory/$DesignName.final.synth.v
 
         cd $working_dir
         set enable_prelayout_timing 0
