@@ -73,7 +73,7 @@ cd ../
 #sudo ./configure 
 #sudo make
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
-cd opensta
+cd OpenSTA
 mkdir build
 cd build
 cmake ..
