@@ -72,7 +72,7 @@ puts "\nInfo: Initializing number of threads, libraries, sdc, verilog netlist pa
 puts "input conf file is $inputConfFile"
 puts "output report file is $outputReportFileName"
 #set time_elapsed_in_us [time {exec -ignorestderr >& $outputReportFileName OpenTimer -i $inputConfFile}]
-set time_elapsed_in_us [time {exec sta -f $inputConfFile >& $outputReportFileName}]
+set time_elapsed_in_us [time {exec sta $inputConfFile >& $outputReportFileName}]
 set time_elapsed_in_sec "[expr {[lindex $time_elapsed_in_us 0]/100000}]sec"
 puts "\nInfo: STA finished in $time_elapsed_in_sec seconds"
 puts "\nInfo: Refer to $outputReportFileName for warnings and errors"
