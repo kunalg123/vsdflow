@@ -49,7 +49,7 @@ close $spef_file
 
 set conf_file [open $OutputDirectory/$DesignName.${prefix}.conf a]
 puts $conf_file "link_design $DesignName"
-puts $conf_file "read_sdc $OutputDirectory/$DesignName.opentimer.sdc"
+puts $conf_file "read_sdc $OutputDirectory/$DesignName.sdc"
 #puts $conf_file "cppr -enable"
 if {$enable_prelayout_timing == 1} {
 	puts $conf_file "read_spef $OutputDirectory/synthesis/$DesignName.${prefix}.spef"
