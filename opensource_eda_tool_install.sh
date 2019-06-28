@@ -72,7 +72,7 @@ cd ../
 #sudo ./bootstrap 
 #sudo ./configure 
 #sudo make
-git clone https://xp-dev.com/git/opensta
+git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd opensta
 mkdir build
 cd build
