@@ -94,7 +94,7 @@ cmake ..
 make
 cd ../
 sudo ln -s $PWD/app/sta /usr/bin/sta
-cd ../
+cd ../../../
 
 
 
