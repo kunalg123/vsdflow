@@ -99,7 +99,11 @@ cmake ..
 make
 cd ../
 sudo ln -s $PWD/app/sta /usr/bin/sta
-cd ../../../
+cd ../
+wget "https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/t/tcllib-1.14-1.el7.noarch.rpm"
+sudo rpm -Uvh tcllib-1.14-1.el7.noarch.rpm
+sudo  yum install tcllib
+cd ../../
 
 
 
