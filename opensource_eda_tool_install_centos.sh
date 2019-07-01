@@ -8,8 +8,8 @@ sudo yum install  autoconf automake binutils  bison flex gcc gcc-c++ gettext lib
 wget "https://github.com/Kitware/CMake/releases/download/v3.13.0/cmake-3.13.0.tar.gz"
 tar -xvzf cmake-3.13.0.tar.gz
 cd cmake-3.13.0/
-sudo ./bootstrap
-sudo make
+sudo ./bootstrap --prefix=/usr/local
+sudo make -j$(nproc)
 sudo make install 
 cd ../
 sudo yum install subscription-manager -y
