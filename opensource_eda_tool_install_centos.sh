@@ -57,6 +57,7 @@ cd qrouter-1.4.31
 sudo ./configure
 sudo make
 sudo make install
+cd ../
 
 sudo yum install libX11-devel -y
 tar -xvzf magic-8.1.220.tgz
