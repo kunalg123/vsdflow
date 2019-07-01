@@ -86,6 +86,11 @@ sudo make install
 cd ../
 sudo ln -s /usr/local/bin/qflow /usr/bin/qflow
 sudo yum install swig -y
+cd cmake-3.13.0/
+sudo ./bootstrap --prefix=/usr/local
+sudo make -j$(nproc)
+sudo make install 
+cd ../
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
 mkdir build
