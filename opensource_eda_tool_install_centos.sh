@@ -21,6 +21,7 @@ sudo yum-config-manager --enable extras
 sudo yum makecache
 sudo yum install clang -y
 sudo yum install gsl -y
+sudo yum install gsl-devel -y
 sudo yum install tcl tk -y
 sudo yum install tcl-devel -y
 sudo yum install tk-devel -y
