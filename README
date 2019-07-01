@@ -15,7 +15,7 @@ Steps to install and run on CENTOS:
 4) chmod 777 opensource_eda_tool_install_centos.sh
 5) ./opensource_eda_tool_install_centos.sh 
 **NOTE for freshers : This has been tested on a fresh CENTOS 7 installtion
-**NOTE for experienced UNIX users : It has lot of sudo apt-get and sudo remove commands, so you might want to review before running
+**NOTE for experienced UNIX users : It has lot of sudo yum commands, so you might want to review before running
 6) ./vsdflow picorv32_design_details.csv
 
 List of Tools installed:
