@@ -9,7 +9,10 @@ Steps to install and run on UBUNTU:
 6) ./vsdflow picorv32_design_details.csv
 
 Steps to install and run on CENTOS:
-1) sudo yum install git
+IMPORTANT - Especially for Centos, please login as root using below command
+su -
+And then perform below steps -
+1) yum install git
 2) git clone https://github.com/kunalg123/vsdflow.git
 3) cd vsdflow
 4) chmod 777 opensource_eda_tool_install_centos.sh
