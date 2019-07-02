@@ -40,14 +40,13 @@ make config-gcc
 make
 sudo make install
 cd ../
-sudo ln -s /usr/local/bin/cmake /usr/bin/cmake
 git clone https://github.com/rubund/graywolf.git
 cd graywolf/
 mkdir build
 cd build
-sudo cmake ..
-sudo make
-sudo make install
+cmake ..
+make
+make install
 cd ../../
 um install  xorg-x11-server-Xorg xorg-x11-xauth xorg-x11-apps -y
 sudo yum install libXt-devel -y
@@ -88,11 +87,7 @@ sudo make install
 cd ../
 sudo ln -s /usr/local/bin/qflow /usr/bin/qflow
 sudo yum install swig -y
-cd cmake-3.13.0/
-sudo ./bootstrap --prefix=/usr/local
-sudo make -j$(nproc)
-sudo make install 
-cd ../
+
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA
 mkdir build
