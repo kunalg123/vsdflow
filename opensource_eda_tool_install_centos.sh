@@ -48,7 +48,7 @@ cmake ..
 make
 make install
 cd ../../
-um install  xorg-x11-server-Xorg xorg-x11-xauth xorg-x11-apps -y
+yum install  xorg-x11-server-Xorg xorg-x11-xauth xorg-x11-apps -y
 sudo yum install libXt-devel -y
 
 tar -xvzf qrouter-1.4.31.tgz
