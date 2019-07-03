@@ -27,7 +27,7 @@ git clone https://github.com/rubund/graywolf.git
 cd graywolf/
 mkdir build
 cd build
-sudo cmake ..
+cmake ..
 sudo make
 sudo make install
 cd ../../
@@ -103,7 +103,7 @@ git clone https://github.com/OpenTimer/OpenTimer.git
 cd OpenTimer/
 mkdir build
 cd build
-sudo cmake ../
+cmake ../
 sudo make
 cd ../
 sudo ln -s $PWD/bin/ot-shell /usr/bin/OpenTimer
