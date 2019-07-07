@@ -6,20 +6,23 @@ Steps to install and run on UBUNTU:
 5) sudo ./opensource_eda_tool_install.sh 
 **NOTE for freshers : This has been tested on a fresh UBUNTU installtion
 **NOTE for experienced UNIX users : It has lot of sudo apt-get and sudo remove commands, so you might want to review before running
-6) ./vsdflow picorv32_design_details.csv
+6) ./vsdflow spi_slave_design_details.csv
+7) ./vsdflow picorv32_design_details.csv
 
 Steps to install and run on CENTOS:
-IMPORTANT - Especially for Centos, please login as root using below command
-su -
-And then perform below steps -
-1) yum install git
+1) sudo yum install git
 2) git clone https://github.com/kunalg123/vsdflow.git
 3) cd vsdflow
 4) chmod 777 opensource_eda_tool_install_centos.sh
-5) ./opensource_eda_tool_install_centos.sh 
+5) sudo ./opensource_eda_tool_install_centos.sh 
 **NOTE for freshers : This has been tested on a fresh CENTOS 7 installtion
 **NOTE for experienced UNIX users : It has lot of sudo yum commands, so you might want to review before running
-6) ./vsdflow picorv32_design_details.csv
+6) ./vsdflow spi_slave_design_details.csv
+7) ./vsdflow picorv32_design_details.csv
+
+Steps to test 'vsdflow' on Ubuntu and CENTOS:
+1) cd outdir_spi_slave
+2) qflow display spi_slave
 
 List of Tools installed:
 1) Yosys - RTL Synthesis
