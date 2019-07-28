@@ -78,7 +78,6 @@ sudo ln -s /usr/local/bin/qrouter /usr/bin/qrouter
 sudo ln -s /usr/local/bin/magic /usr/bin/magic
 sudo ln -s /usr/local/bin/netgen /usr/bin/netgen
 sudo ln -s /usr/local/bin/yosys-abc /usr/bin/yosys-abc
-
 tar -xvzf qflow-1.2.89.tgz
 cd qflow-1.2.89
 sudo ./configure
@@ -101,7 +100,7 @@ wget "https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/t/tclli
 sudo rpm -Uvh tcllib-1.14-1.el7.noarch.rpm
 sudo  yum install tcllib
 cd ../../
-
+sudo yum install python36u-tkinter
 
 
 
