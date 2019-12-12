@@ -1,8 +1,8 @@
 mkdir -p work/tools
-mv qrouter-1.4.31.tgz work/tools/.
-mv magic-8.1.220.tgz work/tools/.
-mv netgen-1.5.100.tgz work/tools/.
-mv qflow-1.2.89.tgz work/tools/.
+mv qrouter-1.4.59.tgz work/tools/.
+mv magic-8.2.172.tgz work/tools/.
+mv netgen-1.5.134.tgz work/tools/.
+mv qflow-1.3.17.tgz work/tools/.
 cd work/tools
 sudo apt-get install build-essential bison flex \
 	libreadline-dev gawk tcl-dev tk-dev libffi-dev git \
@@ -31,8 +31,8 @@ cmake ..
 sudo make
 sudo make install
 cd ../../
-tar -xvzf qrouter-1.4.31.tgz
-cd qrouter-1.4.31
+tar -xvzf qrouter-1.4.59.tgz
+cd qrouter-1.4.59
 #git clone git://opencircuitdesign.com/qrouter-1.4 
 #cd qrouter-1.4/
 sudo ./configure 
@@ -45,8 +45,8 @@ sudo apt-get install tcsh --assume-yes
 sudo apt-get install tclsh --assume-yes
 #sudo apt-get install magic --assume-yes
 
-tar -xvzf magic-8.1.220.tgz
-cd magic-8.1.220
+tar -xvzf magic-8.2.172.tgz
+cd magic-8.2.172
 #git clone git://opencircuitdesign.com/netgen-1.5 
 #cd netgen-1.5/
 sudo ./configure
@@ -54,16 +54,16 @@ sudo make
 sudo make install
 cd ../
 
-tar -xvzf netgen-1.5.100.tgz
-cd netgen-1.5.100
+tar -xvzf netgen-1.5.134.tgz
+cd netgen-1.5.134
 #git clone git://opencircuitdesign.com/netgen-1.5 
 #cd netgen-1.5/
 sudo ./configure 
 sudo make
 sudo make install
 cd ../
-tar -xvzf qflow-1.2.89.tgz
-cd qflow-1.2.89
+tar -xvzf qflow-1.3.17.tgz
+cd qflow-1.3.17
 #git clone git://opencircuitdesign.com/qflow-1.3 
 #cd qflow-1.3/
 sudo ./configure 
