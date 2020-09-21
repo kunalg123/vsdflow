@@ -59,8 +59,12 @@ sudo make install
 cd ../
 
 sudo yum install libX11-devel -y
-tar -xvzf magic-8.2.172.tgz
-cd magic-8.2.172
+
+sudo wget "http://opencircuitdesign.com/magic/archive/magic-8.3.50.tgz"
+tar -xvzf magic-8.3.50.tgz
+cd magic-8.3.50
+#tar -xvzf magic-8.2.172.tgz
+#cd magic-8.2.172
 sudo ./configure
 sudo make
 sudo make install
