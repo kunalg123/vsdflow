@@ -45,8 +45,11 @@ sudo apt-get install tcsh --assume-yes
 sudo apt-get install tclsh --assume-yes
 #sudo apt-get install magic --assume-yes
 
-tar -xvzf magic-8.2.172.tgz
-cd magic-8.2.172
+sudo wget "http://opencircuitdesign.com/magic/archive/magic-8.3.50.tgz"
+tar -xvzf magic-8.3.50.tgz
+cd magic-8.3.50
+#tar -xvzf magic-8.2.172.tgz
+#cd magic-8.2.172
 #git clone git://opencircuitdesign.com/netgen-1.5 
 #cd netgen-1.5/
 sudo ./configure
