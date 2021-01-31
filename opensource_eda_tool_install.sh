@@ -102,6 +102,8 @@ sudo ln -s g++-8 /usr/bin/g++
 sudo rm -rf gcc
 sudo ln -s gcc-8 /usr/bin/gcc
 cd -
+sudo apt-get install iverilog
+sudo apt-get install gtkwave
 git clone https://github.com/OpenTimer/OpenTimer.git
 cd OpenTimer/
 mkdir build
