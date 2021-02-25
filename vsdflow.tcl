@@ -100,7 +100,9 @@ puts "ConstraintsFile = $ConstraintsFile"
 #-------------------------------------------------------------------------------------------#
 #-----Below script checks if directories and files mentioned in csv file, exists or not-----#
 #-------------------------------------------------------------------------------------------#
-
+if {![file isdirectory temp]} {
+	file mkdir temp
+}
 
 if {! [file exists $EarlyLibraryPath] } {
 	puts "\nError: Cannot find early cell library in path $EarlyLibraryPath. Exiting... "
@@ -228,7 +230,7 @@ puts "\nInfo-SDC: Categorizing input ports as bits and bussed"
 while { $i < $end_of_ports } {
 #--------------------------optional script----differentiating input ports as bussed and bits------#
 set netlist [glob -dir $NetlistDirectory *.v]
-set tmp_file [open /tmp/1 w]
+set tmp_file [open ./temp/1 w]
 foreach f $netlist {
         set fd [open $f]
         while {[gets $fd line] != -1} {
@@ -244,12 +246,12 @@ foreach f $netlist {
 close $fd
 }
 close $tmp_file
-set tmp_file [open /tmp/1 r]
-set tmp2_file [open /tmp/2 w]
+set tmp_file [open ./temp/1 r]
+set tmp2_file [open ./temp/2 w]
 puts -nonewline $tmp2_file "[join [lsort -unique [split [read $tmp_file] \n]] \n]"
 close $tmp_file
 close $tmp2_file
-set tmp2_file [open /tmp/2 r]
+set tmp2_file [open ./temp/2 r]
 set count [split [llength [read $tmp2_file]] " "]
 set check_bussed [constraints get cell $bussed_status $i]
 if {$count > 2 || $check_bussed == "yes"} { 
@@ -291,7 +293,7 @@ puts "\nInfo-SDC: Categorizing output ports as bits and bussed"
 while { $i < $end_of_ports } {
 #--------------------------optional script----differentiating input ports as bussed and bits------#
 set netlist [glob -dir $NetlistDirectory *.v]
-set tmp_file [open /tmp/1 w]
+set tmp_file [open ./temp/1 w]
 foreach f $netlist {
         set fd [open $f]
         while {[gets $fd line] != -1} {
@@ -307,12 +309,12 @@ foreach f $netlist {
 close $fd
 }
 close $tmp_file
-set tmp_file [open /tmp/1 r]
-set tmp2_file [open /tmp/2 w]
+set tmp_file [open ./temp/1 r]
+set tmp2_file [open ./temp/2 w]
 puts -nonewline $tmp2_file "[join [lsort -unique [split [read $tmp_file] \n]] \n]"
 close $tmp_file
 close $tmp2_file
-set tmp2_file [open /tmp/2 r]
+set tmp2_file [open ./temp/2 r]
 set count [split [llength [read $tmp2_file]]]
 set check_bussed [constraints get cell $bussed_status $i]
 
