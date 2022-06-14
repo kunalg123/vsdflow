@@ -113,5 +113,7 @@ sudo make
 cd ../
 sudo ln -s $PWD/bin/ot-shell /usr/bin/OpenTimer
 cd ../../
+sudo apt-get update
+sudo apt-get install python3-tk
 
 
