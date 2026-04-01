@@ -1,119 +1,201 @@
-mkdir -p work/tools
-mv qrouter-1.4.59.tgz work/tools/.
-mv magic-8.2.172.tgz work/tools/.
-mv netgen-1.5.134.tgz work/tools/.
-mv qflow-1.3.17.tgz work/tools/.
-cd work/tools
-sudo apt-get install build-essential bison flex \
-	libreadline-dev gawk tcl-dev tk-dev libffi-dev git \
-	graphviz xdot pkg-config python3 --assume-yes
-sudo apt install libglu1-mesa-dev freeglut3-dev --assume-yes
-wget "https://github.com/Kitware/CMake/releases/download/v3.13.0/cmake-3.13.0.tar.gz"
-tar -xvzf cmake-3.13.0.tar.gz
-cd cmake-3.13.0/
-sudo ./bootstrap --prefix=/usr/local
-sudo make -j$(nproc)
-sudo make install 
-cd ../
-wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
-sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main" -y 
-sudo apt-get update 
-sudo apt-get install -y clang-6.0 --assume-yes
-sudo apt-get install gsl-bin libgsl0-dev --assume-yes
-sudo add-apt-repository ppa:saltmakrell/ppa -y 
+#!/usr/bin/env bash
+set -euo pipefail
+
+PREFIX="${PREFIX:-/usr/local}"
+WORKDIR="${HOME}/work/tools"
+MIN_FREE_MEM_MB=1200
+MIN_SWAP_MB=2048
+
+mkdir -p "$WORKDIR"
+cd "$WORKDIR"
+
+echo "========================================"
+echo "System check"
+echo "========================================"
+
+source /etc/os-release || true
+echo "OS: ${PRETTY_NAME:-Unknown}"
+
+FREE_MEM_MB=$(free -m | awk '/^Mem:/ {print $7}')
+TOTAL_MEM_MB=$(free -m | awk '/^Mem:/ {print $2}')
+SWAP_MB=$(free -m | awk '/^Swap:/ {print $2}')
+
+echo "Total RAM : ${TOTAL_MEM_MB} MB"
+echo "Free RAM  : ${FREE_MEM_MB} MB"
+echo "Swap      : ${SWAP_MB} MB"
+
+if [ "$SWAP_MB" -lt "$MIN_SWAP_MB" ]; then
+  echo "Low swap detected. Creating 4G swapfile..."
+  if [ ! -f /swapfile ]; then
+    sudo fallocate -l 4G /swapfile || sudo dd if=/dev/zero of=/swapfile bs=1M count=4096
+    sudo chmod 600 /swapfile
+    sudo mkswap /swapfile
+    sudo swapon /swapfile
+    if ! grep -q '^/swapfile ' /etc/fstab; then
+      echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab >/dev/null
+    fi
+  else
+    sudo swapon /swapfile || true
+  fi
+fi
+
+FREE_MEM_MB=$(free -m | awk '/^Mem:/ {print $7}')
+SWAP_MB=$(free -m | awk '/^Swap:/ {print $2}')
+
+echo "After swap setup:"
+echo "Free RAM  : ${FREE_MEM_MB} MB"
+echo "Swap      : ${SWAP_MB} MB"
+
+if [ "$TOTAL_MEM_MB" -le 4096 ]; then
+  JOBS=1
+elif [ "$TOTAL_MEM_MB" -le 8192 ]; then
+  JOBS=2
+else
+  JOBS=4
+fi
+
+echo "Build jobs set to: $JOBS"
+
+if [ "$FREE_MEM_MB" -lt "$MIN_FREE_MEM_MB" ]; then
+  echo "ERROR: Free RAM is too low (${FREE_MEM_MB} MB)."
+  echo "Close host applications or increase VM memory before continuing."
+  exit 1
+fi
+
+echo "========================================"
+echo "Installing packages"
+echo "========================================"
+
 sudo apt-get update
-sudo apt-get install yosys --assume-yes
+sudo apt-get install -y \
+  build-essential \
+  autoconf automake libtool cmake pkg-config \
+  bison flex gawk m4 \
+  git wget curl ca-certificates \
+  tcl tcl-dev tk tk-dev tcllib tclsh tcsh \
+  libx11-dev libxaw7-dev libreadline-dev \
+  libglu1-mesa-dev freeglut3-dev \
+  libffi-dev graphviz xdot \
+  python3 python3-pip python3-tk \
+  gsl-bin libgsl-dev \
+  swig \
+  yosys \
+  iverilog \
+  gtkwave
+
+echo "========================================"
+echo "Building GrayWolf"
+echo "========================================"
+
+rm -rf graywolf
 git clone https://github.com/rubund/graywolf.git
-cd graywolf/
-mkdir build
-cd build
-cmake ..
-sudo make
-sudo make install
-cd ../../
-tar -xvzf qrouter-1.4.59.tgz
-cd qrouter-1.4.59
-#git clone git://opencircuitdesign.com/qrouter-1.4 
-#cd qrouter-1.4/
-sudo ./configure 
-sudo make
-sudo make install 
-cd ../
-sudo apt-get install m4 --assume-yes
-sudo apt-get install libx11-dev --assume-yes
-sudo apt-get install tcsh --assume-yes
-sudo apt-get install tclsh --assume-yes
-#sudo apt-get install magic --assume-yes
+cmake -S graywolf -B graywolf/build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX="$PREFIX"
+cmake --build graywolf/build -j"$JOBS"
+sudo cmake --install graywolf/build
 
-sudo wget "http://opencircuitdesign.com/magic/archive/magic-8.3.50.tgz"
-tar -xvzf magic-8.3.50.tgz
-cd magic-8.3.50
-#tar -xvzf magic-8.2.172.tgz
-#cd magic-8.2.172
-#git clone git://opencircuitdesign.com/netgen-1.5 
-#cd netgen-1.5/
-sudo ./configure
-sudo make
-sudo make install
-cd ../
+echo "========================================"
+echo "Building qrouter"
+echo "========================================"
 
-tar -xvzf netgen-1.5.134.tgz
-cd netgen-1.5.134
-#git clone git://opencircuitdesign.com/netgen-1.5 
-#cd netgen-1.5/
-sudo ./configure 
-sudo make
+rm -rf qrouter
+git clone https://github.com/RTimothyEdwards/qrouter.git
+cd qrouter
+./configure --prefix="$PREFIX"
+make -j"$JOBS"
 sudo make install
-cd ../
-tar -xvzf qflow-1.3.17.tgz
-cd qflow-1.3.17
-#git clone git://opencircuitdesign.com/qflow-1.3 
-#cd qflow-1.3/
-sudo ./configure 
-sudo make
+cd "$WORKDIR"
+
+echo "========================================"
+echo "Building Magic"
+echo "========================================"
+
+rm -rf magic
+git clone https://github.com/RTimothyEdwards/magic.git
+cd magic
+./configure --prefix="$PREFIX"
+make -j"$JOBS"
 sudo make install
-sudo apt-get install autoconf --assume-yes
-sudo apt-get install automake --assume-yes
-sudo apt-get install libtool --assume-yes
-sudo apt-get install swig --assume-yes
-cd ../
-#git clone https://github.com/abk-openroad/OpenSTA.git
-#cd OpenSTA/
-#sudo ./bootstrap 
-#sudo ./configure 
-#sudo make
+cd "$WORKDIR"
+
+echo "========================================"
+echo "Building Netgen"
+echo "========================================"
+
+rm -rf netgen
+git clone https://github.com/RTimothyEdwards/netgen.git
+cd netgen
+./configure --prefix="$PREFIX"
+make -j"$JOBS"
+sudo make install
+cd "$WORKDIR"
+
+echo "========================================"
+echo "Building qflow"
+echo "========================================"
+
+rm -rf qflow
+git clone https://github.com/RTimothyEdwards/qflow.git
+cd qflow
+./configure --prefix="$PREFIX"
+make -j"$JOBS"
+sudo make install
+cd "$WORKDIR"
+
+echo "========================================"
+echo "Building OpenSTA"
+echo "========================================"
+
+rm -rf OpenSTA
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
-cd OpenSTA
-mkdir build
-cd build
-cmake ..
-make
-cd ../
-sudo ln -s $PWD/app/sta /usr/bin/sta
-cd ../
-sudo apt-get install tcllib --assume-yes
 
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-sudo apt-get update
-sudo apt-get install gcc-8 g++-8 --assume-yes
-cd /usr/bin
-sudo rm -rf g++
-sudo ln -s g++-8 /usr/bin/g++
-sudo rm -rf gcc
-sudo ln -s gcc-8 /usr/bin/gcc
-cd -
-sudo apt-get install iverilog
-sudo apt-get install gtkwave
+# Optional dependency for OpenSTA
+if [ ! -d "$WORKDIR/cudd-3.0.0" ]; then
+  cd "$WORKDIR"
+  wget -O cudd-3.0.0.tar.gz https://github.com/ivmai/cudd/archive/refs/tags/cudd-3.0.0.tar.gz
+  tar -xzf cudd-3.0.0.tar.gz
+  mv cudd-cudd-3.0.0 cudd-3.0.0 2>/dev/null || true
+  cd cudd-3.0.0
+  ./configure --prefix="$PREFIX"
+  make -j"$JOBS"
+  sudo make install
+fi
+
+cd "$WORKDIR/OpenSTA"
+cmake -S . -B build \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX="$PREFIX" \
+  -DCUDD_DIR="$PREFIX"
+cmake --build build -j"$JOBS"
+sudo cmake --install build
+cd "$WORKDIR"
+
+echo "========================================"
+echo "Building OpenTimer"
+echo "========================================"
+
+rm -rf OpenTimer
 git clone https://github.com/OpenTimer/OpenTimer.git
-cd OpenTimer/
-mkdir build
-cd build
-cmake ../
-sudo make
-cd ../
-sudo ln -s $PWD/bin/ot-shell /usr/bin/OpenTimer
-cd ../../
-sudo apt-get update
-sudo apt-get install python3-tk
+cmake -S OpenTimer -B OpenTimer/build \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_CXX_STANDARD=17 \
+  -DCMAKE_INSTALL_PREFIX="$PREFIX"
+cmake --build OpenTimer/build -j"$JOBS"
+sudo cmake --install OpenTimer/build
 
+echo "========================================"
+echo "Installed versions"
+echo "========================================"
 
+command -v yosys >/dev/null 2>&1 && yosys -V || true
+command -v qrouter >/dev/null 2>&1 && qrouter -v 2>/dev/null || true
+command -v magic >/dev/null 2>&1 && magic -version 2>/dev/null || true
+command -v netgen >/dev/null 2>&1 && netgen -batch 2>/dev/null || true
+command -v qflow >/dev/null 2>&1 && qflow -v 2>/dev/null || true
+command -v sta >/dev/null 2>&1 && echo "OpenSTA installed" || true
+command -v ot-shell >/dev/null 2>&1 && echo "OpenTimer installed" || true
+command -v iverilog >/dev/null 2>&1 && iverilog -V | head -n 1 || true
+command -v gtkwave >/dev/null 2>&1 && gtkwave --version | head -n 1 || true
+
+echo "========================================"
+echo "Done"
+echo "========================================"
